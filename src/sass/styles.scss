@@ -1,0 +1,16 @@
+// src/assets/styles.scss
+$primary-color: #3498db;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $primary-color;
+}
+header .logo-container
+{
+  position: relative;
+}
+header .logo
+{
+  transition: opacity 500ms easeInOut;
+  position: absolute;
+}

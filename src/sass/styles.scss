@@ -3,7 +3,6 @@ $primary-color: #3498db;
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: $primary-color;
 }
 header .logo-container
 {
@@ -11,6 +10,5 @@ header .logo-container
 }
 header .logo
 {
-  transition: opacity 500ms easeInOut;
-  position: absolute;
+  height: 85px;
 }

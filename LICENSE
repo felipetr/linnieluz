@@ -1,0 +1,40 @@
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+Copyright (C) 2024  Felipe Travassos
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc.,
+51 Franklin Street, Fifth Floor,
+Boston, MA 02110-1301, USA.
+
+Additional Permission:
+If you modify this Program, or any covered work, by linking or combining it
+with the Library, the result is a combined work that is based on the Program.
+You may convey the resulting combined work to others in accordance with the terms
+of this License, provided that you also meet all of these conditions:
+
+  a) The combined work must itself be a software program.
+
+  b) You must provide a copy of the GNU General Public License along with the
+     combined work, and you may not impose any further restrictions on the
+     rights granted under this License.
+
+  c) If you convey the combined work, you may do so only under the terms of
+     this License. You must make sure that everyone else who receives a copy
+     of the combined work also receives the source code or a copy of the
+     source code, in any form you like, so that they can modify it as well.
+
+For more details about the GPL license, you can visit:
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html

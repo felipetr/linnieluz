@@ -1,8 +1,57 @@
 // src/assets/styles.scss
-$primary-color: #3498db;
-
+$primary-color: #146569;
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #e4eced;
+  color: #004c51;
+}
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  transition: all 500ms ease-in-out;
+  color: #fff !important;
+}
+#navbarNav a, 
+{
+  text-decoration: none !important;
+  opacity: .8;
+  color: #fff !important;
+}
+#navbarNav a:hover
+{
+  opacity: 1;
+}
+
+#navbarNav2 a, 
+{
+  text-decoration: none !important;
+  color: #fff !important;
+  display: block;
+  padding: 15px;
+}
+#headerbg
+{
+  height: 100px;
+  background: url(../images/loading.gif) center center no-repeat $primary-color;
+  background-size: 30px auto;
+}
+.menucontainer
+{
+  min-height: 100%;
+  overflow-y: auto;
+}
+#headerbg div
+{
+  height: 100%;
+  background: url(../images/header_bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.admin-bar header
+{
+top: 32px !important;
 }
 header .logo-container
 {
@@ -10,5 +59,183 @@ header .logo-container
 }
 header .logo
 {
-  height: 85px;
+  height: 70px;
+  margin: 15px 0;
+  transition: all 500ms ease-in-out;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.admin-bar
+{
+  height: calc(100vh - 32px) !important;
+}
+.admin-bar #container
+{
+  min-height: calc(100vh - 32px);
+}
+main
+{
+  flex: 1;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.scrolled-header header
+{
+  background: rgba(24, 77, 80, .8);
+  backdrop-filter:  grayscale(100%) contrast(40%) blur(10px);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 64px;
+  background: $primary-color;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+  border: 1px solid $primary-color;
+  border-radius: 64px;
+  opacity: 0.5;
+  cursor: grab;
+}
+*::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 64px;
+}
+.scrolled-header .logo
+{
+  height: 50px;
+}
+.about-me .wp-block-media-text__content
+{
+  padding: 0 !important;
+}
+.about-me img
+{
+  padding: 8% 8% 8% 0 !important;
+}
+
+.navbar-button
+{
+  font-size: 25px;
+  height: 80px;
+}
+#navbarNav ul, #navbarNav2 ul
+{
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none;
+}
+#navbarNav ul li, #navbarNav2 ul li
+{
+  margin-right: 15px;
+  font-weight: 500;
+  transition: all 500ms ease-in-out;
+  display: block; 
+}
+.p-relative
+{
+  position: relative;
+}
+@media (max-width: 1199px) {
+  #navbarNav
+{
+  display: none !important;
+}
+
+#navbarNav2pattern
+{
+
+  transition: top 500ms ease-in-out;  
+  position: fixed;  
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  top: 100px!important;
+}
+  #navbarNav2
+{
+  background: rgba(24, 77, 80, .8);
+  backdrop-filter:  grayscale(100%) contrast(40%) blur(10px) !important;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3) !important;
+}
+.scrolled-header #navbarNav2pattern
+{
+  top: 80px!important;
+}
+.admin-bar #navbarNav2pattern
+{
+  top: 132px!important;
+}
+.admin-bar.scrolled-header #navbarNav2pattern
+{
+  top: 112px!important;
+}
+}
+@media (min-width: 1200px) {
+  #navbarNav
+  {
+    display: block !important;
+  }
+  #navbarNav2
+  {
+    display: none !important;
+  }
+  .navbar-button
+  {
+    display: none;
+  }
+#navbarNav ul li
+{
+  display: inline-block; 
+  
+}
+.scrolled-header #navbarNav ul li
+{
+  font-size: 14px;
+}
+}
+@media (max-width: 782px) {
+  .admin-bar #navbarNav2pattern
+{
+  top: 146px!important;
+}
+.admin-bar.scrolled-header #navbarNav2pattern
+{
+  top: 126px!important;
+}
+  .wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__content {
+      grid-column: 1 !important;
+      grid-row: 2 !important;
+  }
+  .wp-block-media-text.is-stacked-on-mobile {
+    grid-template-columns: 100% !important;
+}
+.about-me img
+{
+  padding: 8% !important;
+}
+.admin-bar header
+{
+top: 46px !important;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .admin-bar #wpadminbar
+{
+position: fixed !important;
+}
 }

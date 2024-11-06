@@ -292,21 +292,28 @@ async function createZip(done) {
 }
 
 function tagGit(done) {
-  const version = getVersionArg();
-  git.tag(`v${version}`, `Release version ${version}`, (err) => {
-    if (err) {
-      console.error(beautify.red(`\nErro ao criar tag git: ${err}\n`));
-      process.exit(1);
-    }
-    git.push("origin", `v${version}`, (err) => {
+    const version = getVersionArg();  // Recuperando a versão desejada
+    const newVersion = `v${version}`;  // Formato da tag
+  
+    // Comando a ser executado
+    const command = `npm install && git add . && git commit -m "v${newVersion}" && git tag ${newVersion} && git push && git push origin ${newVersion}`;
+  
+    console.log(`Executando comando para criar e enviar tag Git: ${command}`);
+  
+    exec(command, (err, stdout, stderr) => {
       if (err) {
-        console.error(beautify.red(`\nErro ao enviar tag git: ${err}\n`));
+        console.error(beautify.red(`\nErro ao executar comandos: ${err.message}\n`));
         process.exit(1);
       }
+      if (stderr) {
+        console.error(beautify.red(`\nErro no processo: ${stderr}\n`));
+        process.exit(1);
+      }
+  
+      console.log(beautify.green(`\Tag criada com sucesso! Tag v${version} criada e enviada.\n`));
       done();
     });
-  });
-}
+  }
 
 gulp.task("check-version", checkVersion);
 gulp.task("update-readme", updateReadme);

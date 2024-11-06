@@ -7,8 +7,8 @@
 
   <title>
     <?php
-    if (!is_home()):
-      wp_title('|', true, 'right');
+    if (!is_home()) :
+        wp_title('|', true, 'right');
     endif;
     bloginfo('name');
     ?>
@@ -18,18 +18,23 @@
   <meta name="author_url" content="https://felipetravassos.com">
   <meta name="version" content="<?php echo wp_get_theme()->get('Version'); ?>">
 
-  <?php if (get_post_meta(get_the_ID(), 'meta_description', true)): ?>
+  <?php if (get_post_meta(get_the_ID(), 'meta_description', true)) : ?>
     <meta name="description" content="<?php echo esc_attr(get_post_meta(get_the_ID(), 'meta_description', true)); ?>">
   <?php endif; ?>
 
-  <?php if (get_post_meta(get_the_ID(), 'meta_keywords', true)): ?>
+  <?php if (get_post_meta(get_the_ID(), 'meta_keywords', true)) : ?>
     <meta name="keywords" content="<?php echo esc_attr(get_post_meta(get_the_ID(), 'meta_keywords', true)); ?>">
   <?php endif; ?>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/lib/cleanalert/cleanalert.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.min.css">
 
   <?php wp_head(); ?>
 </head>
@@ -41,11 +46,18 @@
     <div class="row align-items-center">
       <div class="col-6 col-lg-3">
         <a id="logo-a" href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>">
-          <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo('name'); ?>">
+          <img class="logo"
+          src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png"
+          alt="<?php bloginfo('name'); ?>">
         </a>
       </div>
       <div class="col-6 col-lg-9 text-end">
-        <button class="navbar-toggler navbar-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-button"
+        type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav2"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
          
             <i class="navbar-icon lni lni-menu-hamburger-1"></i>
           

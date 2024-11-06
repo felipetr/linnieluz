@@ -27,26 +27,12 @@ O tema utiliza as seguintes bibliotecas:
     Adicionado via CDN:
     
         <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet">
-    
 
-Instalação
-----------
+### Dependências do Projeto
 
-Para instalar as dependências do tema, execute o seguinte comando:
+* * *
 
-    npm install
-
-Compilação
-----------
-
-Os arquivos compilados do tema estarão disponíveis na pasta `/dist`. Para compilar automaticamente, use:
-
-    gulp watch
-
-Isso irá observar as alterações nos arquivos e recompilar o CSS e o JS automaticamente.
-
-Dependências do Projeto
------------------------
+#### Dependências de Desenvolvimento (npm)
 
 As seguintes dependências de desenvolvimento estão incluídas no projeto:
 
@@ -61,14 +47,79 @@ As seguintes dependências de desenvolvimento estão incluídas no projeto:
 *   `gulp-uglify`: ^3.0.2
 *   `sass`: ^1.77.6
 
-Como Gerar um Release
+#### Dependências de Desenvolvimento (Composer)
+
+As seguintes dependências de desenvolvimento estão incluídas no projeto para o PHP:
+
+*   `squizlabs/php_codesniffer`: ^3.6
+
+Instalação das Dependências
+---------------------------
+
+### Node.js e npm
+
+#### Linux:
+
+    sudo apt-get update
+    sudo apt-get install nodejs npm
+    
+#### Windows:
+
+Baixe o instalador do [site oficial do Node.js](https://nodejs.org/) para Windows e siga as instruções.
+
+#### macOS:
+
+Instale usando [Homebrew](https://brew.sh/) no macOS:
+
+    brew install node
+    
+
+### Composer PHP
+
+#### Linux:
+
+    sudo apt-get update
+    sudo apt-get install composer
+    
+#### Windows:
+
+Baixe o instalador do [site oficial do Composer](https://getcomposer.org/download/) para Windows e siga as instruções.
+
+#### macOS:
+
+    brew install composer
+
+
+Instalação do WordPress
+-----------------------
+
+1.  Importe os arquivos do WordPress para a raiz do projeto.
+2.  Configure seu servidor PHP para rodar o WordPress.
+
+Instalação do Projeto
 ---------------------
 
-Para criar um release e gerar um arquivo zipado da versão atual, use a task `gulp release` com o parâmetro `--ver` especificando o número da versão desejada:
+1.  Execute `npm install` para instalar as dependências do Node.js.
+2.  Execute `composer install` para instalar as dependências PHP.
 
-    gulp release --ver 0.1.2
+Compilando o Projeto
+--------------------
 
-Essa task atualizará o número da versão no `package.json` e no `style.css`, criará um commit e tag no Git, e gerará um arquivo zip com o nome `linnieluz-v0.1.2.zip` na pasta `/release`.
+Os arquivos compilados do tema estarão disponíveis na pasta `/dist`. Para compilar automaticamente, use:
+
+    gulp watch
+
+Isso irá observar as alterações nos arquivos e recompilar os arquivos CSS, JSON e JS automaticamente.
+
+Release do Projeto
+----------------
+
+Para criar uma release do projeto com uma versão específica (substitua `X.X.X` pela versão desejada):
+
+    gulp release --vX.X.X
+    
+
+Obs: O comando `gulp release` automatiza a atualização das dependências no `README.md`, a versão no `package.json`, no arquivo `style.css`, cria um arquivo zip do tema WordPress atualizado, cria uma tag git para o lançamento e a envia para o repositório remoto.
 
 Licença
 -------

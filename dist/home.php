@@ -21,16 +21,17 @@
 
   <section class="posts">
     <h2>Posts Recentes</h2>
-    <?php if ( have_posts() ) : ?>
+    <?php if (have_posts()) : ?>
       <ul>
-        <?php while ( have_posts() ) : the_post(); ?>
+        <?php while (have_posts()) :
+            the_post(); ?>
           <li>
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             <p><?php the_excerpt(); ?></p>
           </li>
         <?php endwhile; ?>
       </ul>
-      <?php the_posts_navigation(); ?>
+        <?php the_posts_navigation(); ?>
     <?php else : ?>
       <p>Nenhum post encontrado.</p>
     <?php endif; ?>

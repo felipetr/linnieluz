@@ -296,9 +296,9 @@ function tagGit(done) {
     const newVersion = `v${version}`;  // Formato da tag
   
     // Comando a ser executado
-    const command = `npm install && git add . && git commit -m "v${newVersion}" && git tag ${newVersion} && git push && git push origin ${newVersion}`;
+    const command = `npm install && git add . && git commit -m "Release v${newVersion}" && git tag ${newVersion} && git push && git push origin ${newVersion}`;
   
-    console.log(`Executando comando para criar e enviar tag Git: ${command}`);
+    console.log(`Executando comando para criar e enviar tag Git`);
   
     exec(command, (err, stdout, stderr) => {
       if (err) {

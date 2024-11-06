@@ -50,9 +50,9 @@ gulp.task('release', async (done) => {
         console.log(stdout);
 
         // Cria o arquivo zip para o release
-        console.log(`Gerando arquivo linnieluz-v${newVersion}.zip ...`);
+        console.log(`Gerando arquivo linnieluz_v${newVersion}.zip ...`);
         gulp.src('./dist/**/*')
-            .pipe(zip(`linnieluz-v${newVersion}.zip`))
+            .pipe(zip(`linnieluz_v${newVersion}.zip`))
             .pipe(gulp.dest('./release'))
             .on('end', done);
     });

@@ -1,2 +1,0 @@
-function checkScrollPosition(){var o=document.querySelector("body"),e=document.querySelector("a#logo-a");0<window.scrollY?(o.classList.add("scrolled-header"),e.addEventListener("click",scrollToTop,{once:!0})):(o.classList.remove("scrolled-header"),e.removeEventListener("click",scrollToTop))}function scrollToTop(o){o.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})}window.addEventListener("scroll",checkScrollPosition),document.addEventListener("DOMContentLoaded",checkScrollPosition);
-//# sourceMappingURL=scripts.js.map

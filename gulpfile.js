@@ -5,6 +5,7 @@ const postcss = require("gulp-postcss");
 const cleanCSS = require("gulp-clean-css");
 const concat = require("gulp-concat");
 const uglify = require("gulp-uglify");
+const jsonminify = require("gulp-jsonminify");
 const bump = require("gulp-bump");
 const git = require("gulp-git");
 const fs = require("fs");
@@ -12,6 +13,7 @@ const beautify = require("cbeautifier");
 const { exec } = require("child_process");
 const packageJson = require("./package.json");
 const composerJson = require("./composer.json");
+const rename = require('gulp-rename');
 
 async function getZip() {
   const zip = await import("gulp-zip");
@@ -27,74 +29,57 @@ function checkVersion(done) {
 }
 
 function updateReadme(done) {
-  const packageJson = JSON.parse(fs.readFileSync("./package.json"));
-  const currentVersion = packageJson.version;
-
-  if (version <= currentVersion) {
-    console.log(
-      `\nVersão ${version} deve ser maior que a versão atual ${currentVersion}\n`
-    );
-    process.exit(1);
-  }
-  const readmePath = "README.md";
-
   console.log("Atualizando README.md...");
 
-  fs.readFile(readmePath, "utf8", (err, data) => {
+  // Obtendo as dependências de desenvolvimento do package.json (npm)
+  const npmDependenciesList = Object.keys(
+    packageJson.devDependencies || {}
+  ).map((dep) => `*   \`${dep}\`: ${packageJson.devDependencies[dep]}`);
+
+  // Obtendo as dependências de desenvolvimento do composer.json (Composer)
+  const composerDependenciesList = Object.keys(
+    composerJson["require-dev"] || {}
+  ).map((dep) => `*   \`${dep}\`: ${composerJson["require-dev"][dep]}`);
+
+  // Gerar o texto das dependências de desenvolvimento npm
+  const npmDependenciesText =
+    npmDependenciesList.length > 0
+      ? npmDependenciesList.join("\n")
+      : "Nenhuma dependência de desenvolvimento encontrada.";
+
+  // Gerar o texto das dependências de desenvolvimento Composer
+  const composerDependenciesText =
+    composerDependenciesList.length > 0
+      ? composerDependenciesList.join("\n")
+      : "Nenhuma dependência de desenvolvimento encontrada.";
+
+  // Ler o arquivo README.md
+  fs.readFile("README.md", "utf8", (err, data) => {
     if (err) {
-      console.error(`Erro ao ler o README.md: ${err}`);
-      return done();
+      console.error("Erro ao ler o README.md:", err);
+      done();
+      return;
     }
 
-    const npmDevDependencies = packageJson.devDependencies || {};
-    const npmDependenciesList = Object.keys(npmDevDependencies)
-      .map((dep) => {
-        return `*   ${dep}: ${npmDevDependencies[dep]}`;
-      })
-      .join("\n");
+    // Substituir as seções de dependências de desenvolvimento no README.md
+    const updatedData = data
+      .replace(
+        /#### Dependências de Desenvolvimento \(npm\)[\s\S]*?##/,
+        `#### Dependências de Desenvolvimento (npm)\n\n${npmDependenciesText}\n##`
+      )
+      .replace(
+        /#### Dependências de Desenvolvimento \(Composer\)[\s\S]*?##/,
+        `#### Dependências de Desenvolvimento (Composer)\n\n${composerDependenciesText}\n##`
+      );
 
-    const composerDevDependencies = composerJson["config"]?.platform?.php
-      ? composerJson["config"].platform.php
-      : {};
-    const composerDependenciesList = composerJson["require-dev"] || {};
-    const composerDependenciesFormatted = Object.keys(composerDependenciesList)
-      .map((dep) => {
-        return `*   ${dep}: ${composerDependenciesList[dep]}`;
-      })
-      .join("\n");
-
-    let updatedData = data;
-
-    const npmRegex =
-      /#### Dependências de Desenvolvimento \(npm\)[\s\S]*?#### Dependências de Desenvolvimento \(Composer\)/;
-    const composerRegex =
-      /#### Dependências de Desenvolvimento \(Composer\)[\s\S]*?$/;
-
-    updatedData = updatedData.replace(
-      npmRegex,
-      `#### Dependências de Desenvolvimento (npm)\n\nAs seguintes dependências de desenvolvimento estão incluídas no projeto:\n\n${npmDependenciesList.join(
-        "\n"
-      )}\n\n#### Dependências de Desenvolvimento (Composer)\n\nAs seguintes dependências de desenvolvimento estão incluídas no projeto para o PHP:\n\n${composerDependenciesFormatted.join(
-        "\n"
-      )}`
-    );
-
-    if (!npmRegex.test(data)) {
-      updatedData =
-        updatedData +
-        `\n#### Dependências de Desenvolvimento (npm)\n\nAs seguintes dependências de desenvolvimento estão incluídas no projeto:\n\n${npmDependenciesList.join(
-          "\n"
-        )}\n\n#### Dependências de Desenvolvimento (Composer)\n\nAs seguintes dependências de desenvolvimento estão incluídas no projeto para o PHP:\n\n${composerDependenciesFormatted.join(
-          "\n"
-        )}`;
-    }
-
-    fs.writeFile(readmePath, updatedData, "utf8", (err) => {
+    // Escrever de volta no README.md
+    fs.writeFile("README.md", updatedData, "utf8", (err) => {
       if (err) {
-        console.error(`Erro ao escrever no README.md: ${err}`);
-      } else {
-        console.log("README.md atualizado com as dependências do projeto!");
+        console.error("Erro ao escrever no README.md:", err);
+        done();
+        return;
       }
+      console.log("README.md atualizado com as dependências!");
       done();
     });
   });
@@ -142,12 +127,27 @@ function minifyScripts(done) {
         path.basename = path.basename + ".min";
       })
     )
-    .pipe(gulp.dest("dist/js"))
+    .pipe(gulp.dest("dist/assets/js"))
     .on("end", () => {
       console.log(beautify.green("\nScripts minificados com sucesso!\n"));
       done();
     });
 }
+function minifyJson(done) {
+    return gulp
+      .src("src/json/**/*.json") 
+      .pipe(jsonminify())
+      .pipe(
+        rename((path) => {
+          path.dirname = "assets/json"; 
+        })
+      )
+      .pipe(gulp.dest("dist"))
+      .on("end", () => {
+        console.log(beautify.yellow("\nArquivos JSON minificados com sucesso!\n"));
+        done();
+      });
+  }
 
 function runCommand(command, errorMessage, from) {
   return new Promise((resolve, reject) => {
@@ -206,7 +206,7 @@ function jsLint(fix = "") {
 // Função para assistir mudanças nos arquivos
 function watchFiles() {
   gulp.watch("src/sass/**/*.sass", compileSass);
-  gulp.watch("src/sass/**/*.scss", compileSass);
+  gulp.watch("src/json/**/*.json", minifyJson);
   gulp.watch("src/js/**/*.js", minifyScripts);
 }
 
@@ -309,6 +309,7 @@ function tagGit(done) {
 }
 
 gulp.task("check-version", checkVersion);
+gulp.task("update-readme", updateReadme);
 gulp.task("php-lint", () => phpLint("phpcs"));
 gulp.task("php-fix", () => phpLint("phpcbf"));
 gulp.task("js-lint", () => jsLint());
@@ -323,21 +324,7 @@ gulp.task(
     tagGit
   )
 );
-function minifyJson(done) {
-    return gulp
-      .src("src/json/**/*.json")
-      .pipe(jsonminify())
-      .pipe(
-        rename((path) => {
-          path.dirname = "assets/json";
-        })
-      )
-      .pipe(gulp.dest("dist"))
-      .on("end", () => {
-        console.log(beautify.green("\nArquivos JSON minificados com sucesso!\n"));
-        done();
-      });
-  }
+
 
 exports.compileSass = compileSass;
 exports.minifyScripts = minifyScripts;

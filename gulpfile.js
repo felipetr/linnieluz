@@ -205,7 +205,7 @@ function jsLint(fix = "") {
 
 // Função para assistir mudanças nos arquivos
 function watchFiles() {
-  gulp.watch("src/sass/**/*.sass", compileSass);
+  gulp.watch("src/sass/**/*.scss", compileSass);
   gulp.watch("src/json/**/*.json", minifyJson);
   gulp.watch("src/js/**/*.js", minifyScripts);
 }

@@ -1,9 +1,6 @@
 <?php
 
-register_nav_menus(['primary' => 'Primary Menu']);
-
-function add_contact_tab_to_dashboard()
-{
+function add_contact_tab_to_dashboard() {
     add_menu_page(
         'Contato',
         'Contato',
@@ -16,15 +13,19 @@ function add_contact_tab_to_dashboard()
 }
 add_action('admin_menu', 'add_contact_tab_to_dashboard');
 
-function render_contact_settings_page()
-{
+// Função para renderizar o conteúdo da página de Contato
+function render_contact_settings_page() {
+    // Recupera os dados salvos
     $email = get_option('contact_email', '');
     $telefone = get_option('contact_telefone', '');
     $redes_sociais = get_option('contact_redes_sociais', array());
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        // Salva os dados enviados via POST
         update_option('contact_email', sanitize_email($_POST['contact_email']));
         update_option('contact_telefone', sanitize_text_field($_POST['contact_telefone']));
+        
+        // Lida com as redes sociais
         $redes_sociais = array();
         if (isset($_POST['rede_nome']) && is_array($_POST['rede_nome'])) {
             foreach ($_POST['rede_nome'] as $index => $nome) {
@@ -40,7 +41,7 @@ function render_contact_settings_page()
         echo '<div class="updated"><p>Configurações salvas.</p></div>';
     }
 
-?>
+    ?>
     <div class="wrap">
         <h1>Configurações de Contato</h1>
         <form method="POST">
@@ -64,7 +65,7 @@ function render_contact_settings_page()
                                         <input type="url" name="rede_link[]" value="<?php echo esc_attr($rede['link']); ?>" placeholder="Link" required>
                                         <input type="text" name="rede_icone[]" value="<?php echo esc_attr($rede['icone']); ?>" placeholder="Ícone" required>
                                     </div>
-                            <?php }
+                                <?php }
                             } ?>
                         </div>
                         <button type="button" onclick="addRedeSocial()">Adicionar Rede Social</button>
@@ -81,12 +82,12 @@ function render_contact_settings_page()
             var div = document.createElement('div');
             div.className = 'rede-social';
             div.innerHTML = '<input type="text" name="rede_nome[]" placeholder="Nome" required>' +
-                '<input type="url" name="rede_link[]" placeholder="Link" required>' +
-                '<input type="text" name="rede_icone[]" placeholder="Ícone" required>';
+                            '<input type="url" name="rede_link[]" placeholder="Link" required>' +
+                            '<input type="text" name="rede_icone[]" placeholder="Ícone" required>';
             document.getElementById('redes_sociais').appendChild(div);
         }
     </script>
-<?php
+    <?php
 }
 
 function load_dash_head()
@@ -101,10 +102,11 @@ function load_dash_head()
 <?php
 }
 add_action('admin_head', 'load_dash_head');
+
 function load_dash_footer()
 {
 ?>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dashboard.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dashboard.min.js"></script>
 <?php
 }
 add_action('admin_footer', 'load_dash_footer');
@@ -128,7 +130,7 @@ function register_custom_post_types()
         'public' => true,
         'has_archive' => true,
         'supports' => array('title', 'editor', 'thumbnail'),
-        'menu_icon' => 'dashicons-building',
+        'menu_icon' => 'dashicons-building', // Ícone alterado para Building
     ));
 
     // Perguntas Frequentes
@@ -148,30 +150,38 @@ function register_custom_post_types()
         'public' => true,
         'has_archive' => true,
         'supports' => array('title', 'editor'),
-        'menu_icon' => 'dashicons-format-chat',
+        'menu_icon' => 'dashicons-format-chat', // Ícone para Perguntas Frequentes
     ));
 
     // Áreas de Atuação
     register_post_type('area_de_atuacao', array(
-        'labels' => array(
-            'name' => 'Áreas de Atuação',
-            'singular_name' => 'Área de Atuação',
-            'add_new' => 'Adicionar nova área de atuação',
-            'add_new_item' => 'Adicionar nova área de atuação',
-            'edit_item' => 'Editar área de atuação',
-            'new_item' => 'Nova área de atuação',
-            'view_item' => 'Ver área de atuação',
-            'search_items' => 'Pesquisar áreas de atuação',
-            'not_found' => 'Nenhuma área de atuação encontrada',
-            'not_found_in_trash' => 'Nenhuma área de atuação encontrada na lixeira'
-        ),
-        'public' => true,
-        'has_archive' => true,
-        'supports' => array('title', 'editor'),
-        'menu_icon' => 'dashicons-businessman',
-    ));
+    'labels' => array(
+        'name' => 'Áreas de Atuação',
+        'singular_name' => 'Área de Atuação',
+        'add_new' => 'Adicionar nova área de atuação',
+        'add_new_item' => 'Adicionar nova área de atuação',
+        'edit_item' => 'Editar área de atuação',
+        'new_item' => 'Nova área de atuação',
+        'view_item' => 'Ver área de atuação',
+        'search_items' => 'Pesquisar áreas de atuação',
+        'not_found' => 'Nenhuma área de atuação encontrada',
+        'not_found_in_trash' => 'Nenhuma área de atuação encontrada na lixeira'
+    ),
+    'public' => true,
+    'has_archive' => 'areasdeatuacao',
+    'rewrite' => array('slug' => 'areas-de-atuacao'),
+    'supports' => array('title', 'editor'),
+    'menu_icon' => 'dashicons-businessman',
+));
+
+
+function theme_setup() {
+    add_theme_support( 'menus' ); 
 }
+add_action('after_setup_theme', 'theme_setup');
+
 add_action('init', 'register_custom_post_types');
+
 function add_custom_meta_boxes()
 {
     // Meta box para Consultório
@@ -461,7 +471,10 @@ function save_custom_meta_boxes($post_id)
     if (array_key_exists('youtube_channel_id', $_POST)) {
         update_option('youtube_channel_id', sanitize_text_field($_POST['youtube_channel_id']));
     }
-}
+}}
 
 add_action('save_post', 'save_custom_meta_boxes');
 add_action('add_meta_boxes', 'add_custom_meta_boxes');
+
+
+    ?>

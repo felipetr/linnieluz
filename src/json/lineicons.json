@@ -1,0 +1,2416 @@
+{
+  "icons": [
+    {
+      "class": "lni lni-", "name": "crown-3",
+      "keywords":"coroa realeza premio distincao simbolo"
+    },
+    {
+      "class": "lni lni-", "name": "trophy-1",
+      "keywords":"trofeu premio competicao conquista logo"
+    },
+    {
+      "class": "lni lni-", "name": "bridge-3",
+      "keywords":"ponte conexao transporte infraestrutura"
+    },
+    {
+      "class": "lni lni-", "name": "buildings-1",
+      "keywords":"predios urbanismo arquitetura cidades"
+    },
+    {
+      "class": "lni lni-", "name": "home-2",
+      "keywords":"casa lar familia conforto"
+    },
+    {
+      "class": "lni lni-", "name": "hospital-2",
+      "keywords":"hospital saude medicina cuidado"
+    },
+    {
+      "class": "lni lni-", "name": "road-1",
+      "keywords":"estrada viagem direcao transporte"
+    },
+    {
+      "class": "lni lni-", "name": "agenda",
+      "keywords":"agenda planejamento compromissos organizacao"
+    },
+    {
+      "class": "lni lni-", "name": "briefcase-1",
+      "keywords":"maleta trabalho negocios profissional"
+    },
+    {
+      "class": "lni lni-", "name": "briefcase-2",
+      "keywords":"maleta negocios trabalho carreira"
+    },
+    {
+      "class": "lni lni-", "name": "hierarchy-1",
+      "keywords":"hierarquia organizacao estrutura poder"
+    },
+    {
+      "class": "lni lni-", "name": "megaphone-1",
+      "keywords":"megafone comunicacao anuncio voz"
+    },
+    {
+      "class": "lni lni-", "name": "paperclip-1",
+      "keywords":"clipe papel documento organizacao"
+    },
+    {
+      "class": "lni lni-", "name": "refresh-dollar-1",
+      "keywords":"dinheiro renovacao financas economia"
+    },
+    {
+      "class": "lni lni-", "name": "refresh-user-1",
+      "keywords":"usuario atualizacao perfil recarregar"
+    },
+    {
+      "class": "lni lni-", "name": "stamp",
+      "keywords":"carimbo autenticacao marca validacao"
+    },
+    {
+      "class": "lni lni-", "name": "hand-shake",
+      "keywords":"aperto de mao acordo amizade cooperacao"
+    },
+    {
+      "class": "lni lni-", "name": "hand-taking-dollar",
+      "keywords":"mao dinheiro receber financas"
+    },
+    {
+      "class": "lni lni-", "name": "hand-taking-leaf-1",
+      "keywords":"mao folha natureza sustentabilidade"
+    },
+    {
+      "class": "lni lni-", "name": "hand-taking-user",
+      "keywords":"mao usuario ajuda interacao"
+    },
+    {
+      "class": "lni lni-", "name": "heart",
+      "keywords":"coracao amor emocao afecao"
+    },
+    {
+      "class": "lni lni-", "name": "id-card",
+      "keywords":"cartao de identificacao documento pessoa identidade"
+    },
+    {
+      "class": "lni lni-", "name": "badge-decagram-percent",
+      "keywords":"insignia percentagem reconhecimento premio"
+    },
+    {
+      "class": "lni lni-", "name": "basket-shopping-3",
+      "keywords":"cesta compras mercado varejo"
+    },
+    {
+      "class": "lni lni-", "name": "box-archive-1",
+      "keywords":"caixa arquivo armazenamento organizacao"
+    },
+    {
+      "class": "lni lni-", "name": "box-closed",
+      "keywords":"caixa fechada armazenamento organizacao"
+    },
+    {
+      "class": "lni lni-", "name": "box-gift-1",
+      "keywords":"caixa presente surpresa celebracao"
+    },
+    {
+      "class": "lni lni-", "name": "cart-1",
+      "keywords":"carrinho compras varejo transporte"
+    },
+    {
+      "class": "lni lni-", "name": "cart-2",
+      "keywords":"carrinho compras varejo shopping"
+    },
+    {
+      "class": "lni lni-", "name": "label-dollar-2",
+      "keywords":"etiqueta preco dinheiro financas"
+    },
+    {
+      "class": "lni lni-", "name": "check-circle-1",
+      "keywords":"check circulo aprovacao concluido"
+    },
+    {
+      "class": "lni lni-", "name": "check-square-2",
+      "keywords":"check quadrado aprovacao concluido"
+    },
+    {
+      "class": "lni lni-", "name": "gear-1",
+      "keywords":"engrenagem configuracao opcoes mecanismo"
+    },
+    {
+      "class": "lni lni-", "name": "gears-3",
+      "keywords":"engrenagens configuracao mecanismo opcoes"
+    },
+    {
+      "class": "lni lni-", "name": "minus-circle",
+      "keywords":"menos circulo subtrair retirar"
+    },
+    {
+      "class": "lni lni-", "name": "question-mark-circle",
+      "keywords":"interrogacao circulo pergunta duvida"
+    },
+    {
+      "class": "lni lni-", "name": "trash-3",
+      "keywords":"lixo remover deletar descarte"
+    },
+    {
+      "class": "lni lni-", "name": "xmark-circle",
+      "keywords":"X circulo fechar remover"
+    },
+    {
+      "class": "lni lni-", "name": "life-guard-tube-1",
+      "keywords":"salva-vidas seguranca emergencia resgate"
+    },
+    {
+      "class": "lni lni-", "name": "bar-chart-4",
+      "keywords":"grafico dados estatisticas desempenho"
+    },
+    {
+      "class": "lni lni-", "name": "bar-chart-dollar",
+      "keywords":"grafico dinheiro financas economia"
+    },
+    {
+      "class": "lni lni-", "name": "pie-chart-2",
+      "keywords":"grafico pizza dados analise"
+    },
+    {
+      "class": "lni lni-", "name": "seo-monitor",
+      "keywords":"SEO monitoramento otimizacao web"
+    },
+    {
+      "class": "lni lni-", "name": "target-user",
+      "keywords":"alvo usuario objetivo meta"
+    },
+    {
+      "class": "lni lni-", "name": "trend-down-1",
+      "keywords":"tendencia queda dados analise"
+    },
+    {
+      "class": "lni lni-", "name": "trend-up-1",
+      "keywords":"tendencia crescimento dados analise"
+    },
+    {
+      "class": "lni lni-", "name": "code-1",
+      "keywords":"codigo programacao desenvolvimento tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "code-s",
+      "keywords":"codigo programacao desenvolvimento scripting"
+    },
+    {
+      "class": "lni lni-", "name": "camera-movie-1",
+      "keywords":"camera filme video midia"
+    },
+    {
+      "class": "lni lni-", "name": "gallery",
+      "keywords":"galeria imagem arte exibicao"
+    },
+    {
+      "class": "lni lni-", "name": "music",
+      "keywords":"musica som nota entretenimento"
+    },
+    {
+      "class": "lni lni-", "name": "next-step-2",
+      "keywords":"proximo passo avancar seguinte"
+    },
+    {
+      "class": "lni lni-", "name": "pause",
+      "keywords":"pausar interromper parar musica"
+    },
+    {
+      "class": "lni lni-", "name": "photos",
+      "keywords":"fotos imagem fotografia galeria"
+    },
+    {
+      "class": "lni lni-", "name": "play",
+      "keywords":"play tocar musica video"
+    },
+    {
+      "class": "lni lni-", "name": "previous-step-2",
+      "keywords":"anterior passo voltar retornar"
+    },
+    {
+      "class": "lni lni-", "name": "shuffle",
+      "keywords":"embaralhar aleatorio musica playlist"
+    },
+    {
+      "class": "lni lni-", "name": "volume-1",
+      "keywords":"volume som audio musica"
+    },
+    {
+      "class": "lni lni-", "name": "volume-high",
+      "keywords":"volume alto som audicao"
+    },
+    {
+      "class": "lni lni-", "name": "volume-low",
+      "keywords":"volume baixo som audicao"
+    },
+    {
+      "class": "lni lni-", "name": "volume-mute",
+      "keywords":"volume silenciar som audicao"
+    },
+    {
+      "class": "lni lni-", "name": "volume-off",
+      "keywords":"volume desligado som audicao"
+    },
+    {
+      "class": "lni lni-", "name": "credit-card-multiple",
+      "keywords":"cartao de credito financas pagamento economia"
+    },
+    {
+      "class": "lni lni-", "name": "dollar-circle",
+      "keywords":"circulo dolar dinheiro financas"
+    },
+    {
+      "class": "lni lni-", "name": "dollar",
+      "keywords":"dolar dinheiro economia financas"
+    },
+    {
+      "class": "lni lni-", "name": "euro",
+      "keywords":"euro dinheiro moeda economia"
+    },
+    {
+      "class": "lni lni-", "name": "placeholder-dollar",
+      "keywords":"espaco reservado dolar financas economia"
+    },
+    {
+      "class": "lni lni-", "name": "pound",
+      "keywords":"libra dinheiro moeda economia"
+    },
+    {
+      "class": "lni lni-", "name": "rupee",
+      "keywords":"rupee dinheiro moeda economia"
+    },
+    {
+      "class": "lni lni-", "name": "shield-dollar",
+      "keywords":"escudo dolar protecao financas"
+    },
+    {
+      "class": "lni lni-", "name": "wallet-1",
+      "keywords":"carteira dinheiro financas economia"
+    },
+    {
+      "class": "lni lni-", "name": "yen",
+      "keywords":"yen dinheiro moeda economia"
+    },
+    {
+      "class": "lni lni-", "name": "search-1",
+      "keywords":"buscar procurar pesquisa encontrar"
+    },
+    {
+      "class": "lni lni-", "name": "search-2",
+      "keywords":"buscar procurar pesquisa encontrar"
+    },
+    {
+      "class": "lni lni-", "name": "search-minus",
+      "keywords":"buscar procurar menos subtrair"
+    },
+    {
+      "class": "lni lni-", "name": "search-plus",
+      "keywords":"buscar procurar mais adicionar"
+    },
+    {
+      "class": "lni lni-", "name": "search-text",
+      "keywords":"buscar texto pesquisa encontrar"
+    },
+    {
+      "class": "lni lni-", "name": "surfboard-2",
+      "keywords":"prancha surf agua esporte"
+    },
+    {
+      "class": "lni lni-", "name": "aeroplane-1",
+      "keywords":"aeroporto aviao viagem transporte"
+    },
+    {
+      "class": "lni lni-", "name": "ambulance-1",
+      "keywords":"ambulancia emergencia saude socorro"
+    },
+    {
+      "class": "lni lni-", "name": "anchor",
+      "keywords":"ancora navegacao mar seguranca"
+    },
+    {
+      "class": "lni lni-", "name": "bike",
+      "keywords":"bicicleta transporte esporte sustentabilidade"
+    },
+    {
+      "class": "lni lni-", "name": "bus-1",
+      "keywords":"onibus transporte viagem mobilidade"
+    },
+    {
+      "class": "lni lni-", "name": "car-2",
+      "keywords":"carro transporte mobilidade veiculo"
+    },
+    {
+      "class": "lni lni-", "name": "car-4",
+      "keywords":"carro transporte mobilidade veiculo"
+    },
+    {
+      "class": "lni lni-", "name": "car-6",
+      "keywords":"carro transporte mobilidade veiculo"
+    },
+    {
+      "class": "lni lni-", "name": "caravan-1",
+      "keywords":"caravana viagem transporte aventura"
+    },
+    {
+      "class": "lni lni-", "name": "gauge-1",
+      "keywords":"medidor indicador nivel analise"
+    },
+    {
+      "class": "lni lni-", "name": "helicopter-2",
+      "keywords":"helicoptero transporte voo aereo"
+    },
+    {
+      "class": "lni lni-", "name": "rocket-5",
+      "keywords":"foguete espaco exploracao tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "scoter",
+      "keywords":"scooter transporte mobilidade esporte"
+    },
+    {
+      "class": "lni lni-", "name": "ship-1",
+      "keywords":"navio transporte mar carga"
+    },
+    {
+      "class": "lni lni-", "name": "train-1",
+      "keywords":"trem transporte mobilidade viagem"
+    },
+    {
+      "class": "lni lni-", "name": "train-3",
+      "keywords":"trem transporte mobilidade viagem"
+    },
+    {
+      "class": "lni lni-", "name": "truck-delivery-1",
+      "keywords":"caminhao entrega transporte carga"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-bolt-1",
+      "keywords":"nuvem raio tempo clima"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-bolt-2",
+      "keywords":"nuvem raio tempo clima"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-rain",
+      "keywords":"nuvem chuva tempo clima"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-sun",
+      "keywords":"nuvem sol tempo clima"
+    },
+    {
+      "class": "lni lni-", "name": "moon-half-right-5",
+      "keywords":"lua meia noite tempo"
+    },
+    {
+      "class": "lni lni-", "name": "sun-1",
+      "keywords":"sol luz dia clima"
+    },
+    {
+      "class": "lni lni-", "name": "water-drop-1",
+      "keywords":"gota agua chuva umidade"
+    },
+    {
+      "class": "lni lni-", "name": "bookmark-1",
+      "keywords":"marca favorito salvar leitura"
+    },
+    {
+      "class": "lni lni-", "name": "bookmark-circle",
+      "keywords":"marca circular favorito salvar"
+    },
+    {
+      "class": "lni lni-", "name": "globe-1",
+      "keywords":"globo mundo geografia localizacao"
+    },
+    {
+      "class": "lni lni-", "name": "link-2-angular-right",
+      "keywords":"link conexao angular direita"
+    },
+    {
+      "class": "lni lni-", "name": "unlink-2-angular-left",
+      "keywords":"desconectar link angular esquerda"
+    },
+    {
+      "class": "lni lni-", "name": "www-cursor",
+      "keywords":"cursor www internet navegacao"
+    },
+    {
+      "class": "lni lni-", "name": "www",
+      "keywords":"www internet navegacao web"
+    },
+    {
+      "class": "lni lni-", "name": "bluetooth",
+      "keywords":"bluetooth conexao tecnologia wireless"
+    },
+    {
+      "class": "lni lni-", "name": "rss-right",
+      "keywords":"rss feed informacao direita"
+    },
+    {
+      "class": "lni lni-", "name": "tower-broadcast-1",
+      "keywords":"torre transmissao sinal broadcast"
+    },
+    {
+      "class": "lni lni-", "name": "chat-bubble-2",
+      "keywords":"chat mensagem conversa falar"
+    },
+    {
+      "class": "lni lni-", "name": "comment-1-share",
+      "keywords":"comentario compartilhar discussao feedback"
+    },
+    {
+      "class": "lni lni-", "name": "comment-1-text",
+      "keywords":"comentario texto mensagem conversa"
+    },
+    {
+      "class": "lni lni-", "name": "comment-1",
+      "keywords":"comentario mensagem conversa feedback"
+    },
+    {
+      "class": "lni lni-", "name": "envelope-1",
+      "keywords":"envelope email correspondencia comunicacao"
+    },
+    {
+      "class": "lni lni-", "name": "message-2-question",
+      "keywords":"mensagem pergunta duvida inquerir"
+    },
+    {
+      "class": "lni lni-", "name": "message-2",
+      "keywords":"mensagem comunicacao texto chat"
+    },
+    {
+      "class": "lni lni-", "name": "message-3-text",
+      "keywords":"mensagem texto comunicacao chat"
+    },
+    {
+      "class": "lni lni-", "name": "telephone-1",
+      "keywords":"telefone ligacao comunicacao falar"
+    },
+    {
+      "class": "lni lni-", "name": "telephone-3",
+      "keywords":"telefone chamada comunicacao ligacao"
+    },
+    {
+      "class": "lni lni-", "name": "alarm-1",
+      "keywords":"alarme aviso tempo alerta"
+    },
+    {
+      "class": "lni lni-", "name": "calendar-days",
+      "keywords":"calendario dias data programacao"
+    },
+    {
+      "class": "lni lni-", "name": "hourglass",
+      "keywords":"ampulheta tempo contagem reversa"
+    },
+    {
+      "class": "lni lni-", "name": "stopwatch",
+      "keywords":"cronometro tempo medir contagem"
+    },
+    {
+      "class": "lni lni-", "name": "watch-beat-1",
+      "keywords":"relogio bater tempo contar"
+    },
+    {
+      "class": "lni lni-", "name": "align-text-center",
+      "keywords":"alinhar texto centro formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "align-text-left",
+      "keywords":"alinhar texto esquerda formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "align-text-right",
+      "keywords":"alinhar texto direita formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "brush-1-rotated",
+      "keywords":"pincel arte design pintura"
+    },
+    {
+      "class": "lni lni-", "name": "brush-2",
+      "keywords":"pincel arte design pintura"
+    },
+    {
+      "class": "lni lni-", "name": "colour-palette-3",
+      "keywords":"paleta cores design arte"
+    },
+    {
+      "class": "lni lni-", "name": "crop-2",
+      "keywords":"recortar imagem edicao design"
+    },
+    {
+      "class": "lni lni-", "name": "highlighter-1",
+      "keywords":"marca-texto destaque cor edicao"
+    },
+    {
+      "class": "lni lni-", "name": "highlighter-2",
+      "keywords":"marca-texto destaque cor edicao"
+    },
+    {
+      "class": "lni lni-", "name": "layers-1",
+      "keywords":"camadas design organizacao edicao"
+    },
+    {
+      "class": "lni lni-", "name": "layout-26",
+      "keywords":"layout design organizacao estilo"
+    },
+    {
+      "class": "lni lni-", "name": "layout-9",
+      "keywords":"layout design organizacao estilo"
+    },
+    {
+      "class": "lni lni-", "name": "select-cursor-1",
+      "keywords":"cursor selecionar ferramenta edicao"
+    },
+    {
+      "class": "lni lni-", "name": "slice-2",
+      "keywords":"cortar dividir edicao imagem"
+    },
+    {
+      "class": "lni lni-", "name": "vector-nodes-6",
+      "keywords":"vetor nodos design arte"
+    },
+    {
+      "class": "lni lni-", "name": "vector-nodes-7",
+      "keywords":"vetor nodos design arte"
+    },
+    {
+      "class": "lni lni-", "name": "calculator-1",
+      "keywords":"calculadora matematica calculacao ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "calculator-2",
+      "keywords":"calculadora matematica calculacao ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "camera-1",
+      "keywords":"camera foto imagem captura"
+    },
+    {
+      "class": "lni lni-", "name": "hand-mic",
+      "keywords":"microfone mao audio gravar"
+    },
+    {
+      "class": "lni lni-", "name": "headphone-1",
+      "keywords":"fones audio musica som"
+    },
+    {
+      "class": "lni lni-", "name": "keyboard",
+      "keywords":"teclado entrada computador digitacao"
+    },
+    {
+      "class": "lni lni-", "name": "laptop-2",
+      "keywords":"laptop computador mobilidade tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "laptop-phone",
+      "keywords":"laptop telefone mobilidade tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "microphone-1",
+      "keywords":"microfone audio gravar som"
+    },
+    {
+      "class": "lni lni-", "name": "monitor-code",
+      "keywords":"monitor codigo programacao tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "monitor-mac",
+      "keywords":"monitor mac computador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "monitor",
+      "keywords":"monitor tela computador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "mouse-2",
+      "keywords":"mouse entrada computador controle"
+    },
+    {
+      "class": "lni lni-", "name": "phone",
+      "keywords":"telefone comunicacao chamada mensagem"
+    },
+    {
+      "class": "lni lni-", "name": "printer",
+      "keywords":"impressora papel imprimir documento"
+    },
+    {
+      "class": "lni lni-", "name": "scroll-down-2",
+      "keywords":"rolar abaixar navegacao scroll"
+    },
+    {
+      "class": "lni lni-", "name": "tab",
+      "keywords":"aba navegacao interface menu"
+    },
+    {
+      "class": "lni lni-", "name": "location-arrow-right",
+      "keywords":"localizacao seta direcao navegacao"
+    },
+    {
+      "class": "lni lni-", "name": "sign-post-left",
+      "keywords":"placa direcao sinal navegacao"
+    },
+    {
+      "class": "lni lni-", "name": "signs-post-2",
+      "keywords":"placas direcao sinal navegacao"
+    },
+    {
+      "class": "lni lni-", "name": "file-format-zip",
+      "keywords":"arquivo zip compressao file"
+    },
+    {
+      "class": "lni lni-", "name": "file-multiple",
+      "keywords":"arquivo multiple diversos file"
+    },
+    {
+      "class": "lni lni-", "name": "file-pencil",
+      "keywords":"arquivo lapis editar file"
+    },
+    {
+      "class": "lni lni-", "name": "file-plus-circle",
+      "keywords":"arquivo plus adicionar file"
+    },
+    {
+      "class": "lni lni-", "name": "file-question",
+      "keywords":"arquivo pergunta duvida file"
+    },
+    {
+      "class": "lni lni-", "name": "file-xmark",
+      "keywords":"arquivo xmark remover file"
+    },
+    {
+      "class": "lni lni-", "name": "folder-1",
+      "keywords":"pasta organizacao file armazenamento"
+    },
+    {
+      "class": "lni lni-", "name": "dumbbell-1",
+      "keywords":"halter exercicio fitness musculo"
+    },
+    {
+      "class": "lni lni-", "name": "zero-size",
+      "keywords":"zero tamanho nada vazio"
+    },
+    {
+      "class": "lni lni-", "name": "burger-1",
+      "keywords":"hamburguer comida fast-food refeicao"
+    },
+    {
+      "class": "lni lni-", "name": "burger-drink",
+      "keywords":"hamburguer bebida comida fast-food"
+    },
+    {
+      "class": "lni lni-", "name": "coffee-cup-2",
+      "keywords":"cafe xicaras bebida manha"
+    },
+    {
+      "class": "lni lni-", "name": "glass-juice-1",
+      "keywords":"suco bebida refresco verao"
+    },
+    {
+      "class": "lni lni-", "name": "hat-chef-3",
+      "keywords":"chef cozinha hat gastronomia"
+    },
+    {
+      "class": "lni lni-", "name": "knife-fork-1",
+      "keywords":"facas garfo utensilios comida"
+    },
+    {
+      "class": "lni lni-", "name": "pizza-2",
+      "keywords":"pizza comida fast-food refeicao"
+    },
+    {
+      "class": "lni lni-", "name": "service-bell-1",
+      "keywords":"sino servico atendimento ajuda"
+    },
+    {
+      "class": "lni lni-", "name": "game-pad-modern-1",
+      "keywords":"videojogo console jogos diversao"
+    },
+    {
+      "class": "lni lni-", "name": "hand-stop",
+      "keywords":"parar mao gesto alerta"
+    },
+    {
+      "class": "lni lni-", "name": "thumbs-down-3",
+      "keywords":"polegar baixo feedback opiniao"
+    },
+    {
+      "class": "lni lni-", "name": "thumbs-up-3",
+      "keywords":"polegar cima feedback opiniao"
+    },
+    {
+      "class": "lni lni-", "name": "eye",
+      "keywords":"olho visao observar ver"
+    },
+    {
+      "class": "lni lni-", "name": "dashboard-square-1",
+      "keywords":"painel dashboard informacao monitorar"
+    },
+    {
+      "class": "lni lni-", "name": "expand-arrow-1",
+      "keywords":"expandir seta direcao crescer"
+    },
+    {
+      "class": "lni lni-", "name": "expand-square-4",
+      "keywords":"expandir quadro crescer tamanho"
+    },
+    {
+      "class": "lni lni-", "name": "funnel-1",
+      "keywords":"funil organizacao filtrar processo"
+    },
+    {
+      "class": "lni lni-", "name": "menu-cheesburger",
+      "keywords":"menu hamburguer navegacao opcoes"
+    },
+    {
+      "class": "lni lni-", "name": "menu-hamburger-1",
+      "keywords":"menu hamburguer navegacao opcoes"
+    },
+    {
+      "class": "lni lni-", "name": "menu-meatballs-1",
+      "keywords":"menu bolinhas navegacao opcoes"
+    },
+    {
+      "class": "lni lni-", "name": "menu-meatballs-2",
+      "keywords":"menu bolinhas navegacao opcoes"
+    },
+    {
+      "class": "lni lni-", "name": "power-button",
+      "keywords":"botao energia ligar desligar"
+    },
+    {
+      "class": "lni lni-", "name": "refresh-circle-1-clockwise",
+      "keywords":"atualizar circular clockwise refrescar"
+    },
+    {
+      "class": "lni lni-", "name": "scissors-1-vertical",
+      "keywords":"tesoura vertical cortar edicao"
+    },
+    {
+      "class": "lni lni-", "name": "share-1-circle",
+      "keywords":"compartilhar circulo rede social"
+    },
+    {
+      "class": "lni lni-", "name": "share-1",
+      "keywords":"compartilhar rede social interacao"
+    },
+    {
+      "class": "lni lni-", "name": "share-2",
+      "keywords":"compartilhar rede social interacao"
+    },
+    {
+      "class": "lni lni-", "name": "sliders-horizontal-square-2",
+      "keywords":"deslizadores horizontal ajustar configuracao"
+    },
+    {
+      "class": "lni lni-", "name": "diamonds-1",
+      "keywords":"diamante jewel preciosidade"
+    },
+    {
+      "class": "lni lni-", "name": "diamonds-2",
+      "keywords":"diamante jewel preciosidade"
+    },
+    {
+      "class": "lni lni-", "name": "key-1",
+      "keywords":"chave seguranca acesso"
+    },
+    {
+      "class": "lni lni-", "name": "locked-1",
+      "keywords":"trancado seguranca protegido"
+    },
+    {
+      "class": "lni lni-", "name": "locked-2",
+      "keywords":"trancado seguranca protegido"
+    },
+    {
+      "class": "lni lni-", "name": "shield-2-check",
+      "keywords":"escudo seguranca proteger"
+    },
+    {
+      "class": "lni lni-", "name": "shield-2",
+      "keywords":"escudo protecao defesa"
+    },
+    {
+      "class": "lni lni-", "name": "unlocked-2",
+      "keywords":"desbloqueado acesso livre"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-2",
+      "keywords":"nuvem armazenamento internet"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-check-circle",
+      "keywords":"nuvem verificado confirmacao"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-download",
+      "keywords":"nuvem download baixar"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-iot-2",
+      "keywords":"nuvem iot internet das coisas"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-refresh-clockwise",
+      "keywords":"nuvem atualizar renovar"
+    },
+    {
+      "class": "lni lni-", "name": "cloud-upload",
+      "keywords":"nuvem upload enviar"
+    },
+    {
+      "class": "lni lni-", "name": "database-2",
+      "keywords":"banco de dados armazenamento informacao"
+    },
+    {
+      "class": "lni lni-", "name": "floppy-disk-1",
+      "keywords":"disquete armazenamento salvar"
+    },
+    {
+      "class": "lni lni-", "name": "storage-hdd-2",
+      "keywords":"armazenamento disco rigido hdd"
+    },
+    {
+      "class": "lni lni-", "name": "ban-2",
+      "keywords":"proibir banir negado"
+    },
+    {
+      "class": "lni lni-", "name": "spinner-2-sacle",
+      "keywords":"carregando animacao processando"
+    },
+    {
+      "class": "lni lni-", "name": "spinner-3",
+      "keywords":"carregando animacao processando"
+    },
+    {
+      "class": "lni lni-", "name": "busket-ball",
+      "keywords":"basquete esporte bola"
+    },
+    {
+      "class": "lni lni-", "name": "sports",
+      "keywords":"esporte atividades jogos"
+    },
+    {
+      "class": "lni lni-", "name": "star-fat-half-2",
+      "keywords":"estrela meia avaliacao"
+    },
+    {
+      "class": "lni lni-", "name": "star-fat",
+      "keywords":"estrela avaliacao favorito"
+    },
+    {
+      "class": "lni lni-", "name": "star-sharp-disabled",
+      "keywords":"estrela desativado inativo"
+    },
+    {
+      "class": "lni lni-", "name": "bold",
+      "keywords":"negrito texto estilo"
+    },
+    {
+      "class": "lni lni-", "name": "double-quotes-end-1",
+      "keywords":"aspas texto citacao"
+    },
+    {
+      "class": "lni lni-", "name": "indent",
+      "keywords":"recuo texto formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "line-dashed",
+      "keywords":"linha pontilhada formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "line-dotted",
+      "keywords":"linha pontilhada formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "line-height",
+      "keywords":"altura linha texto"
+    },
+    {
+      "class": "lni lni-", "name": "outdent",
+      "keywords":"remover recuo texto formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "page-break-1",
+      "keywords":"quebra de pagina layout formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "pagination",
+      "keywords":"paginacao navegacao paginas"
+    },
+    {
+      "class": "lni lni-", "name": "pilcrow",
+      "keywords":"paragrafo texto formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "sort-alphabetical",
+      "keywords":"ordenar alfabetico classificacao"
+    },
+    {
+      "class": "lni lni-", "name": "sort-high-to-low",
+      "keywords":"ordenar cima para baixo classificacao"
+    },
+    {
+      "class": "lni lni-", "name": "spellcheck",
+      "keywords":"verificacao ortografia texto"
+    },
+    {
+      "class": "lni lni-", "name": "strikethrough-1",
+      "keywords":"riscar texto formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "text-format-remove",
+      "keywords":"formatacao remover texto"
+    },
+    {
+      "class": "lni lni-", "name": "text-format",
+      "keywords":"formatacao texto estilo"
+    },
+    {
+      "class": "lni lni-", "name": "text-paragraph",
+      "keywords":"paragrafo texto formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "underline",
+      "keywords":"sublinhado texto formatacao"
+    },
+    {
+      "class": "lni lni-", "name": "ticket-1",
+      "keywords":"bilhete entrada evento"
+    },
+    {
+      "class": "lni lni-", "name": "tickets-3",
+      "keywords":"ingressos bilhetes evento"
+    },
+    {
+      "class": "lni lni-", "name": "user-4",
+      "keywords":"usuario pessoa perfil"
+    },
+    {
+      "class": "lni lni-", "name": "user-multiple-4",
+      "keywords":"usuarios multiplos pessoas"
+    },
+    {
+      "class": "lni lni-", "name": "bell-1",
+      "keywords":"sino notificacao alerta"
+    },
+    {
+      "class": "lni lni-", "name": "angle-double-down",
+      "keywords":"seta dupla para baixo"
+    },
+    {
+      "class": "lni lni-", "name": "angle-double-left",
+      "keywords":"seta dupla para a esquerda"
+    },
+    {
+      "class": "lni lni-", "name": "angle-double-right",
+      "keywords":"seta dupla para a direita"
+    },
+    {
+      "class": "lni lni-", "name": "angle-double-up",
+      "keywords":"seta dupla para cima"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-all-direction",
+      "keywords":"seta direcao navegacao"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-angular-top-left",
+      "keywords":"seta angular canto superior esquerdo"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-angular-top-right",
+      "keywords":"seta angular canto superior direito"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-both-direction-horizontal-1",
+      "keywords":"seta horizontal dupla direcao"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-both-direction-vertical-1",
+      "keywords":"seta vertical dupla direcao"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-downward",
+      "keywords":"seta para baixo direcao"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-left-circle",
+      "keywords":"seta circulo para a esquerda"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-left",
+      "keywords":"seta para a esquerda direcao"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-right-circle",
+      "keywords":"seta circulo para a direita"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-right",
+      "keywords":"seta para a direita direcao"
+    },
+    {
+      "class": "lni lni-", "name": "arrow-upward",
+      "keywords":"seta para cima direcao"
+    },
+    {
+      "class": "lni lni-", "name": "chevron-down-circle",
+      "keywords":"chevron circulo para baixo"
+    },
+    {
+      "class": "lni lni-", "name": "chevron-down",
+      "keywords":"chevron para baixo direcao"
+    },
+    {
+      "class": "lni lni-", "name": "chevron-left-circle",
+      "keywords":"chevron circulo para a esquerda"
+    },
+    {
+      "class": "lni lni-", "name": "chevron-left",
+      "keywords":"chevron para a esquerda direcao"
+    },
+    {
+      "class": "lni lni-", "name": "chevron-right-circle",
+      "keywords":"chevron circulo para a direita"
+    },
+    {
+      "class": "lni lni-", "name": "chevron-up-circle",
+      "keywords":"chevron circulo para cima"
+    },
+    {
+      "class": "lni lni-", "name": "chevron-up",
+      "keywords":"chevron para cima direcao"
+    },
+    {
+      "class": "lni lni-", "name": "direction-ltr",
+      "keywords":"direcao esquerda para direita layout"
+    },
+    {
+      "class": "lni lni-", "name": "direction-rtl",
+      "keywords":"direcao direita para esquerda layout"
+    },
+    {
+      "class": "lni lni-", "name": "download-1",
+      "keywords":"download baixar arquivo"
+    },
+    {
+      "class": "lni lni-", "name": "download-circle-1",
+      "keywords":"download circulo baixar"
+    },
+    {
+      "class": "lni lni-", "name": "enter-down",
+      "keywords":"entrar para baixo acao"
+    },
+    {
+      "class": "lni lni-", "name": "enter",
+      "keywords":"entrar acao input"
+    },
+    {
+      "class": "lni lni-", "name": "exit-up",
+      "keywords":"sair para cima acao"
+    },
+    {
+      "class": "lni lni-", "name": "exit",
+      "keywords":"sair acao fechar"
+    },
+    {
+      "class": "lni lni-", "name": "shift-left",
+      "keywords":"mover esquerda shift"
+    },
+    {
+      "class": "lni lni-", "name": "shift-right",
+      "keywords":"mover direita shift"
+    },
+    {
+      "class": "lni lni-", "name": "upload-1",
+      "keywords":"upload enviar arquivo"
+    },
+    {
+      "class": "lni lni-", "name": "upload-circle-1",
+      "keywords":"upload circulo enviar"
+    },
+    {
+      "class": "lni lni-", "name": "check",
+      "keywords":"checar marcar confirmacao"
+    },
+    {
+      "class": "lni lni-", "name": "minus",
+      "keywords":"menos subtrair reduzir"
+    },
+    {
+      "class": "lni lni-", "name": "plus",
+      "keywords":"mais adicionar aumentar"
+    },
+    {
+      "class": "lni lni-", "name": "question-mark",
+      "keywords":"interrogacao pergunta duvida"
+    },
+    {
+      "class": "lni lni-", "name": "xmark",
+      "keywords":"marcar fechar remover"
+    },
+    {
+      "class": "lni lni-", "name": "beat",
+      "keywords":"batida ritmo musica"
+    },
+    {
+      "class": "lni lni-", "name": "briefcase-plus-1",
+      "keywords":"maleta adicionar negocio"
+    },
+    {
+      "class": "lni lni-", "name": "capsule-1",
+      "keywords":"capsula medicina farmacia"
+    },
+    {
+      "class": "lni lni-", "name": "clipboard",
+      "keywords":"prancheta anotacoes documento"
+    },
+    {
+      "class": "lni lni-", "name": "injection-1",
+      "keywords":"injecao medicina vacina"
+    },
+    {
+      "class": "lni lni-", "name": "microscope",
+      "keywords":"microscopio ciencia pesquisa"
+    },
+    {
+      "class": "lni lni-", "name": "stethoscope-1",
+      "keywords":"estetoscopio medicina saude"
+    },
+    {
+      "class": "lni lni-", "name": "weight-machine-1",
+      "keywords":"balanca peso saude"
+    },
+    {
+      "class": "lni lni-", "name": "wheelchair-1",
+      "keywords":"cadeira de rodas acessibilidade mobilidade"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-expressionless-flat-eyes",
+      "keywords":"emoji sem expressao face"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-expressionless",
+      "keywords":"emoji sem expressao face"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-grin",
+      "keywords":"emoji sorriso feliz"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-sad",
+      "keywords":"emoji triste face"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-smile-side",
+      "keywords":"emoji sorriso lado"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-smile-sunglass",
+      "keywords":"emoji sorriso oculos de sol"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-smile-tongue",
+      "keywords":"emoji sorriso lingua"
+    },
+    {
+      "class": "lni lni-", "name": "emoji-smile",
+      "keywords":"emoji sorriso feliz"
+    },
+    {
+      "class": "lni lni-", "name": "bolt-2",
+      "keywords":"raio energia potencia"
+    },
+    {
+      "class": "lni lni-", "name": "bolt-3",
+      "keywords":"raio energia potencia"
+    },
+    {
+      "class": "lni lni-", "name": "shirt-1",
+      "keywords":"camisa roupa vestuario"
+    },
+    {
+      "class": "lni lni-", "name": "bug-1",
+      "keywords":"inseto erro programacao"
+    },
+    {
+      "class": "lni lni-", "name": "flower-2",
+      "keywords":"flor natureza planta"
+    },
+    {
+      "class": "lni lni-", "name": "island-2",
+      "keywords":"ilha natureza paradiso"
+    },
+    {
+      "class": "lni lni-", "name": "leaf-1",
+      "keywords":"folha planta verde"
+    },
+    {
+      "class": "lni lni-", "name": "leaf-6",
+      "keywords":"folha planta verde"
+    },
+    {
+      "class": "lni lni-", "name": "mountains-2",
+      "keywords":"montanhas natureza paisagem"
+    },
+    {
+      "class": "lni lni-", "name": "mushroom-1",
+      "keywords":"cogumelo fungo natureza"
+    },
+    {
+      "class": "lni lni-", "name": "mushroom-5",
+      "keywords":"cogumelo fungo natureza"
+    },
+    {
+      "class": "lni lni-", "name": "tree-2",
+      "keywords":"arvore natureza planta"
+    },
+    {
+      "class": "lni lni-", "name": "trees-3",
+      "keywords":"arvores natureza planta"
+    },
+    {
+      "class": "lni lni-", "name": "balloons",
+      "keywords":"baloes festa celebracao"
+    },
+    {
+      "class": "lni lni-", "name": "cake-1",
+      "keywords":"bolo festa aniversario"
+    },
+    {
+      "class": "lni lni-", "name": "candy-cane-2",
+      "keywords":"bastao de doce festa Natal"
+    },
+    {
+      "class": "lni lni-", "name": "candy-round-1",
+      "keywords":"doce festa guloseima"
+    },
+    {
+      "class": "lni lni-", "name": "firework-rocket-4",
+      "keywords":"fogos de artificio celebracao festa"
+    },
+    {
+      "class": "lni lni-", "name": "party-flags",
+      "keywords":"bandeiras festa decoracao"
+    },
+    {
+      "class": "lni lni-", "name": "party-spray",
+      "keywords":"spray de festa confete celebracao"
+    },
+    {
+      "class": "lni lni-", "name": "bricks",
+      "keywords":"tijolos construcao parede"
+    },
+    {
+      "class": "lni lni-", "name": "bulb-2",
+      "keywords":"lampada ideia iluminacao"
+    },
+    {
+      "class": "lni lni-", "name": "bulb-4",
+      "keywords":"lampada ideia iluminacao"
+    },
+    {
+      "class": "lni lni-", "name": "crane-4",
+      "keywords":"guindaste construcao maquina"
+    },
+    {
+      "class": "lni lni-", "name": "hammer-1",
+      "keywords":"martelo ferramenta construcao"
+    },
+    {
+      "class": "lni lni-", "name": "hammer-2",
+      "keywords":"martelo ferramenta construcao"
+    },
+    {
+      "class": "lni lni-", "name": "helmet-safety-1",
+      "keywords":"capacete seguranca trabalho"
+    },
+    {
+      "class": "lni lni-", "name": "magnet",
+      "keywords":"ima atracao forca"
+    },
+    {
+      "class": "lni lni-", "name": "paint-bucket",
+      "keywords":"balde de tinta pintura arte"
+    },
+    {
+      "class": "lni lni-", "name": "paint-roller-1",
+      "keywords":"rolinho de tinta pintura arte"
+    },
+    {
+      "class": "lni lni-", "name": "plug-1",
+      "keywords":"plugue conexao eletrico"
+    },
+    {
+      "class": "lni lni-", "name": "ruler-1",
+      "keywords":"regua medicao ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "ruler-pen",
+      "keywords":"regua caneta medicao"
+    },
+    {
+      "class": "lni lni-", "name": "shovel",
+      "keywords":"pa ferramenta jardinagem"
+    },
+    {
+      "class": "lni lni-", "name": "trowel-1",
+      "keywords":"pa de jardinagem ferramenta jardinagem"
+    },
+    {
+      "class": "lni lni-", "name": "wheelbarrow-empty",
+      "keywords":"carrinho de mao ferramenta construcao"
+    },
+    {
+      "class": "lni lni-", "name": "flag-1",
+      "keywords":"bandeira simbolo sinal"
+    },
+    {
+      "class": "lni lni-", "name": "flag-2",
+      "keywords":"bandeira simbolo sinal"
+    },
+    {
+      "class": "lni lni-", "name": "map-marker-1",
+      "keywords":"marcador de mapa localizacao direcao"
+    },
+    {
+      "class": "lni lni-", "name": "map-marker-5",
+      "keywords":"marcador de mapa localizacao direcao"
+    },
+    {
+      "class": "lni lni-", "name": "map-pin-5",
+      "keywords":"pino de mapa localizacao direcao"
+    },
+    {
+      "class": "lni lni-", "name": "route-1",
+      "keywords":"rota direcao viagem"
+    },
+    {
+      "class": "lni lni-", "name": "board-writing-3",
+      "keywords":"quadro escrever educacao"
+    },
+    {
+      "class": "lni lni-", "name": "book-1",
+      "keywords":"livro leitura educacao"
+    },
+    {
+      "class": "lni lni-", "name": "books-2",
+      "keywords":"livros leitura educacao"
+    },
+    {
+      "class": "lni lni-", "name": "certificate-badge-1",
+      "keywords":"certificado distincao reconhecimento"
+    },
+    {
+      "class": "lni lni-", "name": "compass-drafting-2",
+      "keywords":"bussola desenho direcao"
+    },
+    {
+      "class": "lni lni-", "name": "eraser-1",
+      "keywords":"borracha escrever educacao"
+    },
+    {
+      "class": "lni lni-", "name": "globe-stand",
+      "keywords":"globo geografia educacao"
+    },
+    {
+      "class": "lni lni-", "name": "graduation-cap-1",
+      "keywords":"capelo formatura educacao"
+    },
+    {
+      "class": "lni lni-", "name": "notebook-1",
+      "keywords":"caderno escrever educacao"
+    },
+    {
+      "class": "lni lni-", "name": "pen-to-square",
+      "keywords":"caneta escrever educacao"
+    },
+    {
+      "class": "lni lni-", "name": "pencil-1",
+      "keywords":"lapis escrever educacao"
+    },
+    {
+      "class": "lni lni-", "name": "school-bench-1",
+      "keywords":"banco escolar educacao escola"
+    },
+    {
+      "class": "lni lni-", "name": "school-bench-2",
+      "keywords":"banco escolar educacao escola"
+    },
+    {
+      "class": "lni lni-", "name": "500px",
+      "keywords":"logo rede social imagem"
+    },
+    {
+      "class": "lni lni-", "name": "adobe",
+      "keywords":"logo software design"
+    },
+    {
+      "class": "lni lni-", "name": "adonis",
+      "keywords":"logo framework web"
+    },
+    {
+      "class": "lni lni-", "name": "airbnb",
+      "keywords":"logo empresa alojamento"
+    },
+    {
+      "class": "lni lni-", "name": "airtable",
+      "keywords":"logo software produtividade"
+    },
+    {
+      "class": "lni lni-", "name": "alpinejs",
+      "keywords":"logo framework JavaScript"
+    },
+    {
+      "class": "lni lni-", "name": "amazon-original",
+      "keywords":"logo empresa vendas"
+    },
+    {
+      "class": "lni lni-", "name": "amazon-pay",
+      "keywords":"logo pagamento vendas"
+    },
+    {
+      "class": "lni lni-", "name": "amazon",
+      "keywords":"logo empresa vendas"
+    },
+    {
+      "class": "lni lni-", "name": "amd",
+      "keywords":"logo empresa tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "amex",
+      "keywords":"logo cartao pagamento"
+    },
+    {
+      "class": "lni lni-", "name": "android-old",
+      "keywords":"logo sistema tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "android",
+      "keywords":"logo sistema tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "angellist",
+      "keywords":"logo rede social empresas"
+    },
+    {
+      "class": "lni lni-", "name": "angular",
+      "keywords":"logo framework JavaScript"
+    },
+    {
+      "class": "lni lni-", "name": "app-store",
+      "keywords":"logo loja aplicativos"
+    },
+    {
+      "class": "lni lni-", "name": "apple-brand",
+      "keywords":"logo marca tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "apple-music-alt",
+      "keywords":"logo musica tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "apple-music",
+      "keywords":"logo musica tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "apple-pay",
+      "keywords":"logo pagamento tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "arc-browser",
+      "keywords":"logo navegador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "asana",
+      "keywords":"logo software produtividade"
+    },
+    {
+      "class": "lni lni-", "name": "astro",
+      "keywords":"logo framework web"
+    },
+    {
+      "class": "lni lni-", "name": "atlassian",
+      "keywords":"logo empresa software"
+    },
+    {
+      "class": "lni lni-", "name": "audi-alt",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "audi",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "aws",
+      "keywords":"logo empresa nuvem"
+    },
+    {
+      "class": "lni lni-", "name": "azure",
+      "keywords":"logo empresa nuvem"
+    },
+    {
+      "class": "lni lni-", "name": "behance",
+      "keywords":"logo rede social design"
+    },
+    {
+      "class": "lni lni-", "name": "bing",
+      "keywords":"logo motor de busca tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "bitbucket",
+      "keywords":"logo plataforma desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "bitcoin",
+      "keywords":"logo criptomoeda financas"
+    },
+    {
+      "class": "lni lni-", "name": "bittorrent",
+      "keywords":"logo protocolos download"
+    },
+    {
+      "class": "lni lni-", "name": "blogger-alt",
+      "keywords":"logo plataforma blog"
+    },
+    {
+      "class": "lni lni-", "name": "blogger",
+      "keywords":"logo plataforma blog"
+    },
+    {
+      "class": "lni lni-", "name": "bluetooth-logo",
+      "keywords":"logo conexao tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "bmw",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "bootstrap-5-square",
+      "keywords":"logo framework CSS"
+    },
+    {
+      "class": "lni lni-", "name": "bootstrap-5",
+      "keywords":"logo framework CSS"
+    },
+    {
+      "class": "lni lni-", "name": "brave",
+      "keywords":"logo navegador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "btc",
+      "keywords":"criptomoeda financas bitcoin"
+    },
+    {
+      "class": "lni lni-", "name": "canva",
+      "keywords":"logo design ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "cash-app",
+      "keywords":"logo pagamento financas"
+    },
+    {
+      "class": "lni lni-", "name": "chrome",
+      "keywords":"logo navegador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "chromecast",
+      "keywords":"logo streaming tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "cisco",
+      "keywords":"logo empresa tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "claude",
+      "keywords":"logo IA tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "clickup",
+      "keywords":"logo produtividade software"
+    },
+    {
+      "class": "lni lni-", "name": "cloudflare",
+      "keywords":"logo nuvem seguranca"
+    },
+    {
+      "class": "lni lni-", "name": "codepen",
+      "keywords":"logo desenvolvimento plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "coinbase",
+      "keywords":"logo criptomoeda financas"
+    },
+    {
+      "class": "lni lni-", "name": "connectdevelop",
+      "keywords":"logo desenvolvimento conexao"
+    },
+    {
+      "class": "lni lni-", "name": "copilot",
+      "keywords":"logo IA programacao"
+    },
+    {
+      "class": "lni lni-", "name": "coral",
+      "keywords":"logo design tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "cpanel",
+      "keywords":"logo hospedagem web"
+    },
+    {
+      "class": "lni lni-", "name": "creative-commons",
+      "keywords":"logo licenciamento direitos autorais"
+    },
+    {
+      "class": "lni lni-", "name": "css3",
+      "keywords":"logo tecnologia web"
+    },
+    {
+      "class": "lni lni-", "name": "deno",
+      "keywords":"logo JavaScript runtime"
+    },
+    {
+      "class": "lni lni-", "name": "dev",
+      "keywords":"logo comunidade desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "dialogflow",
+      "keywords":"logo IA chatbot"
+    },
+    {
+      "class": "lni lni-", "name": "digitalocean",
+      "keywords":"logo nuvem hospedagem"
+    },
+    {
+      "class": "lni lni-", "name": "diners-club",
+      "keywords":"logo cartao pagamento"
+    },
+    {
+      "class": "lni lni-", "name": "discord-chat",
+      "keywords":"logo chat comunidade"
+    },
+    {
+      "class": "lni lni-", "name": "discord",
+      "keywords":"logo chat comunidade"
+    },
+    {
+      "class": "lni lni-", "name": "discover",
+      "keywords":"logo cartao pagamento"
+    },
+    {
+      "class": "lni lni-", "name": "docker",
+      "keywords":"logo containerizacao devops"
+    },
+    {
+      "class": "lni lni-", "name": "dribbble-symbol",
+      "keywords":"logo design plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "dribbble",
+      "keywords":"logo design plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "drizzle",
+      "keywords":"logo JavaScript tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "dropbox",
+      "keywords":"logo armazenamento nuvem"
+    },
+    {
+      "class": "lni lni-", "name": "drupal",
+      "keywords":"logo CMS desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "edge",
+      "keywords":"logo navegador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "envato",
+      "keywords":"logo mercado design"
+    },
+    {
+      "class": "lni lni-", "name": "ethereum-logo",
+      "keywords":"logo criptomoeda financas"
+    },
+    {
+      "class": "lni lni-", "name": "expressjs",
+      "keywords":"logo framework Node.js"
+    },
+    {
+      "class": "lni lni-", "name": "facebook-messenger",
+      "keywords":"logo mensagens social"
+    },
+    {
+      "class": "lni lni-", "name": "facebook-square",
+      "keywords":"logo rede social empresa"
+    },
+    {
+      "class": "lni lni-", "name": "facebook",
+      "keywords":"logo rede social empresa"
+    },
+    {
+      "class": "lni lni-", "name": "facetime",
+      "keywords":"logo videochamada tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "figma",
+      "keywords":"logo design ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "firebase",
+      "keywords":"logo nuvem desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "firefox",
+      "keywords":"logo navegador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "fitbit",
+      "keywords":"logo saude tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "flickr",
+      "keywords":"logo imagem plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "flutter",
+      "keywords":"logo framework mobile"
+    },
+    {
+      "class": "lni lni-", "name": "ford",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "framer",
+      "keywords":"logo design ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "gatsby",
+      "keywords":"logo framework React"
+    },
+    {
+      "class": "lni lni-", "name": "gemini",
+      "keywords":"logo criptomoeda financas"
+    },
+    {
+      "class": "lni lni-", "name": "git",
+      "keywords":"logo versionamento desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "github",
+      "keywords":"logo plataforma desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "go",
+      "keywords":"logo linguagem programacao"
+    },
+    {
+      "class": "lni lni-", "name": "goodreads",
+      "keywords":"logo livros plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "google-cloud",
+      "keywords":"logo nuvem tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "google-drive",
+      "keywords":"logo armazenamento nuvem"
+    },
+    {
+      "class": "lni lni-", "name": "google-meet",
+      "keywords":"logo videoconferencia tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "google-pay",
+      "keywords":"logo pagamento financas"
+    },
+    {
+      "class": "lni lni-", "name": "google-wallet",
+      "keywords":"logo pagamento financas"
+    },
+    {
+      "class": "lni lni-", "name": "google",
+      "keywords":"logo empresa tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "grammarly",
+      "keywords":"logo escrita tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "hacker-news",
+      "keywords":"logo noticias tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "hashnode",
+      "keywords":"logo blog comunidade"
+    },
+    {
+      "class": "lni lni-", "name": "html5",
+      "keywords":"logo tecnologia web"
+    },
+    {
+      "class": "lni lni-", "name": "ibm",
+      "keywords":"logo empresa tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "imdb",
+      "keywords":"logo filmes plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "instagram-logotype",
+      "keywords":"logo rede social empresa"
+    },
+    {
+      "class": "lni lni-", "name": "instagram",
+      "keywords":"logo rede social empresa"
+    },
+    {
+      "class": "lni lni-", "name": "intel",
+      "keywords":"logo tecnologia empresa"
+    },
+    {
+      "class": "lni lni-", "name": "ios",
+      "keywords":"logo sistema tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "jaguar",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "jamstack",
+      "keywords":"logo arquitetura web"
+    },
+    {
+      "class": "lni lni-", "name": "java",
+      "keywords":"logo linguagem programacao"
+    },
+    {
+      "class": "lni lni-", "name": "javascript",
+      "keywords":"logo linguagem programacao"
+    },
+    {
+      "class": "lni lni-", "name": "jcb",
+      "keywords":"logo cartao pagamento"
+    },
+    {
+      "class": "lni lni-", "name": "joomla",
+      "keywords":"logo CMS desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "jsfiddle",
+      "keywords":"logo desenvolvimento plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "kubernetes",
+      "keywords":"logo containerizacao devops"
+    },
+    {
+      "class": "lni lni-", "name": "laravel",
+      "keywords":"logo framework PHP"
+    },
+    {
+      "class": "lni lni-", "name": "lemon-squeezy",
+      "keywords":"logo faturamento plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "line",
+      "keywords":"logo mensagens social"
+    },
+    {
+      "class": "lni lni-", "name": "lineicons",
+      "keywords":"logo icones design"
+    },
+    {
+      "class": "lni lni-", "name": "linkedin",
+      "keywords":"logo rede social profissionais"
+    },
+    {
+      "class": "lni lni-", "name": "loom",
+      "keywords":"logo ferramenta video"
+    },
+    {
+      "class": "lni lni-", "name": "magento",
+      "keywords":"logo ecommerce plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "mailchimp",
+      "keywords":"logo email marketing"
+    },
+    {
+      "class": "lni lni-", "name": "markdown",
+      "keywords":"logo formato texto"
+    },
+    {
+      "class": "lni lni-", "name": "mastercard",
+      "keywords":"logo cartao pagamento"
+    },
+    {
+      "class": "lni lni-", "name": "medium-alt",
+      "keywords":"logo publicacao plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "medium",
+      "keywords":"logo publicacao plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "mercedes",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "meta-alt",
+      "keywords":"logo empresa tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "meta",
+      "keywords":"logo empresa tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "microsoft-edge",
+      "keywords":"logo navegador tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "microsoft-teams",
+      "keywords":"logo comunicacao tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "microsoft",
+      "keywords":"logo empresa tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "mongodb",
+      "keywords":"logo banco de dados tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "mysql",
+      "keywords":"logo banco de dados tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "nasa",
+      "keywords":"logo espaco agencia"
+    },
+    {
+      "class": "lni lni-", "name": "netflix",
+      "keywords":"logo streaming entretenimento"
+    },
+    {
+      "class": "lni lni-", "name": "netlify",
+      "keywords":"logo plataforma web"
+    },
+    {
+      "class": "lni lni-", "name": "nextjs",
+      "keywords":"logo framework React"
+    },
+    {
+      "class": "lni lni-", "name": "nike",
+      "keywords":"logo esporte marca"
+    },
+    {
+      "class": "lni lni-", "name": "nissan",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "nodejs-alt",
+      "keywords":"logo JavaScript runtime"
+    },
+    {
+      "class": "lni lni-", "name": "nodejs",
+      "keywords":"logo JavaScript runtime"
+    },
+    {
+      "class": "lni lni-", "name": "notion",
+      "keywords":"logo ferramenta produtividade"
+    },
+    {
+      "class": "lni lni-", "name": "npm",
+      "keywords":"logo JavaScript gerenciador de pacotes"
+    },
+    {
+      "class": "lni lni-", "name": "nuxt",
+      "keywords":"logo framework Vue.js"
+    },
+    {
+      "class": "lni lni-", "name": "nvidia",
+      "keywords":"logo tecnologia graficos"
+    },
+    {
+      "class": "lni lni-", "name": "oculus",
+      "keywords":"logo realidade virtual tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "open-ai",
+      "keywords":"logo inteligencia artificial tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "opera-mini",
+      "keywords":"logo navegador internet"
+    },
+    {
+      "class": "lni lni-", "name": "oracle",
+      "keywords":"logo tecnologia banco de dados"
+    },
+    {
+      "class": "lni lni-", "name": "paddle",
+      "keywords":"logo faturamento plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "patreon",
+      "keywords":"logo financiamento plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "payoneer",
+      "keywords":"logo pagamento financas"
+    },
+    {
+      "class": "lni lni-", "name": "paypal",
+      "keywords":"logo pagamento financas"
+    },
+    {
+      "class": "lni lni-", "name": "pepsi",
+      "keywords":"logo bebida marca"
+    },
+    {
+      "class": "lni lni-", "name": "php",
+      "keywords":"logo linguagem programacao"
+    },
+    {
+      "class": "lni lni-", "name": "pimjo-logo",
+      "keywords":"logo marca design"
+    },
+    {
+      "class": "lni lni-", "name": "pimjo-symbol",
+      "keywords":"logo simbolo design"
+    },
+    {
+      "class": "lni lni-", "name": "pinterest",
+      "keywords":"logo rede social imagem"
+    },
+    {
+      "class": "lni lni-", "name": "plantscale",
+      "keywords":"logo plataforma tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "play-store",
+      "keywords":"logo aplicativos Android"
+    },
+    {
+      "class": "lni lni-", "name": "playstation",
+      "keywords":"logo console jogos"
+    },
+    {
+      "class": "lni lni-", "name": "pnpm",
+      "keywords":"logo JavaScript gerenciador de pacotes"
+    },
+    {
+      "class": "lni lni-", "name": "postgresql",
+      "keywords":"logo banco de dados tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "postman",
+      "keywords":"logo API ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "prisma",
+      "keywords":"logo banco de dados ORM"
+    },
+    {
+      "class": "lni lni-", "name": "producthunt",
+      "keywords":"logo tecnologia plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "proton-mail-logo",
+      "keywords":"logo email seguranca"
+    },
+    {
+      "class": "lni lni-", "name": "proton-mail-symbol",
+      "keywords":"logo simbolo email"
+    },
+    {
+      "class": "lni lni-", "name": "python",
+      "keywords":"logo linguagem programacao"
+    },
+    {
+      "class": "lni lni-", "name": "quora",
+      "keywords":"logo perguntas comunidade"
+    },
+    {
+      "class": "lni lni-", "name": "radis",
+      "keywords":"logo banco de dados tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "react",
+      "keywords":"logo biblioteca JavaScript"
+    },
+    {
+      "class": "lni lni-", "name": "reddit",
+      "keywords":"logo rede social comunidade"
+    },
+    {
+      "class": "lni lni-", "name": "remix-js",
+      "keywords":"logo framework JavaScript"
+    },
+    {
+      "class": "lni lni-", "name": "safari",
+      "keywords":"logo navegador internet"
+    },
+    {
+      "class": "lni lni-", "name": "sanity",
+      "keywords":"logo CMS plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "shopify",
+      "keywords":"logo ecommerce plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "signal-app",
+      "keywords":"logo mensagens privacidade"
+    },
+    {
+      "class": "lni lni-", "name": "sketch",
+      "keywords":"logo design ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "skype",
+      "keywords":"logo comunicacao videoconferencia"
+    },
+    {
+      "class": "lni lni-", "name": "slack",
+      "keywords":"logo comunicacao ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "slideshare",
+      "keywords":"logo apresentacao plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "snapchat",
+      "keywords":"logo rede social imagem"
+    },
+    {
+      "class": "lni lni-", "name": "soundcloud",
+      "keywords":"logo musica plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "spacex",
+      "keywords":"logo espaco tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "spotify-alt",
+      "keywords":"logo musica plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "spotify",
+      "keywords":"logo musica plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "squarespace",
+      "keywords":"logo plataforma web"
+    },
+    {
+      "class": "lni lni-", "name": "stackoverflow",
+      "keywords":"logo programacao comunidade"
+    },
+    {
+      "class": "lni lni-", "name": "statista",
+      "keywords":"logo dados informacao"
+    },
+    {
+      "class": "lni lni-", "name": "steam",
+      "keywords":"logo jogos plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "stripe",
+      "keywords":"logo pagamento financas"
+    },
+    {
+      "class": "lni lni-", "name": "stumbleupon",
+      "keywords":"logo descoberta plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "supabase",
+      "keywords":"logo plataforma banco de dados"
+    },
+    {
+      "class": "lni lni-", "name": "svelte",
+      "keywords":"logo framework JavaScript"
+    },
+    {
+      "class": "lni lni-", "name": "swift",
+      "keywords":"logo linguagem programacao"
+    },
+    {
+      "class": "lni lni-", "name": "tailwindcss",
+      "keywords":"logo CSS framework"
+    },
+    {
+      "class": "lni lni-", "name": "telegram",
+      "keywords":"logo mensagens aplicativo"
+    },
+    {
+      "class": "lni lni-", "name": "tesla",
+      "keywords":"logo automovel tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "tiktok-alt",
+      "keywords":"logo rede social video"
+    },
+    {
+      "class": "lni lni-", "name": "tiktok",
+      "keywords":"logo rede social video"
+    },
+    {
+      "class": "lni lni-", "name": "toyota",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "trello",
+      "keywords":"logo gerenciamento ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "tumblr",
+      "keywords":"logo rede social blog"
+    },
+    {
+      "class": "lni lni-", "name": "turborepo",
+      "keywords":"logo ferramenta desenvolvimento"
+    },
+    {
+      "class": "lni lni-", "name": "twitch",
+      "keywords":"logo streaming jogos"
+    },
+    {
+      "class": "lni lni-", "name": "twitter-old",
+      "keywords":"logo rede social comunicacao"
+    },
+    {
+      "class": "lni lni-", "name": "typescript",
+      "keywords":"logo JavaScript linguagem"
+    },
+    {
+      "class": "lni lni-", "name": "uber-symbol",
+      "keywords":"logo transporte app"
+    },
+    {
+      "class": "lni lni-", "name": "uber",
+      "keywords":"logo transporte app"
+    },
+    {
+      "class": "lni lni-", "name": "ubuntu",
+      "keywords":"logo sistema operacional tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "unsplash",
+      "keywords":"logo fotos imagem"
+    },
+    {
+      "class": "lni lni-", "name": "vercel",
+      "keywords":"logo plataforma hospedagem"
+    },
+    {
+      "class": "lni lni-", "name": "vimeo",
+      "keywords":"logo video plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "visa",
+      "keywords":"logo pagamento financas"
+    },
+    {
+      "class": "lni lni-", "name": "vite",
+      "keywords":"logo ferramenta JavaScript"
+    },
+    {
+      "class": "lni lni-", "name": "vk",
+      "keywords":"logo rede social comunidade"
+    },
+    {
+      "class": "lni lni-", "name": "vmware",
+      "keywords":"logo tecnologia virtualizacao"
+    },
+    {
+      "class": "lni lni-", "name": "volkswagen",
+      "keywords":"logo automovel marca"
+    },
+    {
+      "class": "lni lni-", "name": "vs-code",
+      "keywords":"logo editor programacao"
+    },
+    {
+      "class": "lni lni-", "name": "vuejs",
+      "keywords":"logo framework JavaScript"
+    },
+    {
+      "class": "lni lni-", "name": "webflow",
+      "keywords":"logo ferramenta web"
+    },
+    {
+      "class": "lni lni-", "name": "webhooks",
+      "keywords":"logo API integracao"
+    },
+    {
+      "class": "lni lni-", "name": "wechat",
+      "keywords":"logo mensagens app"
+    },
+    {
+      "class": "lni lni-", "name": "whatsapp",
+      "keywords":"logo mensagens app"
+    },
+    {
+      "class": "lni lni-", "name": "windows",
+      "keywords":"logo sistema operacional tecnologia"
+    },
+    {
+      "class": "lni lni-", "name": "wise",
+      "keywords":"logo financas plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "wordpress",
+      "keywords":"logo CMS plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "x",
+      "keywords":"logo rede social comunicacao"
+    },
+    {
+      "class": "lni lni-", "name": "xampp",
+      "keywords":"logo servidor ferramenta"
+    },
+    {
+      "class": "lni lni-", "name": "xbox",
+      "keywords":"logo console jogos"
+    },
+    {
+      "class": "lni lni-", "name": "xrp",
+      "keywords":"logo criptomoeda financas"
+    },
+    {
+      "class": "lni lni-", "name": "yahoo",
+      "keywords":"logo buscador internet"
+    },
+    {
+      "class": "lni lni-", "name": "yarn",
+      "keywords":"logo JavaScript gerenciador de pacotes"
+    },
+    {
+      "class": "lni lni-", "name": "ycombinator",
+      "keywords":"logo investimento startup"
+    },
+    {
+      "class": "lni lni-", "name": "youtube-kids",
+      "keywords":"logo video plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "youtube-music",
+      "keywords":"logo musica plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "youtube",
+      "keywords":"logo video plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "zapier",
+      "keywords":"logo automacao plataforma"
+    },
+    {
+      "class": "lni lni-", "name": "zoom",
+      "keywords":"logo videoconferencia comunicacao"
+    }
+  ]
+}

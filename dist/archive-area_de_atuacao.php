@@ -1,38 +1,44 @@
-<?php
-// archive-area_de_atuacao.php
+<?php get_header(); ?>
+<div class="container">
+<h1>
+  <?php if (is_author()) : ?>
+    Author: <?php echo $author_name ?>
+  <?php elseif (is_category()) : ?>
+    Category: <?php single_cat_title(); ?>
+  <?php elseif (is_tag()) : ?>
+    Tag: <?php single_tag_title(); ?>
+  <?php elseif (is_year()) : ?>
+    Archive for <?php the_time('Y'); ?>
+  <?php elseif (is_month()) : ?>
+    Archive for <?php the_time('F Y'); ?>
+  <?php else : ?>
+    Archive
+  <?php endif; ?>
+</h1>
+</div>
 
-get_header(); ?>
+<?php if (have_posts()) : ?>
+    <?php while (have_posts()) :
+        the_post(); ?>
+        <?php $author_name = get_the_author_meta('nickname'); ?>
+    <h2>
+      <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+    </h2>
+        <?php the_excerpt(); ?>
+    <?php endwhile;
+    wp_reset_query(); ?>
+<?php else : ?>
+  <h2>No posts found</h2>
+<?php endif; ?>
 
-<main id="primary" class="site-main">
-    <header class="page-header">
-        <h1 class="page-title">Áreas de Atuação</h1>
-    </header>
+<?php if ($wp_query->max_num_pages > 1) : ?>
+  <div class="prev">
+    <?php next_posts_link(__('&larr; Older posts')); ?>
+  </div>
+  <div class="next">
+    <?php previous_posts_link(__('Newer posts &rarr;')); ?>
+  </div>
+<?php endif; ?>
 
-    <?php if (have_posts()) : ?>
-        <div class="area-de-atuacao-archive">
-            <?php while (have_posts()) : the_post(); ?>
-                <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                    <h2 class="entry-title">
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                    </h2>
-                    <div class="entry-summary">
-                        <?php the_excerpt(); ?>
-                    </div>
-                </article>
-            <?php endwhile; ?>
-
-            <div class="pagination">
-                <?php
-                the_posts_pagination(array(
-                    'prev_text' => __('Anterior'),
-                    'next_text' => __('Próximo'),
-                ));
-                ?>
-            </div>
-        </div>
-    <?php else : ?>
-        <p>Nenhuma área de atuação encontrada.</p>
-    <?php endif; ?>
-</main>
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

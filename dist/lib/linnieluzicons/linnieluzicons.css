@@ -64,3 +64,6 @@
 .ll-prevent::before{
     content:"m"
 }
+.ll-facebook::before{
+    content:"n"
+}

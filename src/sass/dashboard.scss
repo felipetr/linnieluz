@@ -3,13 +3,37 @@
   background: #d0d0de;
   color: #787888;
   line-height: 100px;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   width: 100px;
   margin: 5px 5px 5px 0;
   border-radius: 50px;
 }
-.changeicon {
+.metabox-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-field {
+  flex: 1;
+  min-width: 200px;
+}
+#consultorio-cover {
+  width: calc(50% - 12px);
+  margin: 6px;
+  margin-left: 0 !important;
+  border-radius: 5px;
+  border: 1px solid #787888;
+}
+@media (max-width: 782px) {
+  #consultorio-cover {
+    width: calc(100% - 12px);
+    margin-left: 6px !important;
+  }
+}
+.changeicon,
+.socialmediabox .socialmedia-title {
   width: 100%;
   position: relative;
   line-height: 30px;
@@ -26,16 +50,38 @@
   text-align: right;
 }
 .iconselectbox,
-.changeicon {
+.changeicon,
+.socialmediabox .socialmedia-title,
+.socialmediabox .socialmedia-container {
   border: 1px solid #c3c4c7;
   background: #fff;
 }
 .iconselectbox {
-  padding: 15px;
+  padding: 12px;
   text-align: center;
   border-top: none !important;
 }
-.changeicon i {
+.socialmedia-title {
+  text-align: left;
+  font-weight: 600;
+}
+.confirm-delete-socialmediabox b {
+  display: block;
+  margin-top: 12px;
+}
+.confirm-delete-socialmediabox button {
+  margin: 6px !important;
+}
+.cancel-delete-socialmedia {
+  margin-right: 0 !important;
+}
+.socialmedia-container {
+  padding: 12px;
+  margin-bottom: 12px;
+  border-top: none !important;
+}
+.changeicon i,
+.socialmediabox .socialmedia-title i {
   position: absolute;
   right: 15px;
   font-size: 20px;
@@ -56,6 +102,66 @@
   position: relative;
   top: -10px;
 }
+
+.icon-button i.fa-brands, .icon-button i.fa-solid, .icon-button i.fa-regular {
+  position: relative;
+  top: -15px;
+}
 .icon-button:hover {
   background: #e8e8e8 !important;
+}
+
+.socialmediabox h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.socialmediabox input,
+.socialmediabox label {
+  width: 100%;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.confirm-delete-socialmediabox,
+.alert.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 6px;
+}
+.confirm-delete-socialmediabox b,
+.alert.alert-warning b {
+  display: block;
+  padding: 6px;
+  padding-top: 0 !important;
+}
+.confirm-delete-socialmediabox .button-primary,
+.alert.alert-warning .button-primary {
+  color: #fff3cd !important;
+  background-color: #856404 !important;
+  border: 1px solid #856404 !important;
+}
+.confirm-delete-socialmediabox .button-primary:hover,
+.alert.alert-warning .button-primary:hover {
+  background-color: #9f7f1f !important;
+  border: 1px solid #9f7f1f !important;
+}
+
+.confirm-delete-socialmediabox .button-secondary,
+.alert.alert-warning .button-secondary {
+  color: #856404 !important;
+  background-color: #fff3cd !important;
+  border: 1px solid #856404 !important;
+}
+.confirm-delete-socialmediabox .button-secondary:hover,
+.alert.alert-warning .button-secondary:hover {
+  background-color: #ffe68e !important;
+}
+small {
+  opacity: 0.7;
+}
+.select-icon {
+  display: inline-block;
+  margin-right: 12px;
+  color: rgb(134, 29, 29);
 }

@@ -1,0 +1,2404 @@
+{
+    "icons": [
+        {
+            "class": "fa-brands fa-",
+            "name": "42-group",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "500px",
+            "keywords": "logo rede social imagem"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "accessible-icon",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "accusoft",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "adn",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "adversal",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "affiliatetheme",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "airbnb",
+            "keywords": "logo empresa alojamento"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "algolia",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "amazon",
+            "keywords": "logo empresa vendas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "amazon-pay",
+            "keywords": "logo pagamento vendas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "amilia",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "android",
+            "keywords": "logo sistema tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "angellist",
+            "keywords": "logo rede social empresas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "angrycreative",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "angular",
+            "keywords": "logo framework JavaScript"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "app-store",
+            "keywords": "logo loja aplicativos"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "app-store-ios",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "apper",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "apple",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "apple-pay",
+            "keywords": "logo pagamento tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "artstation",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "asymmetrik",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "atlassian",
+            "keywords": "logo empresa software"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "audible",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "autoprefixer",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "avianex",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "aviato",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "aws",
+            "keywords": "logo empresa nuvem"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bandcamp",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "battle-net",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "behance",
+            "keywords": "logo rede social design"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bilibili",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bimobject",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bitbucket",
+            "keywords": "logo plataforma desenvolvimento"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bitcoin",
+            "keywords": "logo criptomoeda financas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bity",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "black-tie",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "blackberry",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "blogger",
+            "keywords": "logo plataforma blog"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "blogger-b",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bluesky",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bluetooth",
+            "keywords": "bluetooth conexao tecnologia wireless"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bluetooth-b",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bootstrap",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "bots",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "brave",
+            "keywords": "logo navegador tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "brave-reverse",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "btc",
+            "keywords": "criptomoeda financas bitcoin"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "buffer",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "buromobelexperte",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "buy-n-large",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "buysellads",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "canadian-maple-leaf",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-amazon-pay",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-amex",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-apple-pay",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-diners-club",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-discover",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-jcb",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-mastercard",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-paypal",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-stripe",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cc-visa",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "centercode",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "centos",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "chrome",
+            "keywords": "logo navegador web tecnologia internet google"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "chromecast",
+            "keywords": "logo streaming tecnologia google"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cloudflare",
+            "keywords": "logo nuvem seguranca"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cloudscale",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cloudsmith",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cloudversify",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cmplid",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "codepen",
+            "keywords": "logo desenvolvimento plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "codiepie",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "confluence",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "connectdevelop",
+            "keywords": "logo desenvolvimento conexao"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "contao",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cotton-bureau",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cpanel",
+            "keywords": "logo hospedagem web"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons",
+            "keywords": "logo licenciamento direitos autorais"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-by",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-nc",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-nc-eu",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-nc-jp",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-nd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-pd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-pd-alt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-remix",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-sa",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-sampling",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-sampling-plus",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-share",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "creative-commons-zero",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "critical-role",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "css3",
+            "keywords": "logo tecnologia web"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "css3-alt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "cuttlefish",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "d-and-d",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "d-and-d-beyond",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dailymotion",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dart-lang",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dashcube",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "debian",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "deezer",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "delicious",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "deploydog",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "deskpro",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dev",
+            "keywords": "logo comunidade desenvolvimento"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "deviantart",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dhl",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "diaspora",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "digg",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "digital-ocean",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "discord",
+            "keywords": "logo chat comunidade"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "discourse",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dochub",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "docker",
+            "keywords": "logo containerizacao devops"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "draft2digital",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dribbble",
+            "keywords": "logo design plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dropbox",
+            "keywords": "logo armazenamento nuvem"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "drupal",
+            "keywords": "logo CMS desenvolvimento"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "dyalog",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "earlybirds",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ebay",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "edge",
+            "keywords": "logo navegador tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "edge-legacy",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "elementor",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ello",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ember",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "empire",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "envira",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "erlang",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ethereum",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "etsy",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "evernote",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "expeditedssl",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "facebook",
+            "keywords": "logo rede social redes sociais empresa meta"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "facebook-f",
+            "keywords": "logo rede social redes sociais empresa meta"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "facebook-messenger",
+            "keywords": "logo rede social mensagem redes sociais empresa meta"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fantasy-flight-games",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fedex",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fedora",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "figma",
+            "keywords": "logo design ferramenta"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "firefox",
+            "keywords": "logo navegador tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "firefox-browser",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "first-order",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "first-order-alt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "firstdraft",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "flickr",
+            "keywords": "logo imagem plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "flipboard",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "flutter",
+            "keywords": "logo framework mobile"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fly",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "font-awesome",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fonticons",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fonticons-fi",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fort-awesome",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fort-awesome-alt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "forumbee",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "foursquare",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "free-code-camp",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "freebsd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "fulcrum",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "galactic-republic",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "galactic-senate",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "get-pocket",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gg",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gg-circle",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "git",
+            "keywords": "logo versionamento desenvolvimento"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "git-alt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "github",
+            "keywords": "logo plataforma desenvolvimento"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "github-alt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gitkraken",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gitter",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "glide",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "glide-g",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gofore",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "golang",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "goodreads",
+            "keywords": "logo livros plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "goodreads-g",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google",
+            "keywords": "logo empresa tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google-drive",
+            "keywords": "logo armazenamento nuvem"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google-pay",
+            "keywords": "logo pagamento financas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google-play",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google-plus",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google-plus-g",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google-scholar",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "google-wallet",
+            "keywords": "logo pagamento financas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gratipay",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "grav",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gripfire",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "grunt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "guilded",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "gulp",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hacker-news",
+            "keywords": "logo noticias tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hackerrank",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hashnode",
+            "keywords": "logo blog comunidade"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hips",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hire-a-helper",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hive",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hooli",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hornbill",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hotjar",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "houzz",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "html5",
+            "keywords": "logo tecnologia web"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "hubspot",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ideal",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "imdb",
+            "keywords": "logo filmes plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "instagram",
+            "keywords": "logo rede social empresa meta redes sociais"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "instalod",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "intercom",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "internet-explorer",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "invision",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ioxhost",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "itch-io",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "itunes",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "itunes-note",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "java",
+            "keywords": "logo linguagem programacao"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "jedi-order",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "jenkins",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "jira",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "joget",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "joomla",
+            "keywords": "logo CMS desenvolvimento"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "js",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "jsfiddle",
+            "keywords": "logo desenvolvimento plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "jxl",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "kaggle",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "keybase",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "keycdn",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "kickstarter",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "kickstarter-k",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "korvue",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "laravel",
+            "keywords": "logo framework PHP"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "lastfm",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "leanpub",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "less",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "letterboxd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "line",
+            "keywords": "logo mensagens social"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "linkedin",
+            "keywords": "logo rede social profissionais"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "linkedin-in",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "linode",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "linux",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "lyft",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "magento",
+            "keywords": "logo ecommerce plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mailchimp",
+            "keywords": "logo email marketing"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mandalorian",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "markdown",
+            "keywords": "logo formato texto"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "maxcdn",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mdb",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "medapps",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "medium",
+            "keywords": "logo publicacao plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "medrt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "meetup",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "megaport",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mendeley",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "meta",
+            "keywords": "logo empresa tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "microblog",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "microsoft",
+            "keywords": "logo empresa tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mintbit",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mix",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mixcloud",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mixer",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "mizuni",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "modx",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "monero",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "napster",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "neos",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "nfc-directional",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "nfc-symbol",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "nimblr",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "node",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "node-js",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "npm",
+            "keywords": "logo JavaScript gerenciador de pacotes"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ns8",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "nutritionix",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "octopus-deploy",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "odnoklassniki",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "odysee",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "old-republic",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "opencart",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "openid",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "opensuse",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "opera",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "optin-monster",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "orcid",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "osi",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "padlet",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "page4",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pagelines",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "palfed",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "patreon",
+            "keywords": "logo financiamento plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "paypal",
+            "keywords": "logo pagamento financas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "perbyte",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "periscope",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "phabricator",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "phoenix-framework",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "phoenix-squadron",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "php",
+            "keywords": "logo linguagem programacao"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pied-piper",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pied-piper-alt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pied-piper-hat",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pied-piper-pp",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pinterest",
+            "keywords": "logo rede social imagem"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pinterest-p",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pix",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pixiv",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "playstation",
+            "keywords": "logo console jogos videogame video game sony"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "product-hunt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "pushed",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "python",
+            "keywords": "logo linguagem programacao"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "qq",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "quinscape",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "quora",
+            "keywords": "logo perguntas comunidade"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "r-project",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "raspberry-pi",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ravelry",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "react",
+            "keywords": "logo biblioteca JavaScript"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "reacteurope",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "readme",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "rebel",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "red-river",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "reddit",
+            "keywords": "logo rede social comunidade"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "reddit-alien",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "redhat",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "renren",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "replyd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "researchgate",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "resolving",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "rev",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "rocketchat",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "rockrms",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "rust",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "salesforce",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sass",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "schlix",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "screenpal",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "scribd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "searchengin",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sellcast",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sellsy",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "servicestack",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "shirtsinbulk",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "shoelace",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "shopify",
+            "keywords": "logo ecommerce plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "shopware",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "signal-messenger",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "simplybuilt",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sistrix",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sith",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sitrox",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sketch",
+            "keywords": "logo design ferramenta"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "skyatlas",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "skype",
+            "keywords": "logo comunicacao videoconferencia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "slideshare",
+            "keywords": "logo apresentacao plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "snapchat",
+            "keywords": "logo rede social imagem"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "soundcloud",
+            "keywords": "logo musica plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sourcetree",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "space-awesome",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "speakap",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "speaker-deck",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "spotify",
+            "keywords": "logo musica plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-behance",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-dribbble",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-facebook",
+            "keywords": "logo rede social redes sociais empresa meta"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-font-awesome",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-font-awesome-stroke",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-git",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-github",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-gitlab",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-google-plus",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-hacker-news",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-instagram",
+            "keywords": "logo rede social empresa meta redes sociais"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-js",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-lastfm",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-letterboxd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-odnoklassniki",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-pied-piper",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-pinterest",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-reddit",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-snapchat",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-steam",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-threads",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-tumblr",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-twitter",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-upwork",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-viadeo",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-vimeo",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-web-awesome-stroke",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-whatsapp",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-x-twitter",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-xing",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "square-youtube",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "squarespace",
+            "keywords": "logo plataforma web"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "stack-exchange",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "stackpath",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "staylinked",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "steam",
+            "keywords": "logo jogos plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "steam-symbol",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "sticker-mule",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "stripe",
+            "keywords": "logo pagamento financas"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "stripe-s",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "stubber",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "studiovinari",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "stumbleupon",
+            "keywords": "logo descoberta plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "stumbleupon-circle",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "superpowers",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "supple",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "suse",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "swift",
+            "keywords": "logo linguagem programacao"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "symfony",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "teamspeak",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "telegram",
+            "keywords": "logo mensagens aplicativo"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "tencent-weibo",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "the-red-yeti",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "themeco",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "themeisle",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "think-peaks",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "tiktok",
+            "keywords": "logo rede social video"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "trade-federation",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "trello",
+            "keywords": "logo gerenciamento ferramenta"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "tumblr",
+            "keywords": "logo rede social blog"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "twitch",
+            "keywords": "logo streaming jogos"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "typo3",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "uber",
+            "keywords": "logo transporte app"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ubuntu",
+            "keywords": "logo sistema operacional tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "uikit",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "umbraco",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "uncharted",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "uniregistry",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "unsplash",
+            "keywords": "logo fotos imagem"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "untappd",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ups",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "upwork",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "usb",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "usps",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "ussunnah",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "vaadin",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "viacoin",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "viadeo",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "viber",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "vimeo",
+            "keywords": "logo video plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "vimeo-v",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "vine",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "vk",
+            "keywords": "logo rede social comunidade"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "vnv",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "vuejs",
+            "keywords": "logo framework JavaScript"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "watchman-monitoring",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "waze",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "web-awesome",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "webflow",
+            "keywords": "logo ferramenta web"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "weebly",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "weibo",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "weixin",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "whatsapp",
+            "keywords": "logo mensagens app"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "whmcs",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wikipedia-w",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "windows",
+            "keywords": "logo sistema operacional tecnologia"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wirsindhandwerk",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wix",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wizards-of-the-coast",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wodu",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wolf-pack-battalion",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wordpress",
+            "keywords": "logo CMS plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wordpress-simple",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wpbeginner",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wpexplorer",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wpforms",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "wpressr",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "x-twitter",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "xbox",
+            "keywords": "logo console jogos videogame video game microsoft"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "xing",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "y-combinator",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "yahoo",
+            "keywords": "logo buscador internet"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "yammer",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "yandex",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "yandex-international",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "yarn",
+            "keywords": "logo JavaScript gerenciador de pacotes"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "yoast",
+            "keywords": "logo empresa"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "youtube",
+            "keywords": "logo video plataforma"
+        },
+        {
+            "class": "fa-brands fa-",
+            "name": "zhihu",
+            "keywords": "logo empresa"
+        }
+    ]
+}

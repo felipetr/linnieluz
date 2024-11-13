@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="container">
 <h1>
   <?php if (is_author()) : ?>
     Author: <?php echo $author_name ?>
@@ -15,6 +15,7 @@
     Archive
   <?php endif; ?>
 </h1>
+</div>
 
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) :

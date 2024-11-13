@@ -1,0 +1,6924 @@
+{
+  "icons": [
+    {
+      "class": "fa-solid fa-",
+      "name": "address-book",
+      "keywords": "agenda contato endereco lista telefone"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "address-card",
+      "keywords": "cartao identidade contato informacao nome"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "align-center",
+      "keywords": "centralizar alinhar texto centro meio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "align-justify",
+      "keywords": "justificar alinhar texto espaco igual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "align-left",
+      "keywords": "esquerda alinhar texto margin esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "align-right",
+      "keywords": "direita alinhar texto margin direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "anchor",
+      "keywords": "ancora fixar link posicionar ancoragem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "anchor-circle-check",
+      "keywords": "ancora verificado confirmado aprovado certo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "anchor-circle-exclamation",
+      "keywords": "ancora alerta aviso cuidado atencao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "anchor-circle-xmark",
+      "keywords": "ancora cancelar fechar excluir remover"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "anchor-lock",
+      "keywords": "ancora seguro protegido trancado fechado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angle-down",
+      "keywords": "seta baixo para baixo inferior abaixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angle-left",
+      "keywords": "seta esquerda para esquerda anterior voltar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angle-right",
+      "keywords": "seta direita para direita proximo avancar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angle-up",
+      "keywords": "seta cima para cima superior acima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angles-down",
+      "keywords": "setas baixo para baixo inferior abaixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angles-left",
+      "keywords": "setas esquerda para esquerda anterior voltar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angles-right",
+      "keywords": "setas direita para direita proximo avancar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "angles-up",
+      "keywords": "setas cima para cima superior acima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ankh",
+      "keywords": "ankh cruz ansata simbolo egipcio vida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "apple-whole",
+      "keywords": "maca fruta alimento saudavel vitamina"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "archway",
+      "keywords": "arco portal entrada saida passagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down",
+      "keywords": "seta baixo para baixo inferior abaixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-1-9",
+      "keywords": "seta baixo ordem decrescente numero"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-9-1",
+      "keywords": "seta baixo ordem crescente numero"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-a-z",
+      "keywords": "seta baixo ordem alfabetica decrescente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-long",
+      "keywords": "seta baixo longa direcao para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-short-wide",
+      "keywords": "seta baixo curta larga direcao para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-up-across-line",
+      "keywords": "setas cruzadas cima e baixo sobreposicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-up-lock",
+      "keywords": "setas cima e baixo trancadas bloqueadas"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-wide-short",
+      "keywords": "seta baixo larga curta direcao para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-down-z-a",
+      "keywords": "seta baixo ordem alfabetica crescente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-left",
+      "keywords": "seta esquerda para esquerda anterior voltar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-left-long",
+      "keywords": "seta esquerda longa direcao para esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-pointer",
+      "keywords": "seta ponteiro indicador direcao apontamento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-right",
+      "keywords": "seta direita para direita proximo avancar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-right-arrow-left",
+      "keywords": "setas esquerda e direita troca alternancia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-right-from-bracket",
+      "keywords": "seta direita saindo de colchete saida exterior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-right-long",
+      "keywords": "seta direita longa direcao para direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-right-to-bracket",
+      "keywords": "seta direita entrando em colchete entrada interior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-right-to-city",
+      "keywords": "seta direita para cidade destino chegada"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-rotate-left",
+      "keywords": "seta rotativa esquerda giro anti-horario"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-rotate-right",
+      "keywords": "seta rotativa direita giro horario"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-trend-down",
+      "keywords": "seta tendencia para baixo decrescente queda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-trend-up",
+      "keywords": "seta tendencia para cima crescente subida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-turn-down",
+      "keywords": "seta curva para baixo direcao para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-turn-up",
+      "keywords": "seta curva para cima direcao para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up",
+      "keywords": "seta cima para cima superior acima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-1-9",
+      "keywords": "seta cima ordem crescente numero"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-9-1",
+      "keywords": "seta cima ordem decrescente numero"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-a-z",
+      "keywords": "seta cima ordem alfabetica crescente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-from-bracket",
+      "keywords": "seta cima saindo de colchete saida exterior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-from-ground-water",
+      "keywords": "seta cima emergindo da agua fonte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-from-water-pump",
+      "keywords": "seta cima jorrando bomba agua"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-long",
+      "keywords": "seta cima longa direcao para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-right-dots",
+      "keywords": "seta cima direita com pontos direcao diagonal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-right-from-square",
+      "keywords": "seta cima direita saindo de quadrado origem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-short-wide",
+      "keywords": "seta cima curta larga direcao para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-wide-short",
+      "keywords": "seta cima larga curta direcao para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrow-up-z-a",
+      "keywords": "seta cima ordem alfabetica decrescente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-down-to-line",
+      "keywords": "setas para baixo convergindo em linha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-down-to-people",
+      "keywords": "setas para baixo convergindo em pessoas"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-left-right",
+      "keywords": "setas esquerda e direita troca alternancia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-left-right-to-line",
+      "keywords": "setas esquerda direita convergindo em linha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-rotate",
+      "keywords": "setas rotativas giro circular movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-spin",
+      "keywords": "setas girando espiral movimento circular"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-split-up-and-left",
+      "keywords": "setas dividindo-se para cima e esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-to-circle",
+      "keywords": "setas convergindo em circulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-to-dot",
+      "keywords": "setas convergindo em ponto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-to-eye",
+      "keywords": "setas convergindo em olho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-turn-right",
+      "keywords": "setas curvando para direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-turn-to-dots",
+      "keywords": "setas curvando em pontos"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-up-down",
+      "keywords": "setas cima e baixo movimento vertical"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-up-down-left-right",
+      "keywords": "setas cima baixo esquerda direita movimento diagonal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "arrows-up-to-line",
+      "keywords": "setas para cima convergindo em linha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "asterisk",
+      "keywords": "asterisco estrela sinal multiplicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "at",
+      "keywords": "arroba email endereco eletronico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "atom",
+      "keywords": "atomo ciencia fisica quimica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "audio-description",
+      "keywords": "descricao audio acessibilidade narracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "austral-sign",
+      "keywords": "dolar australiano moeda simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "award",
+      "keywords": "premio recompensa honra distincao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "b",
+      "keywords": "letra b alfabeto letra minuscula"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "baby",
+      "keywords": "bebe crianca infantil pequeno"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "baby-carriage",
+      "keywords": "carrinho de bebe bebe crianca transporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "backward",
+      "keywords": "retroceder voltar atras anterior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "backward-fast",
+      "keywords": "retroceder rapido voltar rapido anterior rapido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "backward-step",
+      "keywords": "retroceder passo voltar passo anterior passo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bacon",
+      "keywords": "bacon alimento carne porco gordura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bacteria",
+      "keywords": "bacteria microbiologia ciencia saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bacterium",
+      "keywords": "bacteria microbiologia ciencia saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bag-shopping",
+      "keywords": "sacola compras mercado loja comercio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bahai",
+      "keywords": "fe baha'i religiao espiritualidade crenca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "baht-sign",
+      "keywords": "baht moeda tailandesa simbolo dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ban",
+      "keywords": "proibir proibicao banir veto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ban-smoking",
+      "keywords": "proibir fumar proibido fumar nao fumar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bandage",
+      "keywords": "curativo bandagem ferida lesao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bangladeshi-taka-sign",
+      "keywords": "taka moeda bangladeshi simbolo dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "barcode",
+      "keywords": "codigo de barras produto identificacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bars",
+      "keywords": "barras grafico estatistica dados visualizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bars-progress",
+      "keywords": "barras progresso status andamento conclusao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bars-staggered",
+      "keywords": "barras empilhadas grafico estatistica dados"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "baseball",
+      "keywords": "beisebol esporte bola jogo campo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "baseball-bat-ball",
+      "keywords": "beisebol taco bola esporte jogo campo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "basket-shopping",
+      "keywords": "cesta compras mercado loja comercio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "basketball",
+      "keywords": "basquetebol esporte bola jogo quadra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bath",
+      "keywords": "banho banheiro higiene limpeza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "battery-empty",
+      "keywords": "bateria vazia descarregada energia baixa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "battery-full",
+      "keywords": "bateria cheia carregada energia alta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "battery-half",
+      "keywords": "bateria meia carga energia media"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "battery-quarter",
+      "keywords": "bateria um quarto de carga energia baixa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "battery-three-quarters",
+      "keywords": "bateria tres quartos de carga energia media"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bed",
+      "keywords": "cama dormir descanso repouso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bed-pulse",
+      "keywords": "cama pulso hospital paciente saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "beer-mug-empty",
+      "keywords": "copo de cerveja vazio bebida alcool"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bell",
+      "keywords": "sino alerta notificacao aviso som"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bell-concierge",
+      "keywords": "sino de concierge recepcao servico atendimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bell-slash",
+      "keywords": "sino silenciado mudo notificacao desativado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bezier-curve",
+      "keywords": "curva de bezier design grafico vetor ilustracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bicycle",
+      "keywords": "bicicleta transporte veiculo ciclovia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "binoculars",
+      "keywords": "binoculo visao ampliacao observacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "biohazard",
+      "keywords": "risco biologico perigo contaminacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bitcoin-sign",
+      "keywords": "bitcoin moeda criptomoeda simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "blender",
+      "keywords": "liquidificador eletrodomestico cozinha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "blender-phone",
+      "keywords": "liquidificador telefone mistura tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "blog",
+      "keywords": "blogue blog post publicacao conteudo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bold",
+      "keywords": "negrito texto formatacao fonte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bolt",
+      "keywords": "raio relampago eletricidade energia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bolt-lightning",
+      "keywords": "raio relampago eletricidade energia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bomb",
+      "keywords": "bomba explosivo perigo guerra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bone",
+      "keywords": "osso anatomia corpo humano"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bong",
+      "keywords": "bong narguile cachimbo agua"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book",
+      "keywords": "livro leitura estudo conhecimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-atlas",
+      "keywords": "atlas livro mapas geografia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-bible",
+      "keywords": "biblia livro sagrado religiao fe"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-bookmark",
+      "keywords": "livro marcador lembrete referencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-journal-whills",
+      "keywords": "livro diario anotacoes registro memoria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-medical",
+      "keywords": "livro medico saude ciencia medicina"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-open",
+      "keywords": "livro aberto leitura estudo conhecimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-open-reader",
+      "keywords": "livro aberto leitor leitura estudo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-quran",
+      "keywords": "alcorao livro sagrado isla religiao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-skull",
+      "keywords": "livro caveira morte misterio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "book-tanakh",
+      "keywords": "tanach tora biblia hebraica judaismo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bookmark",
+      "keywords": "marcador favorito lembrete referencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "border-all",
+      "keywords": "borda todas as bordas contorno quadro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "border-none",
+      "keywords": "sem borda contorno padrao normal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "border-top-left",
+      "keywords": "borda superior esquerda canto superior esquerdo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bore-hole",
+      "keywords": "poco perfuracao extracao agua"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bottle-droplet",
+      "keywords": "garrafa gota liquido agua bebida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bottle-water",
+      "keywords": "garrafa agua bebida liquido refrescante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bowl-food",
+      "keywords": "tigela comida alimento refeicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bowl-rice",
+      "keywords": "tigela arroz alimento comida oriental"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bowling-ball",
+      "keywords": "bola de boliche esporte jogo lazer"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "box",
+      "keywords": "caixa pacote recipiente armazenamento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "box-archive",
+      "keywords": "caixa arquivo armazenamento documentos"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "box-open",
+      "keywords": "caixa aberta recipiente armazenamento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "box-tissue",
+      "keywords": "caixa de lencos papel tecido higiene"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "boxes-packing",
+      "keywords": "caixas embalagem transporte mudanca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "boxes-stacked",
+      "keywords": "caixas empilhadas armazenamento organizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "braille",
+      "keywords": "braille leitura cegos deficiencia visual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "brain",
+      "keywords": "cerebro mente cognicao pensamento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "brazilian-real-sign",
+      "keywords": "real moeda brasileira simbolo dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bread-slice",
+      "keywords": "fatia de pao alimento carboidrato"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bridge",
+      "keywords": "ponte construcao engenharia estrutura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bridge-circle-check",
+      "keywords": "ponte verificado confirmado aprovado certo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bridge-circle-exclamation",
+      "keywords": "ponte alerta aviso cuidado atencao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bridge-circle-xmark",
+      "keywords": "ponte cancelar fechar excluir remover"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bridge-lock",
+      "keywords": "ponte seguro protegido trancado fechado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bridge-water",
+      "keywords": "ponte agua rio mar canal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "briefcase",
+      "keywords": "pasta trabalho escritorio profissional"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "briefcase-medical",
+      "keywords": "pasta medica saude hospital clinica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "broom",
+      "keywords": "vassoura limpeza higiene domestica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "broom-ball",
+      "keywords": "broomball esporte inverno hoquei"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "brush",
+      "keywords": "pincel pintura arte desenho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bucket",
+      "keywords": "balde recipiente agua limpeza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bug",
+      "keywords": "inseto erro problema defeito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bug-slash",
+      "keywords": "inseto cortado eliminado resolvido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bugs",
+      "keywords": "insetos erros problemas defeitos"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building",
+      "keywords": "edificio construcao arquitetura estrutura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-circle-arrow-right",
+      "keywords": "edificio seta direita acao proxima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-circle-check",
+      "keywords": "edificio verificado confirmado aprovado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-circle-exclamation",
+      "keywords": "edificio alerta aviso cuidado atencao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-circle-xmark",
+      "keywords": "edificio cancelar fechar excluir remover"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-columns",
+      "keywords": "edificio colunas arquitetura estrutura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-flag",
+      "keywords": "edificio bandeira pais nacionalidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-lock",
+      "keywords": "edificio seguro protegido trancado fechado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-ngo",
+      "keywords": "edificio ong organizacao nao governamental"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-shield",
+      "keywords": "edificio escudo protecao seguranca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-un",
+      "keywords": "edificio onu nacoes unidas organizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-user",
+      "keywords": "edificio usuario pessoa perfil"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "building-wheat",
+      "keywords": "edificio trigo agricultura fazenda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bullhorn",
+      "keywords": "megafone alto-falante comunicacao anuncio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bullseye",
+      "keywords": "alvo centro mira foco objetivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "burger",
+      "keywords": "hamburguer comida lanche fast-food"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "burst",
+      "keywords": "explosao raios brilho efeito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bus",
+      "keywords": "onibus transporte publico veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "bus-simple",
+      "keywords": "onibus simples transporte veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "business-time",
+      "keywords": "negocios tempo trabalho horario"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "c",
+      "keywords": "letra c alfabeto letra minuscula"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cable-car",
+      "keywords": "bondinho teleferico transporte montanha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cake-candles",
+      "keywords": "bolo velas aniversario festa comemoracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calculator",
+      "keywords": "calculadora matematica calculo conta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar",
+      "keywords": "calendario agenda data evento compromisso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar-check",
+      "keywords": "calendario marcado confirmado agendado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar-day",
+      "keywords": "calendario dia data especifico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar-days",
+      "keywords": "calendario dias data periodo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar-minus",
+      "keywords": "calendario remover excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar-plus",
+      "keywords": "calendario adicionar criar agendar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar-week",
+      "keywords": "calendario semana dias semanais"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "calendar-xmark",
+      "keywords": "calendario cancelar excluir apagar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "camera",
+      "keywords": "camera fotografia imagem registro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "camera-retro",
+      "keywords": "camera retro vintage fotografia antiga"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "camera-rotate",
+      "keywords": "camera girar rotacionar 360 graus"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "campground",
+      "keywords": "acampamento camping natureza ao ar livre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "candy-cane",
+      "keywords": "bastao de caramelo doce natal feriado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cannabis",
+      "keywords": "cannabis maconha droga planta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "capsules",
+      "keywords": "capsulas medicamento remedio saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "car",
+      "keywords": "carro automovel veiculo transporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "car-battery",
+      "keywords": "bateria de carro veiculo automovel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "car-burst",
+      "keywords": "carro explodindo acidente perigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "car-on",
+      "keywords": "carro ligado motor ligado veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "car-rear",
+      "keywords": "carro traseira veiculo automovel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "car-side",
+      "keywords": "carro lateral veiculo automovel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "car-tunnel",
+      "keywords": "carro tunel transporte rodoviario"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "caravan",
+      "keywords": "caravana camper motorhome veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "caret-down",
+      "keywords": "seta para baixo direcao para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "caret-left",
+      "keywords": "seta para esquerda direcao para esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "caret-right",
+      "keywords": "seta para direita direcao para direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "caret-up",
+      "keywords": "seta para cima direcao para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "carrot",
+      "keywords": "cenoura vegetal alimento saudavel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cart-arrow-down",
+      "keywords": "carrinho de compras seta para baixo compra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cart-flatbed",
+      "keywords": "carrinho de mao plataforma transporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cart-flatbed-suitcase",
+      "keywords": "carrinho de mao mala viagem transporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cart-plus",
+      "keywords": "carrinho de compras adicionar comprar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cart-shopping",
+      "keywords": "carrinho de compras mercado loja comercio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cash-register",
+      "keywords": "caixa registradora comercio venda dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cat",
+      "keywords": "gato animal domestico felino"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cedi-sign",
+      "keywords": "cedi moeda ganesa simbolo dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cent-sign",
+      "keywords": "centavo simbolo moeda dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "certificate",
+      "keywords": "certificado diploma comprovante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chair",
+      "keywords": "cadeira movel assento sentar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chalkboard",
+      "keywords": "quadro negro quadro-negro lousa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chalkboard-user",
+      "keywords": "quadro negro usuario professor aluno"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "champagne-glasses",
+      "keywords": "tacas de champanhe bebida festa celebracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "charging-station",
+      "keywords": "estacao de carregamento eletricidade energia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chart-area",
+      "keywords": "grafico de area estatistica dados visualizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chart-bar",
+      "keywords": "grafico de barras estatistica dados visualizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chart-column",
+      "keywords": "grafico de colunas estatistica dados visualizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chart-gantt",
+      "keywords": "grafico de gantt projeto gerenciamento tempo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chart-line",
+      "keywords": "grafico de linha estatistica dados tendencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chart-pie",
+      "keywords": "grafico de pizza estatistica dados porcentagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chart-simple",
+      "keywords": "grafico simples estatistica dados visualizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "check",
+      "keywords": "verificado confirmado ok certo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "check-double",
+      "keywords": "verificado duas vezes confirmado duplamente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "check-to-slot",
+      "keywords": "verificar e inserir confirmar e adicionar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cheese",
+      "keywords": "queijo alimento lacteo laticinio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess",
+      "keywords": "xadrez jogo estrategia tabuleiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess-bishop",
+      "keywords": "bispo xadrez peca jogo tabuleiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess-board",
+      "keywords": "tabuleiro de xadrez jogo estrategia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess-king",
+      "keywords": "rei xadrez peca jogo tabuleiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess-knight",
+      "keywords": "cavalo xadrez peca jogo tabuleiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess-pawn",
+      "keywords": "peao xadrez peca jogo tabuleiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess-queen",
+      "keywords": "rainha xadrez peca jogo tabuleiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chess-rook",
+      "keywords": "torre xadrez peca jogo tabuleiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chevron-down",
+      "keywords": "seta baixo direcao seta para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chevron-left",
+      "keywords": "seta esquerda direcao seta para esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chevron-right",
+      "keywords": "seta direita direcao seta para direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "chevron-up",
+      "keywords": "seta cima direcao seta para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "child",
+      "keywords": "crianca menino menina jovem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "child-combatant",
+      "keywords": "crianca soldado guerra militar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "child-dress",
+      "keywords": "crianca vestido menina roupa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "child-reaching",
+      "keywords": "crianca alcancar mao gesto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "children",
+      "keywords": "criancas meninos meninas jovens"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "church",
+      "keywords": "igreja templo religioso sagrado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle",
+      "keywords": "circulo redondo forma geometrico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-arrow-down",
+      "keywords": "circulo seta baixo direcao seta para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-arrow-left",
+      "keywords": "circulo seta esquerda direcao seta para esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-arrow-right",
+      "keywords": "circulo seta direita direcao seta para direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-arrow-up",
+      "keywords": "circulo seta cima direcao seta para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-check",
+      "keywords": "circulo marca selecao sim certo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-chevron-down",
+      "keywords": "circulo seta baixo direcao seta para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-chevron-left",
+      "keywords": "circulo seta esquerda direcao seta para esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-chevron-right",
+      "keywords": "circulo seta direita direcao seta para direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-chevron-up",
+      "keywords": "circulo seta cima direcao seta para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-dollar-to-slot",
+      "keywords": "circulo dolar fenda moeda dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-dot",
+      "keywords": "circulo ponto marca sinal circulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-down",
+      "keywords": "circulo baixo direcao seta para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-exclamation",
+      "keywords": "circulo exclamacao alerta aviso cuidado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-h",
+      "keywords": "circulo letra h simbolo letra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-half-stroke",
+      "keywords": "circulo metade traco linha metade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-info",
+      "keywords": "circulo informacao dado noticia conhecimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-left",
+      "keywords": "circulo esquerda direcao seta para esquerda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-minus",
+      "keywords": "circulo menos subtracao diminuir retirar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-nodes",
+      "keywords": "circulo nos pontos conexao ligacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-notch",
+      "keywords": "circulo entalhe marca sinal circulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-pause",
+      "keywords": "circulo pausa parar interromper suspender"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-play",
+      "keywords": "circulo play tocar reproduzir iniciar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-plus",
+      "keywords": "circulo mais adicao somar acrescentar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-question",
+      "keywords": "circulo pergunta duvida questao interrogar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-radiation",
+      "keywords": "circulo radiacao nuclear perigo risco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-right",
+      "keywords": "circulo direita direcao seta para direita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-stop",
+      "keywords": "circulo parar interromper suspender finalizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-up",
+      "keywords": "circulo cima direcao seta para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-user",
+      "keywords": "circulo usuario pessoa individuo humano"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "circle-xmark",
+      "keywords": "circulo x fechar cancelar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "city",
+      "keywords": "cidade urbano municipio povoado civilizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clapperboard",
+      "keywords": "claquete cinema filmar gravar audiovisual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clipboard",
+      "keywords": "prancheta papel escrita anotacao registro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clipboard-check",
+      "keywords": "prancheta marca selecao sim certo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clipboard-list",
+      "keywords": "prancheta lista itens enumeracao sequencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clipboard-question",
+      "keywords": "prancheta pergunta duvida questao interrogar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clipboard-user",
+      "keywords": "prancheta usuario pessoa individuo humano"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clock",
+      "keywords": "relogio tempo hora cronometro pontualidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clock-rotate-left",
+      "keywords": "relogio rotacao esquerda giro anti-horario"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clone",
+      "keywords": "clonar copiar duplicar replicar reproduzir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "closed-captioning",
+      "keywords": "legenda audio legenda descricao texto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud",
+      "keywords": "nuvem meteorologia clima tempo atmosfera"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-arrow-down",
+      "keywords": "nuvem seta baixo direcao seta para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-arrow-up",
+      "keywords": "nuvem seta cima direcao seta para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-bolt",
+      "keywords": "nuvem raio eletricidade tempestade perigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-meatball",
+      "keywords": "nuvem chuva tempo meteorologia clima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-moon",
+      "keywords": "nuvem lua noite escuro celestial"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-moon-rain",
+      "keywords": "nuvem lua chuva tempo meteorologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-rain",
+      "keywords": "nuvem chuva tempo meteorologia clima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-showers-heavy",
+      "keywords": "nuvem chuva forte agua temporal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-showers-water",
+      "keywords": "nuvem chuva agua tempo meteorologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-sun",
+      "keywords": "nuvem sol dia claro brilhante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cloud-sun-rain",
+      "keywords": "nuvem sol chuva tempo meteorologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "clover",
+      "keywords": "trevo sorte fortuna felicidade boa sorte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "code",
+      "keywords": "codigo programacao desenvolvimento software tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "code-branch",
+      "keywords": "codigo ramo versao bifurcacao divisao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "code-commit",
+      "keywords": "codigo commit versao alteracao modificacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "code-compare",
+      "keywords": "codigo comparacao diferenca contraste contraste"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "code-fork",
+      "keywords": "codigo bifurcacao divisao ramificacao separacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "code-merge",
+      "keywords": "codigo mescla uniao combinacao fusao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "code-pull-request",
+      "keywords": "codigo requisicao solicitacao pedido demanda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "coins",
+      "keywords": "moedas dinheiro economia valor riqueza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "colon-sign",
+      "keywords": "dois pontos separador pontuacao gramatica linguagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comment",
+      "keywords": "comentario opiniao observacao ideia discussao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comment-dollar",
+      "keywords": "comentario dolar dinheiro economia valor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comment-dots",
+      "keywords": "comentario pontos marca sinal circulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comment-medical",
+      "keywords": "comentario medico saude hospital cura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comment-slash",
+      "keywords": "comentario remover apagar excluir deletar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comment-sms",
+      "keywords": "comentario sms mensagem texto celular"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comments",
+      "keywords": "comentarios discussao conversa dialogo debate"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "comments-dollar",
+      "keywords": "comentarios dolar dinheiro economia valor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "compact-disc",
+      "keywords": "disco compacto cd musica audio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "compass",
+      "keywords": "bussola navegacao direcao orientacao norte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "compass-drafting",
+      "keywords": "bussola desenho projeto arquitetura engenharia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "compress",
+      "keywords": "comprimir compactar reduzir diminuir condensar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "computer",
+      "keywords": "computador pc maquina tecnologia informatica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "computer-mouse",
+      "keywords": "mouse computador ponteiro clique selecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cookie",
+      "keywords": "biscoito doce guloseima sobremesa lanche"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cookie-bite",
+      "keywords": "biscoito mordida comer mastigar degustar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "copy",
+      "keywords": "copiar duplicar clonar replicar reproduzir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "copyright",
+      "keywords": "direito autoral copyright propriedade intelectual licenca uso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "couch",
+      "keywords": "sofa cadeira assento conforto descanso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cow",
+      "keywords": "vaca boi gado fazenda rural"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "credit-card",
+      "keywords": "cartao de credito pagamento compra financeiro economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "crop",
+      "keywords": "cortar recortar podar aparar truncar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "crop-simple",
+      "keywords": "cortar simples basico fundamental elementar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cross",
+      "keywords": "cruz religioso sagrado cristianismo catolicismo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "crosshairs",
+      "keywords": "mira alvo pontaria precisao foco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "crow",
+      "keywords": "corvo ave animal natureza bicho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "crown",
+      "keywords": "coroa rei rainha nobreza monarquia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "crutch",
+      "keywords": "muleta apoio auxilio invalidez deficiencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cruzeiro-sign",
+      "keywords": "cruzeiro moeda dinheiro brasil economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cube",
+      "keywords": "cubo quadrado forma geometria matematica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cubes",
+      "keywords": "cubos varios multiplos diversos diferentes"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "cubes-stacked",
+      "keywords": "cubos empilhados pilha acumulo conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "d",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "database",
+      "keywords": "banco de dados informacao dado registro arquivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "delete-left",
+      "keywords": "excluir apagar remover deletar eliminar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "democrat",
+      "keywords": "democrata partido politico democracia eleicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "desktop",
+      "keywords": "desktop computador tela interface monitor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dharmachakra",
+      "keywords": "dharmachakra budismo religiao espiritualidade filosofia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "diagram-next",
+      "keywords": "diagrama proximo seguinte avancar continuar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "diagram-predecessor",
+      "keywords": "diagrama predecessor anterior precedente passado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "diagram-project",
+      "keywords": "diagrama projeto plano esquema desenho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "diagram-successor",
+      "keywords": "diagrama sucessor posterior seguinte futuro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "diamond",
+      "keywords": "diamante joia brilhante precioso luxuoso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "diamond-turn-right",
+      "keywords": "diamante virar girar rotacionar mover"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice",
+      "keywords": "dado jogo sorte azar aleatorio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-d6",
+      "keywords": "dado seis lados numero sorte acaso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-d20",
+      "keywords": "dado vinte lados numero sorte acaso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-five",
+      "keywords": "dado cinco numero contagem quantidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-four",
+      "keywords": "dado quatro numero contagem quantidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-one",
+      "keywords": "dado um numero contagem quantidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-six",
+      "keywords": "dado seis numero contagem quantidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-three",
+      "keywords": "dado tres numero contagem quantidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dice-two",
+      "keywords": "dado dois numero contagem quantidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "disease",
+      "keywords": "doenca enfermidade mal saude medicina"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "display",
+      "keywords": "exibir mostrar apresentar demonstrar revelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "divide",
+      "keywords": "dividir separar fracionar particionar segmentar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dna",
+      "keywords": "dna genetica biologia ciencia vida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dog",
+      "keywords": "cachorro animal domestico fiel amigavel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dollar-sign",
+      "keywords": "dolar moeda dinheiro economia estados unidos"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dolly",
+      "keywords": "carrinho transporte carga logistica movimentacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dong-sign",
+      "keywords": "dong moeda dinheiro vietna economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "door-closed",
+      "keywords": "porta fechada entrada saida acesso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "door-open",
+      "keywords": "porta aberta entrada saida acesso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dove",
+      "keywords": "pomba ave paz simbolo religioso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "down-left-and-up-right-to-center",
+      "keywords": "baixo esquerda cima direita centro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "down-long",
+      "keywords": "baixo longo extenso prolongado alongado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "download",
+      "keywords": "baixar fazer download transferir copiar salvar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dragon",
+      "keywords": "dragao mitologia fantasia lendario fantastico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "draw-polygon",
+      "keywords": "desenhar poligono forma geometria matematica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "droplet",
+      "keywords": "gota liquido agua chuva umedecimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "droplet-slash",
+      "keywords": "gota barra corte interrupcao fim"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "drum",
+      "keywords": "tambor instrumento musica ritmo percussao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "drum-steelpan",
+      "keywords": "tambor aco metal instrumento musica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "drumstick-bite",
+      "keywords": "baqueta tambor musica percussao ritmo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dumbbell",
+      "keywords": "haltere exercicio musculacao academia fitness"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dumpster",
+      "keywords": "lixeira lixo descarte reciclagem ambiental"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dumpster-fire",
+      "keywords": "lixeira fogo incendio perigo desastre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "dungeon",
+      "keywords": "masmorra prisao calabouco cadeia cela"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "e",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ear-deaf",
+      "keywords": "ouvido surdo deficiencia auditivo incapacidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ear-listen",
+      "keywords": "ouvido escutar ouvir perceber entender"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "earth-africa",
+      "keywords": "terra africa continente pais geografia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "earth-americas",
+      "keywords": "terra americas continente pais geografia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "earth-asia",
+      "keywords": "terra asia continente pais geografia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "earth-europe",
+      "keywords": "terra europa continente pais geografia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "earth-oceania",
+      "keywords": "terra oceania continente pais geografia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "egg",
+      "keywords": "ovo alimento comida nutricao saudavel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "eject",
+      "keywords": "ejetar expulsar remover retirar eliminar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "elevator",
+      "keywords": "elevador ascensor subir descer predio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ellipsis",
+      "keywords": "reticencias pontos pausa interrupcao suspensao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ellipsis-vertical",
+      "keywords": "reticencias vertical verticalmente para baixo para cima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "envelope",
+      "keywords": "envelope carta correio mensagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "envelope-circle-check",
+      "keywords": "envelope circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "envelope-open",
+      "keywords": "envelope aberto leitura acesso visualizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "envelope-open-text",
+      "keywords": "envelope aberto texto mensagem conteudo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "envelopes-bulk",
+      "keywords": "envelopes varios multiplos diversos conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "equals",
+      "keywords": "igual igualdade equivalencia correspondencia semelhanca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "eraser",
+      "keywords": "borracha apagar remover excluir eliminar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ethernet",
+      "keywords": "ethernet rede cabo internet conexao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "euro-sign",
+      "keywords": "euro moeda dinheiro europa economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "exclamation",
+      "keywords": "exclamacao surpresa admiracao espanto emocao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "expand",
+      "keywords": "expandir ampliar aumentar estender alargar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "explosion",
+      "keywords": "explosao bomba destruicao violencia perigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "eye",
+      "keywords": "olho visao vista ocular visual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "eye-dropper",
+      "keywords": "conta-gotas pingar gotejar medicar aplicar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "eye-low-vision",
+      "keywords": "visao baixa deficiencia dificuldade problema"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "eye-slash",
+      "keywords": "olho rabiscado apagado oculto invisivel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "f",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-angry",
+      "keywords": "rosto raiva irritacao furia zangado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-dizzy",
+      "keywords": "rosto tontura vertigem desorientado confuso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-flushed",
+      "keywords": "rosto corado vermelho envergonhado timido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-frown",
+      "keywords": "rosto carranca triste chateado desapontado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-frown-open",
+      "keywords": "rosto carranca aberto triste chateado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grimace",
+      "keywords": "rosto careta feio desagradavel feio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin",
+      "keywords": "rosto sorriso feliz alegre contente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-beam",
+      "keywords": "rosto sorriso raio feliz alegre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-beam-sweat",
+      "keywords": "rosto sorriso raio suor cansado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-hearts",
+      "keywords": "rosto sorriso coracao amor carinho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-squint",
+      "keywords": "rosto sorriso piscar alegre contente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-squint-tears",
+      "keywords": "rosto sorriso piscar lagrima emocao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-stars",
+      "keywords": "rosto sorriso estrela brilho felicidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-tears",
+      "keywords": "rosto sorriso lagrima tristeza emocao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-tongue",
+      "keywords": "rosto sorriso lingua brincadeira diversao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-tongue-squint",
+      "keywords": "rosto sorriso lingua piscar brincadeira"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-tongue-wink",
+      "keywords": "rosto sorriso lingua piscar brincadeira"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-wide",
+      "keywords": "rosto sorriso largo feliz alegre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-grin-wink",
+      "keywords": "rosto sorriso piscar alegre contente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-kiss",
+      "keywords": "rosto beijo amor carinho afeto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-kiss-beam",
+      "keywords": "rosto beijo raio amor carinho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-kiss-wink-heart",
+      "keywords": "rosto beijo piscar coracao amor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-laugh",
+      "keywords": "rosto rir alegria felicidade diversao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-laugh-beam",
+      "keywords": "rosto rir raio alegria felicidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-laugh-squint",
+      "keywords": "rosto rir piscar alegria felicidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-laugh-wink",
+      "keywords": "rosto rir piscar alegria felicidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-meh",
+      "keywords": "rosto indiferente neutro apatico desinteressado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-meh-blank",
+      "keywords": "rosto indiferente vazio neutro apatico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-rolling-eyes",
+      "keywords": "rosto revirar olhos irritacao desdem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-sad-cry",
+      "keywords": "rosto triste choro lagrima sofrimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-sad-tear",
+      "keywords": "rosto triste lagrima tristeza magoa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-smile",
+      "keywords": "rosto sorriso feliz alegre contente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-smile-beam",
+      "keywords": "rosto sorriso raio feliz alegre contente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-smile-wink",
+      "keywords": "rosto sorriso piscar feliz alegre contente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-surprise",
+      "keywords": "rosto surpresa espanto admiracao choque"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "face-tired",
+      "keywords": "rosto cansado sonolento exausto fatigado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fan",
+      "keywords": "ventilador ar fresco vento brisa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "faucet",
+      "keywords": "torneira agua liquido hidratacao limpeza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "faucet-drip",
+      "keywords": "torneira goteira vazamento desperdicio problema"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fax",
+      "keywords": "fax telefax documento transmissao comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "feather",
+      "keywords": "pena ave leveza liberdade voar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "feather-pointed",
+      "keywords": "pena apontado direcionado focado preciso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ferry",
+      "keywords": "balsa barco transporte mar agua"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file",
+      "keywords": "arquivo documento papel digital fisico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-arrow-down",
+      "keywords": "arquivo seta baixo download baixar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-arrow-up",
+      "keywords": "arquivo seta cima upload enviar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-audio",
+      "keywords": "arquivo audio som musica podcast"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-circle-check",
+      "keywords": "arquivo circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-circle-exclamation",
+      "keywords": "arquivo circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-circle-minus",
+      "keywords": "arquivo circulo menos remover excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-circle-plus",
+      "keywords": "arquivo circulo mais adicionar incluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-circle-question",
+      "keywords": "arquivo circulo pergunta duvida questao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-circle-xmark",
+      "keywords": "arquivo circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-code",
+      "keywords": "arquivo codigo programa software desenvolvimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-contract",
+      "keywords": "arquivo contrato legal juridico formal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-csv",
+      "keywords": "arquivo csv dados tabela planilha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-excel",
+      "keywords": "arquivo excel planilha tabela dados"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-export",
+      "keywords": "arquivo exportar salvar compartilhar enviar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-image",
+      "keywords": "arquivo imagem foto figura visual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-import",
+      "keywords": "arquivo importar carregar inserir adicionar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-invoice",
+      "keywords": "arquivo fatura conta pagamento financeiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-invoice-dollar",
+      "keywords": "arquivo fatura dolar dinheiro economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-lines",
+      "keywords": "arquivo linhas texto documento escrito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-medical",
+      "keywords": "arquivo medico saude hospital paciente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-pdf",
+      "keywords": "arquivo pdf documento digital formato"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-pen",
+      "keywords": "arquivo caneta escrita texto papel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-powerpoint",
+      "keywords": "arquivo powerpoint apresentacao slides visual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-prescription",
+      "keywords": "arquivo receita prescricao medicamento farmacia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-shield",
+      "keywords": "arquivo escudo protecao seguranca defesa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-signature",
+      "keywords": "arquivo assinatura documento legal contrato"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-video",
+      "keywords": "arquivo video filme audiovisual imagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-waveform",
+      "keywords": "arquivo onda forma grafico sinal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-word",
+      "keywords": "arquivo word texto documento escrito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "file-zipper",
+      "keywords": "arquivo zip comprimir compactar arquivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fill",
+      "keywords": "preencher completar adicionar inserir incluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fill-drip",
+      "keywords": "preencher goteira vazamento perda desperdicio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "film",
+      "keywords": "filme cinema video audiovisual entretenimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "filter",
+      "keywords": "filtro selecao escolha crivo peneira"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "filter-circle-dollar",
+      "keywords": "filtro circulo dolar dinheiro economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "filter-circle-xmark",
+      "keywords": "filtro circulo x remover excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fingerprint",
+      "keywords": "impressao digital biometria identidade seguranca unico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fire",
+      "keywords": "fogo calor chama incendio perigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fire-burner",
+      "keywords": "fogo queimador fogao cozinha calor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fire-extinguisher",
+      "keywords": "fogo extintor seguranca emergencia incendio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fire-flame-curved",
+      "keywords": "fogo chama curva espiral ornamental"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fire-flame-simple",
+      "keywords": "fogo chama simples basico padrao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fish",
+      "keywords": "peixe animal agua mar oceano"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "fish-fins",
+      "keywords": "peixe nadadeira nadar agua movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "flag",
+      "keywords": "bandeira pais nacionalidade simbolo patriotismo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "flag-checkered",
+      "keywords": "bandeira xadrez jogo tabuleiro quadriculado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "flag-usa",
+      "keywords": "bandeira eua estados unidos america norte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "flask",
+      "keywords": "frasco recipiente vidro quimica laboratorio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "flask-vial",
+      "keywords": "frasco ampola vidro medicina farmacia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "floppy-disk",
+      "keywords": "disco floppy antigo armazenamento tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "florin-sign",
+      "keywords": "florim moeda dinheiro antigo europa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "folder",
+      "keywords": "pasta arquivo documento organizar classificar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "folder-closed",
+      "keywords": "pasta fechada fechado fechado inacessivel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "folder-minus",
+      "keywords": "pasta menos remover excluir tirar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "folder-open",
+      "keywords": "pasta aberta aberto acessivel visivel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "folder-plus",
+      "keywords": "pasta mais adicionar incluir inserir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "folder-tree",
+      "keywords": "pasta arvore hierarquia estrutura organizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "font",
+      "keywords": "fonte tipografia letra texto escrita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "font-awesome",
+      "keywords": "fonte incrivel impressionante surpreendente maravilhoso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "football",
+      "keywords": "futebol esporte bola campo gol"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "forward",
+      "keywords": "frente avancar seguir progredir continuar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "forward-fast",
+      "keywords": "frente rapido acelerado veloz apressado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "forward-step",
+      "keywords": "frente passo etapa estagio fase"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "franc-sign",
+      "keywords": "franco moeda dinheiro franca europa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "frog",
+      "keywords": "sapo animal anfibio pulo verde"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "futbol",
+      "keywords": "futebol esporte bola campo gol"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "g",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gamepad",
+      "keywords": "controle jogo videogame video game joystick"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gas-pump",
+      "keywords": "bomba gasolina combustivel carro veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gauge",
+      "keywords": "medidor indicador escala nivel quantidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gauge-high",
+      "keywords": "medidor alto elevado maximo superior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gauge-simple",
+      "keywords": "medidor simples basico padrao comum"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gauge-simple-high",
+      "keywords": "medidor alto simples basico padrao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gavel",
+      "keywords": "martelo ferramenta construcao madeira prego"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gear",
+      "keywords": "engrenagem roda mecanismo maquina tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gears",
+      "keywords": "engrenagens conjunto mecanismo maquina tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gem",
+      "keywords": "gema joia brilhante precioso luxuoso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "genderless",
+      "keywords": "sem genero neutro indefinido imparcial imparcialidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ghost",
+      "keywords": "fantasma espirito sobrenatural assustador misterioso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gift",
+      "keywords": "presente dom dadiva oferta surpresa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gifts",
+      "keywords": "presentes varios multiplos diversos conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "glass-water",
+      "keywords": "copo agua liquido bebida hidratacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "glass-water-droplet",
+      "keywords": "copo agua gota liquido bebida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "glasses",
+      "keywords": "oculos visao lente olho visual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "globe",
+      "keywords": "globo terra mundo planeta esfera"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "golf-ball-tee",
+      "keywords": "bola golfe esporte campo tacada"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gopuram",
+      "keywords": "gopuram templo hindu arquitetura india"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "graduation-cap",
+      "keywords": "formatura graduacao diploma educacao ensino"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "greater-than",
+      "keywords": "maior superior superior acima exceder"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "greater-than-equal",
+      "keywords": "maior igual equivalente identico semelhante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "grip",
+      "keywords": "agarre pegada aperto firmeza forca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "grip-lines",
+      "keywords": "linhas grade reticulado padrao estrutura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "grip-lines-vertical",
+      "keywords": "linhas vertical verticalmente para cima para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "grip-vertical",
+      "keywords": "agarre vertical verticalmente para cima para baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "group-arrows-rotate",
+      "keywords": "grupo setas rotacionar girar mover"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "guarani-sign",
+      "keywords": "guarani moeda dinheiro paraguai economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "guitar",
+      "keywords": "guitarra instrumento musica corda som"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "gun",
+      "keywords": "arma arma de fogo violencia perigo guerra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "h",
+      "keywords": "letra alfabeto escrita linguagem comunicaca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hammer",
+      "keywords": "martelo ferramenta construcao madeira prego"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hamsa",
+      "keywords": "hamsa amuleto protecao sorte bencao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand",
+      "keywords": "mao membro corpo gesto sinal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-back-fist",
+      "keywords": "mao punho fechado forca poder"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-dots",
+      "keywords": "mao pontos marca sinal circulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-fist",
+      "keywords": "mao punho fechado forca poder"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-holding",
+      "keywords": "mao segurando segurando empunhando agarrando"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-holding-dollar",
+      "keywords": "mao segurando dolar dinheiro economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-holding-droplet",
+      "keywords": "mao segurando gota liquido pingo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-holding-hand",
+      "keywords": "mao segurando mao amizade parceria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-holding-heart",
+      "keywords": "mao segurando coracao amor carinho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-holding-medical",
+      "keywords": "mao segurando medico saude cuidado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-lizard",
+      "keywords": "mao lagarto pedra papel tesoura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-middle-finger",
+      "keywords": "mao dedo medio ofensivo rude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-peace",
+      "keywords": "mao paz simbolo harmonia tranquilidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-point-down",
+      "keywords": "mao apontar baixo direcao indicar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-point-left",
+      "keywords": "mao apontar esquerda direcao indicar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-point-right",
+      "keywords": "mao apontar direita direcao indicar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-point-up",
+      "keywords": "mao apontar cima direcao indicar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-pointer",
+      "keywords": "mao ponteiro cursor selecao clique"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-scissors",
+      "keywords": "mao tesoura cortar recortar dividir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-sparkles",
+      "keywords": "mao brilho magica encanto fantasia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hand-spock",
+      "keywords": "mao spock pedra papel tesoura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "handcuffs",
+      "keywords": "algema prisao policia crime seguranca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands",
+      "keywords": "maos duas par conjunto dupla"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-asl-interpreting",
+      "keywords": "maos linguagem sinais surdo comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-bound",
+      "keywords": "maos amarrado preso acorrentado limitado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-bubbles",
+      "keywords": "maos bolha sabao espuma brinquedo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-clapping",
+      "keywords": "maos bater aplaudir comemorar incentivar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-holding",
+      "keywords": "maos segurando mao amizade parceria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-holding-child",
+      "keywords": "maos segurando crianca familia amor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-holding-circle",
+      "keywords": "maos segurando circulo uniao grupo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hands-praying",
+      "keywords": "maos rezar orar religioso espiritual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "handshake",
+      "keywords": "aperto de mao cumprimento saudacao amizade cordialidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "handshake-angle",
+      "keywords": "aperto de mao angulo inclinado diagonal inclinacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "handshake-simple",
+      "keywords": "aperto de mao simples basico padrao comum"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "handshake-simple-slash",
+      "keywords": "aperto de mao simples barra negativo recusa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "handshake-slash",
+      "keywords": "aperto de mao barra negativo recusa rejeicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hanukiah",
+      "keywords": "hanukiah candelabro judaismo religiao cultura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hard-drive",
+      "keywords": "disco rigido armazenamento dados computador tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hashtag",
+      "keywords": "hashtag palavra-chave etiqueta topico assunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hat-cowboy",
+      "keywords": "chapeu cowboy oeste faroeste rural"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hat-cowboy-side",
+      "keywords": "chapeu cowboy lado perfil lateral"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hat-wizard",
+      "keywords": "chapeu magico bruxo feiticeiro fantasia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "head-side-cough",
+      "keywords": "cabeca lado tosse doenca saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "head-side-cough-slash",
+      "keywords": "cabeca lado tosse barra negativo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "head-side-mask",
+      "keywords": "cabeca lado mascara protecao saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "head-side-virus",
+      "keywords": "cabeca lado virus doenca saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heading",
+      "keywords": "cabecalho titulo topico assunto tema"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "headphones",
+      "keywords": "fone de ouvido musica audio som ouvir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "headphones-simple",
+      "keywords": "fone de ouvido simples basico padrao comum"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "headset",
+      "keywords": "fone de ouvido headset telefone comunicacao contato"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart",
+      "keywords": "coracao amor carinho afeto sentimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-circle-bolt",
+      "keywords": "coracao circulo raio energia poder"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-circle-check",
+      "keywords": "coracao circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-circle-exclamation",
+      "keywords": "coracao circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-circle-minus",
+      "keywords": "coracao circulo menos remover excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-circle-plus",
+      "keywords": "coracao circulo mais adicionar incluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-circle-xmark",
+      "keywords": "coracao circulo x fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-crack",
+      "keywords": "coracao rachado partido tristeza dor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "heart-pulse",
+      "keywords": "coracao pulso batimento vida saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "helicopter",
+      "keywords": "helicoptero aeronave veiculo transporte aereo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "helicopter-symbol",
+      "keywords": "helicoptero simbolo icone representacao grafico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "helmet-safety",
+      "keywords": "capacete seguranca protecao construcao trabalho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "helmet-un",
+      "keywords": "capacete onu organizacao nacoes unidas internacional"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "highlighter",
+      "keywords": "marca-texto destacar realcar enfatizar sublinhar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hill-avalanche",
+      "keywords": "morro avalanche neve perigo desastre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hill-rockslide",
+      "keywords": "morro deslizamento terra perigo desastre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hippo",
+      "keywords": "hipopotamo animal mamifero grande agua"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hockey-puck",
+      "keywords": "disco hoquei esporte gelo patinacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "holly-berry",
+      "keywords": "baga natal natalino vermelho verde"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "horse",
+      "keywords": "cavalo animal mamifero equino montaria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "horse-head",
+      "keywords": "cavalo cabeca animal parte corpo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hospital",
+      "keywords": "hospital saude medico enfermeiro paciente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hospital-user",
+      "keywords": "hospital usuario paciente cliente pessoa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hot-tub-person",
+      "keywords": "banheira quente relaxamento spa bem-estar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hotdog",
+      "keywords": "cachorro-quente comida fast-food lanche alimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hotel",
+      "keywords": "hotel hospedagem turismo viagem estadia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hourglass",
+      "keywords": "ampulheta tempo hora cronometro contagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hourglass-end",
+      "keywords": "ampulheta fim termino conclusao encerramento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hourglass-half",
+      "keywords": "ampulheta metade meio parcial incompleto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hourglass-start",
+      "keywords": "ampulheta inicio comeco partida arranque"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house",
+      "keywords": "casa moradia lar residencia domicilio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-chimney",
+      "keywords": "casa chamine fumaca aquecimento inverno"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-chimney-crack",
+      "keywords": "casa chamine rachadura problema dano"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-chimney-medical",
+      "keywords": "casa chamine medico saude hospital"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-chimney-user",
+      "keywords": "casa chamine usuario pessoa habitante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-chimney-window",
+      "keywords": "casa chamine janela vidro vista"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-circle-check",
+      "keywords": "casa circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-circle-exclamation",
+      "keywords": "casa circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-circle-xmark",
+      "keywords": "casa circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-crack",
+      "keywords": "casa rachadura problema dano defeito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-fire",
+      "keywords": "casa fogo incendio perigo desastre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-flag",
+      "keywords": "casa bandeira pais nacionalidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-flood-water",
+      "keywords": "casa inundacao agua enchente desastre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-flood-water-circle-arrow-right",
+      "keywords": "casa inundacao agua seta direcao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-laptop",
+      "keywords": "casa laptop computador tecnologia trabalho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-lock",
+      "keywords": "casa cadeado tranca seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-medical",
+      "keywords": "casa medico saude hospital enfermeiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-medical-circle-check",
+      "keywords": "casa medico circulo marca verificado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-medical-circle-exclamation",
+      "keywords": "casa medico circulo exclamacao alerta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-medical-circle-xmark",
+      "keywords": "casa medico circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-medical-flag",
+      "keywords": "casa medico bandeira pais nacionalidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-signal",
+      "keywords": "casa sinal comunicacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-tsunami",
+      "keywords": "casa tsunami onda mar desastre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "house-user",
+      "keywords": "casa usuario pessoa habitante morador"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hryvnia-sign",
+      "keywords": "hryvnia moeda dinheiro ucrania economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "hurricane",
+      "keywords": "furacao tempestade vento chuva destruicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "i",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "i-cursor",
+      "keywords": "cursor ponteiro selecao clique computador"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ice-cream",
+      "keywords": "sorvete doce gelado sobremesa verao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "icicles",
+      "keywords": "pingiculo gelo inverno frio natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "icons",
+      "keywords": "icones simbolos graficos imagens sinais"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "id-badge",
+      "keywords": "cracha identificacao pessoa nome trabalho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "id-card",
+      "keywords": "cartao de identidade documento identificacao pessoal oficial"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "id-card-clip",
+      "keywords": "clipe cartao identificacao seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "igloo",
+      "keywords": "iglu neve gelo frio artico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "image",
+      "keywords": "imagem foto figura visual grafico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "image-portrait",
+      "keywords": "imagem retrato pessoa rosto fotografia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "images",
+      "keywords": "imagens varias multiplas diversas conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "inbox",
+      "keywords": "caixa de entrada email mensagem correio eletronico comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "indent",
+      "keywords": "indentacao recuo espaco formatacao texto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "indian-rupee-sign",
+      "keywords": "rupia indiana moeda dinheiro india economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "industry",
+      "keywords": "industria fabrica producao manufatura comercio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "infinity",
+      "keywords": "infinito eterno ilimitado sem fim ilimitado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "info",
+      "keywords": "informacao dado noticia conhecimento conteudo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "italic",
+      "keywords": "italico inclinado inclinacao texto formatacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "j",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "jar",
+      "keywords": "jarra recipiente vidro liquido bebida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "jar-wheat",
+      "keywords": "jarra trigo cereal alimento grao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "jedi",
+      "keywords": "jedi cavaleiro forca star wars ficcao cientifica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "jet-fighter",
+      "keywords": "caca jato aviao militar guerra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "jet-fighter-up",
+      "keywords": "caca jato cima voar ascender"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "joint",
+      "keywords": "articulacao junta conexao uniao ligacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "jug-detergent",
+      "keywords": "jarra detergente limpeza produto quimico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "k",
+      "keywords": "letra alfabeto escrita linguagem comunicaca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "kaaba",
+      "keywords": "caaba meca isla religiao sagrado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "key",
+      "keywords": "chave porta abrir fechar seguranca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "keyboard",
+      "keywords": "teclado computador digitacao escrita input"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "khanda",
+      "keywords": "khanda simbolo religiao sikismo espiritualidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "kip-sign",
+      "keywords": "kip moeda dinheiro cambodja economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "kit-medical",
+      "keywords": "kit medico primeiros socorros saude emergencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "kitchen-set",
+      "keywords": "conjunto cozinha utensilio eletrodomestico culinaria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "kiwi-bird",
+      "keywords": "kiwi ave passaro nova zelandia natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "l",
+      "keywords": "letra alfabeto escrita linguagem comunicaca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "land-mine-on",
+      "keywords": "mina terrestre explosivo guerra perigo destruicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "landmark",
+      "keywords": "marco referencia ponto lugar posicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "landmark-dome",
+      "keywords": "marco cupula domo arquitetura construcao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "landmark-flag",
+      "keywords": "marco bandeira pais nacionalidade simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "language",
+      "keywords": "lingua idioma comunicacao cultura pais"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "laptop",
+      "keywords": "laptop computador notebook portatil movel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "laptop-code",
+      "keywords": "laptop codigo programacao desenvolvimento software"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "laptop-file",
+      "keywords": "laptop arquivo documento trabalho estudo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "laptop-medical",
+      "keywords": "laptop medico saude hospital telemedicina"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lari-sign",
+      "keywords": "lari moeda dinheiro georgia economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "layer-group",
+      "keywords": "camada grupo conjunto colecao categoria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "leaf",
+      "keywords": "folha arvore natureza verde vegetal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "left-long",
+      "keywords": "esquerda lado direcao posicao orientacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "left-right",
+      "keywords": "esquerda direita oposto contrario diferente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lemon",
+      "keywords": "limao fruta citrico acido vitamina c"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "less-than",
+      "keywords": "menor inferior abaixo inferior menor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "less-than-equal",
+      "keywords": "menor igual equivalente identico semelhante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "life-ring",
+      "keywords": "circulo de vida salvacao seguranca resgate protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lightbulb",
+      "keywords": "lampada ideia inspiracao criatividade inovacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lines-leaning",
+      "keywords": "linhas inclinadas diagonal inclinacao angulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "link",
+      "keywords": "link ligacao conexao referencia url"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "link-slash",
+      "keywords": "link barra corte divisao separacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lira-sign",
+      "keywords": "lira moeda dinheiro italia europa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "list",
+      "keywords": "lista itens elementos conjunto serie"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "list-check",
+      "keywords": "lista marca verificado confirmado selecionado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "list-ol",
+      "keywords": "lista ordem numerado sequencial organizado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "list-ul",
+      "keywords": "lista nao ordenado aleatorio desordenado caotico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "litecoin-sign",
+      "keywords": "litecoin moeda criptomoeda digital virtual"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "location-arrow",
+      "keywords": "seta localizacao direcao posicao orientacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "location-crosshairs",
+      "keywords": "cruzamento localizacao ponto posicao lugar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "location-dot",
+      "keywords": "ponto localizacao posicao lugar mapa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "location-pin",
+      "keywords": "pino localizacao marcacao sinalizacao indicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "location-pin-lock",
+      "keywords": "pino localizacao cadeado seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lock",
+      "keywords": "cadeado tranca seguranca protecao fechadura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lock-open",
+      "keywords": "cadeado aberto desbloqueado livre acessivel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "locust",
+      "keywords": "gafanhoto inseto praga agricultura campo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lungs",
+      "keywords": "pulmao orgao respiracao corpo saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "lungs-virus",
+      "keywords": "pulmao virus doenca infeccao covid-19"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "m",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnet",
+      "keywords": "ima magnetismo atracao repulsao forca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnifying-glass",
+      "keywords": "lupa ampliar visualizar examinar inspecionar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnifying-glass-arrow-right",
+      "keywords": "lupa seta direita direcao apontar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnifying-glass-chart",
+      "keywords": "lupa grafico dados estatistica analise"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnifying-glass-dollar",
+      "keywords": "lupa dolar dinheiro economia financas"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnifying-glass-location",
+      "keywords": "lupa localizacao lugar posicao mapa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnifying-glass-minus",
+      "keywords": "lupa menos diminuir reduzir encolher"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "magnifying-glass-plus",
+      "keywords": "lupa mais aumentar ampliar expandir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "manat-sign",
+      "keywords": "manat moeda dinheiro turkmenistan economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "map",
+      "keywords": "mapa territorio regiao geografia localizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "map-location",
+      "keywords": "mapa localizacao ponto lugar posicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "map-location-dot",
+      "keywords": "mapa localizacao ponto lugar posicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "map-pin",
+      "keywords": "mapa pino marcacao sinalizacao indicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "marker",
+      "keywords": "marcador caneta escrever desenhar anotar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mars",
+      "keywords": "marte planeta vermelho astro sistema solar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mars-and-venus",
+      "keywords": "marte venus planeta astro sistema solar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mars-and-venus-burst",
+      "keywords": "marte venus explosao choque impacto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mars-double",
+      "keywords": "marte duplo dois par conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mars-stroke",
+      "keywords": "marte traco linha simbolo icone"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mars-stroke-right",
+      "keywords": "marte traco direita direcao lado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mars-stroke-up",
+      "keywords": "marte traco cima direcao vertical"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "martini-glass",
+      "keywords": "martini bebida alcool coquetel festa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "martini-glass-citrus",
+      "keywords": "martini limao citrico fruta sabor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "martini-glass-empty",
+      "keywords": "martini vazio vazio sem conteudo vazio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mask",
+      "keywords": "mascara protecao rosto saude virus"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mask-face",
+      "keywords": "mascara rosto cobertura protecao saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mask-ventilator",
+      "keywords": "mascara ventilador respiracao medico hospital"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "masks-theater",
+      "keywords": "mascaras teatro palco atuacao performance"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mattress-pillow",
+      "keywords": "colchao travesseiro cama dormir descanso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "maximize",
+      "keywords": "maximizar ampliar aumentar expandir maximizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "medal",
+      "keywords": "medalha premio recompensa vitoria conquista"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "memory",
+      "keywords": "memoria lembranca recordacao passado experiencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "menorah",
+      "keywords": "menorah candelabro judaismo religiao cultura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mercury",
+      "keywords": "mercurio planeta metal liquido elemento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "message",
+      "keywords": "mensagem comunicacao texto informacao contato"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "meteor",
+      "keywords": "meteoro estrela cadente ceu astro fenomeno"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "microchip",
+      "keywords": "microchip circuito eletronico tecnologia computador"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "microphone",
+      "keywords": "microfone som audio gravacao fala"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "microphone-lines",
+      "keywords": "microfone linhas sinal som audio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "microphone-lines-slash",
+      "keywords": "microfone linhas barra silencio mudo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "microphone-slash",
+      "keywords": "microfone barra silencio mudo desligado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "microscope",
+      "keywords": "microscopio ciencia biologia celula observacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mill-sign",
+      "keywords": "moinho simbolo industria trabalho producao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "minimize",
+      "keywords": "minimizar reduzir encolher diminuir minimizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "minus",
+      "keywords": "menos subtracao retirar diminuir reduzir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mitten",
+      "keywords": "luva mao inverno frio protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mobile",
+      "keywords": "celular telefone movel comunicacao tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mobile-retro",
+      "keywords": "celular retro antigo vintage classico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mobile-screen",
+      "keywords": "celular tela visor display exibicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mobile-screen-span",
+      "keywords": "celular tela expandir ampliar aumentar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mobile-span",
+      "keywords": "celular expandir ampliar aumentar maximizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bill",
+      "keywords": "conta de dinheiro financas economia pagamento fatura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bill-1",
+      "keywords": "conta de dinheiro um unico individual solitario"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bill-1-wave",
+      "keywords": "conta de dinheiro onda movimento fluxo dinamica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bill-transfer",
+      "keywords": "conta de dinheiro transferencia envio recebimento transacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bill-trend-up",
+      "keywords": "conta de dinheiro tendencia crescimento aumento positivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bill-wave",
+      "keywords": "conta de dinheiro onda movimento fluxo dinamica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bill-wheat",
+      "keywords": "conta de dinheiro trigo agricultura alimento grao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-bills",
+      "keywords": "contas de dinheiro varias multiplas diversas conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-check",
+      "keywords": "cheque dinheiro pagamento banco financeiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "money-check-dollar",
+      "keywords": "cheque dinheiro dolar moeda economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "monument",
+      "keywords": "monumento construcao historico cultural turistico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "moon",
+      "keywords": "lua satelite noite ceu astro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mortar-pestle",
+      "keywords": "pilao almofariz moer triturar macerar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mosque",
+      "keywords": "mesquita isla religiao oracao sagrado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mosquito",
+      "keywords": "mosquito inseto praga doenca picada"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mosquito-net",
+      "keywords": "mosquiteiro protecao inseto mosquito cama"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "motorcycle",
+      "keywords": "motocicleta veiculo transporte moto motoqueiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mound",
+      "keywords": "monte colina elevacao terreno natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mountain",
+      "keywords": "montanha natureza alto pico altitude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mountain-city",
+      "keywords": "montanha cidade urbano construcao habitacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mountain-sun",
+      "keywords": "montanha sol natureza paisagem cenario"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mug-hot",
+      "keywords": "caneca quente bebida cafe cha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "mug-saucer",
+      "keywords": "caneca pires conjunto porcelana ceramica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "music",
+      "keywords": "musica som melodia ritmo harmonia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "n",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "naira-sign",
+      "keywords": "naira moeda dinheiro nigeria economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "network-wired",
+      "keywords": "rede cabo internet conexao tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "neuter",
+      "keywords": "neutro neutro indiferente imparcial imparcialidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "newspaper",
+      "keywords": "jornal noticia informacao leitura midia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "not-equal",
+      "keywords": "diferente desigual distinto diverso variado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "notdef",
+      "keywords": "nao definido vazio nulo indefinido desconhecido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "note-sticky",
+      "keywords": "nota adesivo papel lembrete mensagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "notes-medical",
+      "keywords": "notas medico saude consulta prescricao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "o",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "object-group",
+      "keywords": "objeto grupo conjunto colecao categoria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "object-ungroup",
+      "keywords": "objeto desagrupar separar dividir desmontar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "oil-can",
+      "keywords": "oleo lata liquido lubrificante manutencao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "oil-well",
+      "keywords": "oleo poco petroleo energia combustivel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "om",
+      "keywords": "om mantra meditacao espiritualidade budismo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "otter",
+      "keywords": "lontra animal mamifero agua natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "outdent",
+      "keywords": "reentrar recuar diminuir reduzir afastar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "p",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pager",
+      "keywords": "pager bip mensagem comunicacao sinal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "paint-roller",
+      "keywords": "rolo de tinta pintura parede decoracao construcao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "paintbrush",
+      "keywords": "pincel pintura arte desenho criacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "palette",
+      "keywords": "paleta cor tinta pigmento mistura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pallet",
+      "keywords": "palete carga transporte logistica industria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "panorama",
+      "keywords": "panorama paisagem vista cenario perspectiva"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "paper-plane",
+      "keywords": "aviao de papel brinquedo dobrar papel aviao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "paperclip",
+      "keywords": "clipe papel escritorio ferramenta organizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "parachute-box",
+      "keywords": "caixa paraquedas salto aventura esporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "paragraph",
+      "keywords": "paragrafo texto escrito leitura comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "passport",
+      "keywords": "passaporte viagem documento identidade fronteira"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "paste",
+      "keywords": "colar copiar editar texto imagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pause",
+      "keywords": "pausa parar interromper suspender descansar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "paw",
+      "keywords": "pata animal pe andar correr"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "peace",
+      "keywords": "paz tranquilidade harmonia equilibrio serenidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pen",
+      "keywords": "caneta escrita instrumento papel tinta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pen-clip",
+      "keywords": "clipe caneta escritorio ferramenta organizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pen-fancy",
+      "keywords": "caneta fantasia enfeite decoracao escrita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pen-nib",
+      "keywords": "caneta pena escrita instrumento caligrafia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pen-ruler",
+      "keywords": "caneta regua medida geometria desenho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pen-to-square",
+      "keywords": "caneta quadrado forma geometria desenho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pencil",
+      "keywords": "lapis escrita desenho escola papel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "people-arrows",
+      "keywords": "pessoas setas direcao movimento acao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "people-carry-box",
+      "keywords": "pessoas carregar caixa trabalho esforco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "people-group",
+      "keywords": "pessoas grupo conjunto equipe comunidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "people-line",
+      "keywords": "pessoas linha fila sequencia ordem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "people-pulling",
+      "keywords": "pessoas puxar arrastar esforco forca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "people-robbery",
+      "keywords": "pessoas roubo crime violencia ladrao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "people-roof",
+      "keywords": "pessoas teto casa abrigo protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pepper-hot",
+      "keywords": "pimenta picante ardido tempero comida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "percent",
+      "keywords": "porcentagem taxa razao calculo matematica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person",
+      "keywords": "pessoa humano individuo gente ser humano"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-arrow-down-to-line",
+      "keywords": "pessoa seta baixo direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-arrow-up-from-line",
+      "keywords": "pessoa seta cima direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-biking",
+      "keywords": "pessoa bicicleta transporte exercicio esporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-booth",
+      "keywords": "pessoa cabine privacidade individual isolado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-breastfeeding",
+      "keywords": "pessoa amamentacao bebe mae cuidado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-burst",
+      "keywords": "pessoa explosao surpresa choque impacto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-cane",
+      "keywords": "pessoa bengala deficiencia mobilidade dificuldade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-chalkboard",
+      "keywords": "pessoa quadro-negro educacao escola ensino"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-circle-check",
+      "keywords": "pessoa circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-circle-exclamation",
+      "keywords": "pessoa circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-circle-minus",
+      "keywords": "pessoa circulo menos remover excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-circle-plus",
+      "keywords": "pessoa circulo mais adicionar incluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-circle-question",
+      "keywords": "pessoa circulo pergunta duvida questao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-circle-xmark",
+      "keywords": "pessoa circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-digging",
+      "keywords": "pessoa cavando trabalho agricultura jardinagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-dots-from-line",
+      "keywords": "pessoa pontos sequencia ordem progresso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-dress",
+      "keywords": "pessoa vestido roupa moda estilo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-dress-burst",
+      "keywords": "pessoa vestido explosao surpresa choque"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-drowning",
+      "keywords": "pessoa afogando agua perigo acidente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-falling",
+      "keywords": "pessoa caindo queda acidente perigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-falling-burst",
+      "keywords": "pessoa caindo explosao surpresa choque"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-half-dress",
+      "keywords": "pessoa meio vestido parcial incompleto inacabado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-harassing",
+      "keywords": "pessoa assediando abuso violencia crime"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-hiking",
+      "keywords": "pessoa caminhada exercicio saude natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-military-pointing",
+      "keywords": "pessoa militar apontando ordem comando"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-military-rifle",
+      "keywords": "pessoa militar rifle arma guerra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-military-to-person",
+      "keywords": "pessoa militar comunicacao sinal codigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-praying",
+      "keywords": "pessoa orando rezar religiao espiritualidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-pregnant",
+      "keywords": "pessoa gravida gestante gravidez maternidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-rays",
+      "keywords": "pessoa raios sol energia luz"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-rifle",
+      "keywords": "pessoa rifle arma guerra violencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-running",
+      "keywords": "pessoa correndo exercicio esporte velocidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-shelter",
+      "keywords": "pessoa abrigo protecao seguranca refugio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-skating",
+      "keywords": "pessoa patinacao gelo esporte inverno"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-skiing",
+      "keywords": "pessoa esqui neve inverno esporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-skiing-nordic",
+      "keywords": "pessoa esqui nordico esporte inverno"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-snowboarding",
+      "keywords": "pessoa snowboard neve inverno esporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-swimming",
+      "keywords": "pessoa natacao agua esporte exercicio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-through-window",
+      "keywords": "pessoa janela olhar ver observar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-walking",
+      "keywords": "pessoa andando caminhar movimento andar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-walking-arrow-loop-left",
+      "keywords": "pessoa andando seta loop repeticao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-walking-arrow-right",
+      "keywords": "pessoa andando seta direita direcao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-walking-dashed-line-arrow-right",
+      "keywords": "pessoa andando linha direcao caminho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-walking-luggage",
+      "keywords": "pessoa andando mala viagem turismo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "person-walking-with-cane",
+      "keywords": "pessoa andando bengala deficiencia mobilidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "peseta-sign",
+      "keywords": "peseta moeda dinheiro espanha economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "peso-sign",
+      "keywords": "peso moeda dinheiro argentina economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "phone",
+      "keywords": "telefone contato celular"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "phone-flip",
+      "keywords": "telefone flip virar dobrar celular"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "phone-slash",
+      "keywords": "telefone barra  contato celular cortar cancelar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "phone-volume",
+      "keywords": "telefone volume som alto baixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "photo-film",
+      "keywords": "foto filme imagem fotografia antigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "piggy-bank",
+      "keywords": "cofrinho porco dinheiro poupanca economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pills",
+      "keywords": "pilula remedio medicamento saude farmacia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pizza-slice",
+      "keywords": "fatia pizza comida alimento jantar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "place-of-worship",
+      "keywords": "lugar de culto igreja templo sagrado religioso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane",
+      "keywords": "aviao aeronave transporte viagem aereo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-arrival",
+      "keywords": "aviao chegada pouso desembarque destino"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-circle-check",
+      "keywords": "aviao circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-circle-exclamation",
+      "keywords": "aviao circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-circle-xmark",
+      "keywords": "aviao circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-departure",
+      "keywords": "aviao partida decolagem embarque origem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-lock",
+      "keywords": "aviao cadeado tranca seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-slash",
+      "keywords": "aviao barra cortar cancelar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plane-up",
+      "keywords": "aviao cima voar ascender subir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plant-wilt",
+      "keywords": "planta murchar secar morrer triste"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plate-wheat",
+      "keywords": "prato trigo cereal alimento grao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "play",
+      "keywords": "tocar reproduzir midia musica video"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plug",
+      "keywords": "plug tomada eletricidade energia conexao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plug-circle-bolt",
+      "keywords": "plug circulo raio energia poder"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plug-circle-check",
+      "keywords": "plug circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plug-circle-exclamation",
+      "keywords": "plug circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plug-circle-minus",
+      "keywords": "plug circulo menos remover excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plug-circle-plus",
+      "keywords": "plug circulo mais adicionar incluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plug-circle-xmark",
+      "keywords": "plug circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plus",
+      "keywords": "mais adicao soma aumentar somar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "plus-minus",
+      "keywords": "mais menos matematica operacao calculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "podcast",
+      "keywords": "podcast audio programa radio internet"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "poo",
+      "keywords": "coco fezes excremento coco banheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "poo-storm",
+      "keywords": "tempestade fezes excremento coco banheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "poop",
+      "keywords": "fezes excremento coco banheiro higiene"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "power-off",
+      "keywords": "desligar apagar interromper parar finalizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "prescription",
+      "keywords": "receita prescricao medico remedio farmacia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "prescription-bottle",
+      "keywords": "frasco remedio medicamento saude farmacia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "prescription-bottle-medical",
+      "keywords": "frasco remedio medico saude hospital"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "print",
+      "keywords": "imprimir papel documento copia texto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pump-medical",
+      "keywords": "bomba medico saude hospital emergencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "pump-soap",
+      "keywords": "bomba sabao higiene limpeza banho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "puzzle-piece",
+      "keywords": "peca quebra-cabeca jogo desafio diversao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "q",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "qrcode",
+      "keywords": "qr code codigo qr leitura digital codigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "question",
+      "keywords": "pergunta interrogacao duvida questionario inquerito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "quote-left",
+      "keywords": "aspas citacao discurso fala texto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "quote-right",
+      "keywords": "aspas citacao discurso fala texto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "r",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "radiation",
+      "keywords": "radiacao nuclear energia perigo risco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "radio",
+      "keywords": "radio som audio musica comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rainbow",
+      "keywords": "arco-iris cores ceu natureza bonito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ranking-star",
+      "keywords": "classificacao estrela avaliacao nota opiniao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "receipt",
+      "keywords": "recibo compra pagamento fatura financeiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "record-vinyl",
+      "keywords": "disco vinil musica antigo retro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rectangle-ad",
+      "keywords": "retangulo anuncio propaganda marketing publicidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rectangle-list",
+      "keywords": "retangulo lista itens conjunto serie"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rectangle-xmark",
+      "keywords": "retangulo x cancelar fechar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "recycle",
+      "keywords": "reciclar ambiental ecologico sustentavel natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "registered",
+      "keywords": "registrado marca propriedade legal oficial"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "repeat",
+      "keywords": "repetir repetir duplicar repetir duplicar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "reply",
+      "keywords": "responder responder replicar retrucar replicar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "reply-all",
+      "keywords": "responder todos grupo coletivo conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "republican",
+      "keywords": "republicano partido politico eua estados unidos"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "restroom",
+      "keywords": "banheiro sanitario higiene limpeza lavabo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "retweet",
+      "keywords": "retweetar compartilhar retuitar rede social twitter"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ribbon",
+      "keywords": "fita presente decoracao aniversario festa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "right-from-bracket",
+      "keywords": "colchete parenteses simbolo pontuacao gramatica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "right-left",
+      "keywords": "direita esquerda oposto contrario diferente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "right-long",
+      "keywords": "direita longo extenso prolongado alongado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "right-to-bracket",
+      "keywords": "colchete parenteses simbolo pontuacao gramatica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ring",
+      "keywords": "anel joia acessorio moda decoracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road",
+      "keywords": "estrada via caminho transporte veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road-barrier",
+      "keywords": "barreira bloqueio obstaculo impedimento restricao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road-bridge",
+      "keywords": "ponte estrada construcao engenharia arquitetura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road-circle-check",
+      "keywords": "estrada circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road-circle-exclamation",
+      "keywords": "estrada circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road-circle-xmark",
+      "keywords": "estrada circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road-lock",
+      "keywords": "estrada cadeado tranca seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "road-spikes",
+      "keywords": "estrada espinho perigo acidente risco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "robot",
+      "keywords": "robo maquina tecnologia artificial inteligente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rocket",
+      "keywords": "foguete espaco veiculo astronauta exploracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rotate",
+      "keywords": "girar rotacionar mover virar rodar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rotate-left",
+      "keywords": "girar esquerda sentido horario contrario inverso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rotate-right",
+      "keywords": "girar direita sentido anti-horario normal padrao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "route",
+      "keywords": "rota caminho percurso direcao trajeto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rss",
+      "keywords": "rss feed noticia conteudo informacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ruble-sign",
+      "keywords": "rublo moeda dinheiro russia economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rug",
+      "keywords": "tapete chao casa decoracao conforto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ruler",
+      "keywords": "regua medida comprimento ferramenta desenho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ruler-combined",
+      "keywords": "regua combinado junto unido conectado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ruler-horizontal",
+      "keywords": "regua horizontal linha reta paralelo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ruler-vertical",
+      "keywords": "regua vertical linha reta perpendicular"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rupee-sign",
+      "keywords": "rupia moeda dinheiro india economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "rupiah-sign",
+      "keywords": "rupia moeda dinheiro indonesia economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "s",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sack-dollar",
+      "keywords": "saco dolar dinheiro economia financas"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sack-xmark",
+      "keywords": "saco x cancelar fechar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sailboat",
+      "keywords": "veleiro barco mar vento agua"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "satellite",
+      "keywords": "satelite espaco comunicacao sinal orbita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "satellite-dish",
+      "keywords": "antena satelite televisao sinal comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "scale-balanced",
+      "keywords": "balanca equilibrio igualdade justica medida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "scale-unbalanced",
+      "keywords": "balanca desequilibrado desigual inclinado torto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "scale-unbalanced-flip",
+      "keywords": "balanca desequilibrado invertido virado invertido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "school",
+      "keywords": "escola educacao ensino aluno professor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "school-circle-check",
+      "keywords": "escola circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "school-circle-exclamation",
+      "keywords": "escola circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "school-circle-xmark",
+      "keywords": "escola circulo x cancelar fechar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "school-flag",
+      "keywords": "escola bandeira pais nacionalidade simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "school-lock",
+      "keywords": "escola cadeado tranca seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "scissors",
+      "keywords": "tesoura cortar recortar papel ferramenta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "screwdriver",
+      "keywords": "chave de fenda ferramenta conserto parafuso montagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "screwdriver-wrench",
+      "keywords": "chave de fenda chave inglesa ferramenta conserto manutencao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "scroll",
+      "keywords": "pergaminho papel documento historico antigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "scroll-torah",
+      "keywords": "pergaminho tora judaismo religiao sagrado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sd-card",
+      "keywords": "cartao sd memoria armazenamento digital tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "section",
+      "keywords": "secao parte divisao segmento pedaco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "seedling",
+      "keywords": "muda planta crescimento natureza vida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "server",
+      "keywords": "servidor computador internet rede tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shapes",
+      "keywords": "forma geometria desenho figura padrao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "share",
+      "keywords": "compartilhar compartilhar dividir distribuir repartir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "share-from-square",
+      "keywords": "compartilhar quadrado botao interface acao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "share-nodes",
+      "keywords": "compartilhar no conexao rede link"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sheet-plastic",
+      "keywords": "folha plastico material flexivel transparente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shekel-sign",
+      "keywords": "shekel moeda dinheiro israel economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shield",
+      "keywords": "escudo protecao seguranca defesa simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shield-cat",
+      "keywords": "escudo gato animal domestico felino"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shield-dog",
+      "keywords": "escudo cachorro animal domestico canino"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shield-halved",
+      "keywords": "escudo metade meio parcial incompleto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shield-heart",
+      "keywords": "escudo coracao amor carinho afeto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shield-virus",
+      "keywords": "escudo virus doenca saude protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ship",
+      "keywords": "navio barco mar transporte agua"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shirt",
+      "keywords": "camisa roupa vestuario moda tecido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shoe-prints",
+      "keywords": "pegada pe sapato marca sinal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shop",
+      "keywords": "loja comercio venda produto mercado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shop-lock",
+      "keywords": "loja cadeado tranca seguranca fechado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shop-slash",
+      "keywords": "loja barra cortar fechar cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shower",
+      "keywords": "chuveiro banho agua higiene limpeza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shrimp",
+      "keywords": "camarao crustaceo mar comida alimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shuffle",
+      "keywords": "embaralhar misturar desordenar reorganizar confundir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "shuttle-space",
+      "keywords": "transporte espaco nave foguete viagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sign-hanging",
+      "keywords": "placa sinalizacao informacao indicacao aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "signal",
+      "keywords": "sinal comunicacao mensagem informacao alerta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "signature",
+      "keywords": "assinatura documento legal contrato identificacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "signs-post",
+      "keywords": "sinais post placa informacao indicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sim-card",
+      "keywords": "cartao sim celular telefone movel tecnologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sink",
+      "keywords": "pia cozinha banheiro agua higiene"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sitemap",
+      "keywords": "mapa do site internet website navegacao organizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "skull",
+      "keywords": "caveira morte perigo simbolo assustador"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "skull-crossbones",
+      "keywords": "caveira ossos morte esqueleto mortalidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "slash",
+      "keywords": "barra divisao separacao corte fracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sleigh",
+      "keywords": "treno neve inverno transporte deslizamento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sliders",
+      "keywords": "controle deslizante ajuste configuracao opcao escolha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "smog",
+      "keywords": "poluicao ar smog poluicao toxico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "smoking",
+      "keywords": "fumar cigarro tabaco vicio saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "snowflake",
+      "keywords": "floco de neve inverno frio agua cristal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "snowman",
+      "keywords": "boneco de neve inverno neve boneco figura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "snowplow",
+      "keywords": "remocao de neve inverno neve limpeza estrada"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "soap",
+      "keywords": "sabao higiene limpeza banho produto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "socks",
+      "keywords": "meia roupa pe calcado inverno"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "solar-panel",
+      "keywords": "painel solar energia sol sustentavel ecologico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sort",
+      "keywords": "classificar ordenar organizar categorizar agrupar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sort-down",
+      "keywords": "classificar baixo diminuir reduzir decrescer"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sort-up",
+      "keywords": "classificar cima aumentar elevar subir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spa",
+      "keywords": "spa saude bem-estar relaxamento beleza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spaghetti-monster-flying",
+      "keywords": "monstro espaguete voador humor absurdo engracado divertido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spell-check",
+      "keywords": "corretor ortografico ortografia gramatica escrita linguagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spider",
+      "keywords": "aranha inseto aracnideo oito patas teia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spinner",
+      "keywords": "girar carregar indicador progresso animacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "splotch",
+      "keywords": "mancha borrao sujeira marca defeito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spoon",
+      "keywords": "colher utensilio comida alimento cozinha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spray-can",
+      "keywords": "spray lata pintura aerosol tinta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "spray-can-sparkles",
+      "keywords": "spray lata brilho cintilante brilhante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square",
+      "keywords": "quadrado forma geometria angulo retangulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-arrow-up-right",
+      "keywords": "quadrado seta cima direita diagonal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-caret-down",
+      "keywords": "quadrado seta baixo direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-caret-left",
+      "keywords": "quadrado seta esquerda direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-caret-right",
+      "keywords": "quadrado seta direita direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-caret-up",
+      "keywords": "quadrado seta cima direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-check",
+      "keywords": "quadrado marca verificado confirmado acertado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-envelope",
+      "keywords": "quadrado envelope carta correio mensagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-full",
+      "keywords": "quadrado cheio completo total inteiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-h",
+      "keywords": "quadrado h letra alfabeto escrita"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-minus",
+      "keywords": "quadrado menos subtracao retirar diminuir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-nfi",
+      "keywords": "quadrado nfi nao encontrado indisponivel inexistente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-parking",
+      "keywords": "quadrado estacionamento carro veiculo transporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-pen",
+      "keywords": "quadrado caneta escrita desenho ferramenta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-person-confined",
+      "keywords": "quadrado pessoa confinada preso limitado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-phone",
+      "keywords": "quadrado telefone celular comunicacao dispositivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-phone-flip",
+      "keywords": "quadrado telefone flip virar dobrar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-plus",
+      "keywords": "quadrado mais adicao soma aumentar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-poll-horizontal",
+      "keywords": "quadrado enquete pesquisa opiniao voto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-poll-vertical",
+      "keywords": "quadrado enquete vertical coluna linha"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-root-variable",
+      "keywords": "quadrado raiz matematica calculo numero"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-rss",
+      "keywords": "quadrado rss feed noticia conteudo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-share-nodes",
+      "keywords": "quadrado compartilhar no conexao rede"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-up-right",
+      "keywords": "quadrado cima direita diagonal movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-virus",
+      "keywords": "quadrado virus doenca saude infeccao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "square-xmark",
+      "keywords": "quadrado x cancelar fechar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "staff-snake",
+      "keywords": "cobra bastao simbolo medicina saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stairs",
+      "keywords": "escada degrau subir descer passo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stamp",
+      "keywords": "carimbo selo marca papel documento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stapler",
+      "keywords": "grampeador grampo escritorio ferramenta papel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "star",
+      "keywords": "estrela astro ceu brilho luz"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "star-and-crescent",
+      "keywords": "estrela crescente isla religiao simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "star-half",
+      "keywords": "estrela metade meio parcial incompleto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "star-half-stroke",
+      "keywords": "estrela metade traco linha divisao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "star-of-david",
+      "keywords": "estrela de davi judaismo religiao simbolo cultura"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "star-of-life",
+      "keywords": "estrela da vida emergencia saude socorro medico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sterling-sign",
+      "keywords": "libra esterlina moeda dinheiro reino unido economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stethoscope",
+      "keywords": "estetoscopio medico saude ausculta exame"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stop",
+      "keywords": "parar interromper pausar suspender finalizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stopwatch",
+      "keywords": "cronometro tempo medida contagem segundos"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stopwatch-20",
+      "keywords": "cronometro 20 numero contagem tempo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "store",
+      "keywords": "loja comercio venda produto mercado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "store-slash",
+      "keywords": "loja barra cortar fechar cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "street-view",
+      "keywords": "vista de rua mapa localizacao direcao visualizacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "strikethrough",
+      "keywords": "riscado tachado cancelado eliminado apagado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "stroopwafel",
+      "keywords": "waffle doce sobremesa holandes tradicional"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "subscript",
+      "keywords": "indice subscrito baixo abaixo inferior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "suitcase",
+      "keywords": "mala viagem bagagem transporte roupa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "suitcase-medical",
+      "keywords": "mala medico saude hospital equipamento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "suitcase-rolling",
+      "keywords": "mala rodinha transporte bagagem viagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sun",
+      "keywords": "sol astro estrela luz calor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "sun-plant-wilt",
+      "keywords": "sol planta murchar secar morrer"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "superscript",
+      "keywords": "expoente sobrescrito cima acima superior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "swatchbook",
+      "keywords": "caderno de amostras cor tinta design arte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "synagogue",
+      "keywords": "sinagoga judaismo religiao culto sagrado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "syringe",
+      "keywords": "seringa injecao medicamento vacina saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "t",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table",
+      "keywords": "mesa movel madeira trabalho jantar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-cells",
+      "keywords": "celula tabela planilha dado informacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-cells-column-lock",
+      "keywords": "celula coluna travar fixar bloquear"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-cells-large",
+      "keywords": "celula grande largo amplo extenso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-cells-row-lock",
+      "keywords": "celula linha travar fixar bloquear"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-cells-row-unlock",
+      "keywords": "celula linha desbloquear liberar soltar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-columns",
+      "keywords": "celula coluna tabela dado informacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-list",
+      "keywords": "celula lista item conjunto serie"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "table-tennis-paddle-ball",
+      "keywords": "raquete ping pong tenis de mesa esporte jogo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tablet",
+      "keywords": "tablet computador tela dispositivo movel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tablet-screen-span",
+      "keywords": "tablet tela expandir ampliar aumentar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tablet-span",
+      "keywords": "tablet expandir ampliar aumentar maximizar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tablets",
+      "keywords": "tablets comprimidos remedio medicamento saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tachograph-digital",
+      "keywords": "tacografo digital veiculo registro velocidade tempo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tag",
+      "keywords": "etiqueta rotulo marcacao identificacao nome"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tags",
+      "keywords": "etiquetas varias multiplas diversas conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tape",
+      "keywords": "fita adesivo papel colar fixar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tarp",
+      "keywords": "lona cobertura protecao chuva sol"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tarp-droplet",
+      "keywords": "lona gota agua chuva umidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "taxi",
+      "keywords": "taxi transporte carro veiculo passageiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "teeth",
+      "keywords": "dente boca mastigar comer saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "teeth-open",
+      "keywords": "dente aberto sorriso boca expressao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-arrow-down",
+      "keywords": "temperatura seta baixo diminuir reduzir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-arrow-up",
+      "keywords": "temperatura seta cima aumentar elevar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-empty",
+      "keywords": "temperatura vazio vazio sem conteudo nulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-full",
+      "keywords": "temperatura cheio completo total maximo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-half",
+      "keywords": "temperatura metade meio parcial incompleto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-high",
+      "keywords": "temperatura alta quente calor verao clima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-low",
+      "keywords": "temperatura baixa frio inverno gelado clima"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-quarter",
+      "keywords": "temperatura quarto fraco baixo pouco moderado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "temperature-three-quarters",
+      "keywords": "temperatura tres quartos forte alto muito intenso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tenge-sign",
+      "keywords": "tenge moeda dinheiro cazaquistao economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tent",
+      "keywords": "barraca acampamento natureza exterior abrigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tent-arrow-down-to-line",
+      "keywords": "barraca seta baixo direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tent-arrow-left-right",
+      "keywords": "barraca seta esquerda direita horizontal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tent-arrow-turn-left",
+      "keywords": "barraca seta curva giro volta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tent-arrows-down",
+      "keywords": "barraca setas baixo direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tents",
+      "keywords": "barracas varias multiplas diversas conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "terminal",
+      "keywords": "terminal computador console prompt comando"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "text-height",
+      "keywords": "texto altura tamanho medida ajuste"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "text-slash",
+      "keywords": "texto barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "text-width",
+      "keywords": "texto largura tamanho medida ajuste"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "thermometer",
+      "keywords": "termometro temperatura medida instrumento saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "thumbs-down",
+      "keywords": "polegar para baixo desaprovacao negativo ruim ruim"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "thumbs-up",
+      "keywords": "polegar para cima aprovacao positivo bom otimo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "thumbtack",
+      "keywords": "tachinha papel fixacao escritorio ferramenta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "thumbtack-slash",
+      "keywords": "tachinha barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ticket",
+      "keywords": "ingresso bilhete evento cinema teatro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "ticket-simple",
+      "keywords": "ingresso simples basico padrao comum"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "timeline",
+      "keywords": "linha do tempo cronologia historia data evento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toggle-off",
+      "keywords": "alternar desligar desligado off inativo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toggle-on",
+      "keywords": "alternar ligar ligado on ativo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toilet",
+      "keywords": "banheiro sanitario higiene limpeza comodo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toilet-paper",
+      "keywords": "papel higienico banheiro higiene limpeza papel"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toilet-paper-slash",
+      "keywords": "papel higienico barra cortar usar consumir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toilet-portable",
+      "keywords": "banheiro portatil movel temporario portatil"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toilets-portable",
+      "keywords": "banheiros portatil varios multiplos conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "toolbox",
+      "keywords": "caixa de ferramentas ferramenta conserto manutencao trabalho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tooth",
+      "keywords": "dente boca mastigar comer saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "torii-gate",
+      "keywords": "portao torii japao cultura religiao simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tornado",
+      "keywords": "tornado vento tempestade destruicao natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tower-broadcast",
+      "keywords": "torre transmissao sinal comunicacao radio"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tower-cell",
+      "keywords": "torre celular antena rede telefone"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tower-observation",
+      "keywords": "torre observacao vista alto paisagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tractor",
+      "keywords": "trator agricultura maquina campo fazenda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trademark",
+      "keywords": "marca registrada propriedade legal simbolo marca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "traffic-light",
+      "keywords": "semaforo transito luz vermelho verde"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trailer",
+      "keywords": "reboque caminhao transporte carga veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "train",
+      "keywords": "trem transporte veiculo ferrovia viagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "train-subway",
+      "keywords": "trem metro subterraneo cidade transporte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "train-tram",
+      "keywords": "trem bonde transporte cidade veiculo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "transgender",
+      "keywords": "transgenero identidade genero sexualidade diversidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trash",
+      "keywords": "lixo descarte lixo residuo lixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trash-arrow-up",
+      "keywords": "lixo seta cima remover excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trash-can",
+      "keywords": "lixeira lixo descarte residuo lixo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trash-can-arrow-up",
+      "keywords": "lixeira seta cima remover excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tree",
+      "keywords": "arvore natureza planta folha tronco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tree-city",
+      "keywords": "arvore cidade urbano parque natureza"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "triangle-exclamation",
+      "keywords": "triangulo exclamacao alerta aviso perigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trophy",
+      "keywords": "trofeu premio vitoria conquista recompensa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trowel",
+      "keywords": "espatula construcao ferramenta argamassa cimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "trowel-bricks",
+      "keywords": "espatula tijolo construcao alvenaria parede"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck",
+      "keywords": "caminhao transporte veiculo carga logistica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-arrow-right",
+      "keywords": "caminhao seta direita direcao movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-droplet",
+      "keywords": "caminhao gota agua chuva liquido"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-fast",
+      "keywords": "caminhao rapido veloz acelerado ligeiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-field",
+      "keywords": "caminhao campo agricultura rural fazenda"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-field-un",
+      "keywords": "caminhao campo vazio desocupado livre"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-front",
+      "keywords": "caminhao frente dianteira parte lado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-medical",
+      "keywords": "caminhao medico saude hospital emergencia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-monster",
+      "keywords": "caminhao monstro grande enorme gigante"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-moving",
+      "keywords": "caminhao movimento transporte deslocamento viagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-pickup",
+      "keywords": "caminhao picape veiculo transporte carga"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-plane",
+      "keywords": "caminhao aviao transporte carga aereo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "truck-ramp-box",
+      "keywords": "caminhao rampa carga descarga logistica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tty",
+      "keywords": "tty teletipo comunicacao texto codigo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "turkish-lira-sign",
+      "keywords": "lira turca moeda dinheiro turquia economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "turn-down",
+      "keywords": "diminuir baixar reduzir menos menor"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "turn-up",
+      "keywords": "aumentar subir elevar mais maior"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "tv",
+      "keywords": "televisao tv tela imagem video"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "u",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "umbrella",
+      "keywords": "guarda-chuva chuva protecao acessorio tempo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "umbrella-beach",
+      "keywords": "guarda-sol praia sol verao lazer"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "underline",
+      "keywords": "sublinhado texto destaque enfase marcado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "universal-access",
+      "keywords": "acesso universal inclusao igualdade diversidade acessibilidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "unlock",
+      "keywords": "desbloquear abrir liberar destravar liberar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "unlock-keyhole",
+      "keywords": "desbloquear fechadura chave seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "up-down",
+      "keywords": "cima baixo oposto contrario diferente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "up-down-left-right",
+      "keywords": "cima baixo esquerda direita diagonal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "up-long",
+      "keywords": "cima longo extenso prolongado alongado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "up-right-and-down-left-from-center",
+      "keywords": "cima direita diagonal inclinado inclinacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "up-right-from-square",
+      "keywords": "cima quadrado forma geometria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "upload",
+      "keywords": "carregar enviar upload transferencia arquivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user",
+      "keywords": "usuario pessoa cliente membro individuo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-astronaut",
+      "keywords": "usuario astronauta espaco astronautica exploracao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-check",
+      "keywords": "usuario marca verificado confirmado aprovado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-clock",
+      "keywords": "usuario relogio tempo hora pontualidade"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-doctor",
+      "keywords": "usuario medico saude hospital paciente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-gear",
+      "keywords": "usuario engrenagem configuracao ajuste opcao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-graduate",
+      "keywords": "usuario graduado formado diploma educacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-group",
+      "keywords": "usuario grupo equipe conjunto coletivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-injured",
+      "keywords": "usuario ferido lesionado machucado acidente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-large",
+      "keywords": "usuario grande maior amplo extenso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-large-slash",
+      "keywords": "usuario grande barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-lock",
+      "keywords": "usuario cadeado tranca seguranca protecao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-minus",
+      "keywords": "usuario menos subtrair retirar diminuir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-ninja",
+      "keywords": "usuario ninja guerreiro habilidade sigilo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-nurse",
+      "keywords": "usuario enfermeiro saude hospital paciente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-pen",
+      "keywords": "usuario caneta escrita desenho ferramenta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-plus",
+      "keywords": "usuario mais adicionar somar incluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-secret",
+      "keywords": "usuario segredo secreto confidencial privado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-shield",
+      "keywords": "usuario escudo protecao seguranca defesa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-slash",
+      "keywords": "usuario barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-tag",
+      "keywords": "usuario etiqueta marcacao identificacao rotulo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-tie",
+      "keywords": "usuario gravata formal profissional trabalho"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "user-xmark",
+      "keywords": "usuario x cancelar fechar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users",
+      "keywords": "usuarios pessoas grupo conjunto equipe"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users-between-lines",
+      "keywords": "usuarios linha separacao divisao limite"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users-gear",
+      "keywords": "usuarios engrenagem configuracao ajuste opcao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users-line",
+      "keywords": "usuarios linha fila sequencia ordem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users-rays",
+      "keywords": "usuarios raios energia poder forca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users-rectangle",
+      "keywords": "usuarios retangulo forma geometria quadrado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users-slash",
+      "keywords": "usuarios barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "users-viewfinder",
+      "keywords": "usuarios visor tela visualizacao exibicao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "utensils",
+      "keywords": "utensilios ferramentas cozinha utensilio culinaria"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "v",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "van-shuttle",
+      "keywords": "van transporte veiculo passageiro shuttle"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vault",
+      "keywords": "cofre seguranca armazenamento valor dinheiro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vector-square",
+      "keywords": "vetor quadrado forma geometria direcao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "venus",
+      "keywords": "venus planeta astro estrela feminino"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "venus-double",
+      "keywords": "venus duplo dois par conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "venus-mars",
+      "keywords": "venus marte planeta astro sistema solar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vest",
+      "keywords": "colete roupa vestuario protecao seguranca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vest-patches",
+      "keywords": "colete patch emblema distintivo insignia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vial",
+      "keywords": "frasco vidro recipiente liquido medicina"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vial-circle-check",
+      "keywords": "frasco circulo marca verificado confirmado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vial-virus",
+      "keywords": "frasco virus doenca saude infeccao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vials",
+      "keywords": "frascos varios multiplos diversos conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "video",
+      "keywords": "video filme audiovisual imagem som"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "video-slash",
+      "keywords": "video barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vihara",
+      "keywords": "vihara budismo templo religiao sagrado"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "virus",
+      "keywords": "virus doenca infeccao saude biologia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "virus-covid",
+      "keywords": "virus covid doenca pandemia saude"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "virus-covid-slash",
+      "keywords": "virus covid barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "virus-slash",
+      "keywords": "virus barra cortar excluir cancelar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "viruses",
+      "keywords": "virus varios multiplos diversos conjunto"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "voicemail",
+      "keywords": "correio de voz mensagem telefone comunicacao voz"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "volcano",
+      "keywords": "vulcao montanha erupcao lava fogo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "volleyball",
+      "keywords": "volei esporte bola rede quadra"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "volume-high",
+      "keywords": "volume alto som audio forte"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "volume-low",
+      "keywords": "volume baixo som audio fraco"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "volume-off",
+      "keywords": "volume desligado mudo silencio inativo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "volume-xmark",
+      "keywords": "volume x cancelar fechar excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "vr-cardboard",
+      "keywords": "realidade virtual oculos vr tecnologia imersivo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "w",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "walkie-talkie",
+      "keywords": "radio comunicador comunicacao radio mensagem sinal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wallet",
+      "keywords": "carteira dinheiro cartao pagamento financas"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wand-magic",
+      "keywords": "varinha magica feiticeiro bruxo fantasia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wand-magic-sparkles",
+      "keywords": "varinha magica brilho luz efeito"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wand-sparkles",
+      "keywords": "varinha brilho luz efeito magico"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "warehouse",
+      "keywords": "armazem estoque deposito armazenamento logistica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "water",
+      "keywords": "agua liquido bebida natureza essencial"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "water-ladder",
+      "keywords": "escada agua resgate emergencia socorro"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wave-square",
+      "keywords": "onda quadrado forma geometria sinal"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "web-awesome",
+      "keywords": "web logo empresa"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "weight-hanging",
+      "keywords": "peso pendurado pendurado suspenso pendente"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "weight-scale",
+      "keywords": "balanca peso medida instrumento ferramenta"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wheat-awn",
+      "keywords": "espiga de trigo trigo cereal alimento grao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wheat-awn-circle-exclamation",
+      "keywords": "espiga de trigo circulo exclamacao alerta aviso"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wheelchair",
+      "keywords": "cadeira de rodas deficiencia mobilidade acessibilidade cadeira"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wheelchair-move",
+      "keywords": "cadeira de rodas movimento deslocar mover rodar"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "whiskey-glass",
+      "keywords": "copo de uisque bebida alcool bebida alcoolica copo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wifi",
+      "keywords": "wi-fi internet rede conexao wireless"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wind",
+      "keywords": "vento natureza ar forca movimento"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "window-maximize",
+      "keywords": "janela maximizar ampliar aumentar tela"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "window-minimize",
+      "keywords": "janela minimizar diminuir tela"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "window-restore",
+      "keywords": "janela restaurar tamanho tela aplicativo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wine-bottle",
+      "keywords": "vinho garrafa bebida alcool bebida alcoolica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wine-glass",
+      "keywords": "vinho taca bebida vidro copo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wine-glass-empty",
+      "keywords": "vinho taca vazio copo bebida"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "won-sign",
+      "keywords": "won moeda dinheiro coreia do sul economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "worm",
+      "keywords": "verme animal inseto parasita doenca"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "wrench",
+      "keywords": "chave ferramenta parafuso conserto mecanica"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "x",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "x-ray",
+      "keywords": "raio-x exame medico saude imagem"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "xmark",
+      "keywords": "cancelar fechar excluir negativo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "xmarks-lines",
+      "keywords": "linhas riscado cancelado excluir"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "y",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "yen-sign",
+      "keywords": "iene moeda dinheiro japao economia"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "yin-yang",
+      "keywords": "yin yang opostos equilibrio filosofia simbolo"
+    },
+    {
+      "class": "fa-solid fa-",
+      "name": "z",
+      "keywords": "letra alfabeto escrita linguagem comunicacao"
+    }
+  ]
+}

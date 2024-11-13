@@ -1,6 +1,14 @@
 <?php
+function add_thumbnail_support_to_all_post_types()
+{
+    $post_types = get_post_types(array('public' => true), 'names');
+    foreach ($post_types as $post_type) {
+        add_post_type_support($post_type, 'thumbnail');
+    }
+}
+add_action('init', 'add_thumbnail_support_to_all_post_types');
 
-register_nav_menus(['primary' => 'Primary Menu']);
+register_nav_menus(['primary' => 'Menu Principal']);
 
 function add_contact_tab_to_dashboard()
 {
@@ -50,7 +58,7 @@ function render_contact_settings_page()
                     <td><input type="email" id="contact_email" name="contact_email" value="<?php echo esc_attr($email); ?>" class="regular-text" required></td>
                 </tr>
                 <tr>
-                    <th><label for="contact_telefone">Telefone</label></th>
+                    <th><label for="contact_telefone">Telefone/Whatsapp<br><small>Apenas números e com DDD<br>Formato:81999999999</small></label></th>
                     <td><input type="text" id="contact_telefone" name="contact_telefone" value="<?php echo esc_attr($telefone); ?>" class="regular-text" required></td>
                 </tr>
                 <tr>
@@ -59,33 +67,59 @@ function render_contact_settings_page()
                         <div id="redes_sociais">
                             <?php if (!empty($redes_sociais)) {
                                 foreach ($redes_sociais as $rede) { ?>
-                                    <div class="rede-social">
-                                        <input type="text" name="rede_nome[]" value="<?php echo esc_attr($rede['nome']); ?>" placeholder="Nome" required>
-                                        <input type="url" name="rede_link[]" value="<?php echo esc_attr($rede['link']); ?>" placeholder="Link" required>
-                                        <input type="text" name="rede_icone[]" value="<?php echo esc_attr($rede['icone']); ?>" placeholder="Ícone" required>
+                                    <div class="socialmediabox">
+                                        <button type="button" class="socialmedia-title">
+                                            <span class="title-rede"><?php echo esc_attr($rede['nome']); ?></span>
+                                            <?php
+                                            if ($rede['icone'] == 'lni lni-question-mark') { ?>
+                                                <span class="select-icon">
+                                                    <span class="bi bi-exclamation-diamond-fill"></span> Selecione um ícone</span>
+                                            <?php }
+                                            ?><i class="lni lni-chevron-down"></i></button>
+                                        <div class="socialmedia-container" style="display: none;">
+                                            <label>Ícone:</label>
+                                            <?php
+                                            $iconid = uniqid(sanitize_title($rede['icone']), true);
+                                            render_autocomplete_input(
+                                                $iconid,
+                                                'rede_icone[]',
+                                                $rede['icone']
+                                            ); ?>
+                                            <label>Nome:</label>
+                                            <input type="text" class="rede-name" name="rede_nome[]" value="<?php echo esc_attr($rede['nome']); ?>" placeholder="Nome" required>
+                                            <label>URL:</label>
+                                            <input type="url" name="rede_link[]" value="<?php echo esc_attr($rede['link']); ?>" placeholder="Link" required>
+
+                                            <hr>
+                                            <div class="text-end delete-socialmediabox">
+                                                <button type="button" class="button-primary delete-socialmedia">
+                                                    <i class="lni lni-trash-3"></i> Excluir
+                                                </button>
+                                            </div>
+                                            <div class="text-end confirm-delete-socialmediabox" style="display:none">
+                                                <b>Confirma a Exclusão?</b>
+                                                <button type="button" class="button-primary confirm-delete-socialmedia">
+                                                    Excluir
+                                                </button>
+                                                <button type="button" class="button-secondary delete-socialmedia">
+                                                    Cancelar
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                             <?php }
                             } ?>
                         </div>
-                        <button type="button" onclick="addRedeSocial()">Adicionar Rede Social</button>
+                        <hr>
+                        <button type="button" class="button-secondary" id="new-socialmedia"><i class="lni lni-plus"></i> Adicionar Rede Social</button>
                     </td>
                 </tr>
             </table>
             <p class="submit">
-                <input type="submit" class="button-primary" value="Salvar Configurações">
+                <input id="submitbtn" type="submit" class="button-primary" value="Salvar Configurações">
             </p>
         </form>
     </div>
-    <script>
-        function addRedeSocial() {
-            var div = document.createElement('div');
-            div.className = 'rede-social';
-            div.innerHTML = '<input type="text" name="rede_nome[]" placeholder="Nome" required>' +
-                '<input type="url" name="rede_link[]" placeholder="Link" required>' +
-                '<input type="text" name="rede_icone[]" placeholder="Ícone" required>';
-            document.getElementById('redes_sociais').appendChild(div);
-        }
-    </script>
 <?php
 }
 
@@ -95,6 +129,9 @@ function load_dash_head()
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/dashboard.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/lib/linnieluzicons/linnieluzicons.css">
     <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -178,8 +215,6 @@ function add_custom_meta_boxes()
     add_meta_box('consultorio_meta', 'Informações do Consultório', 'consultorio_meta_callback', 'consultorio', 'normal', 'high');
     // Meta box para Área de Atuação
     add_meta_box('area_meta', 'Informações da Área de Atuação', 'area_meta_callback', 'area_de_atuacao', 'normal', 'high');
-    // Meta box para Contato
-    add_meta_box('contato_meta', 'Informações de Contato', 'contato_meta_callback', 'page', 'normal', 'high');
     // Meta box para Configurações do Canal do YouTube
     add_meta_box('youtube_channel_meta', 'Configurações do Canal do YouTube', 'youtube_channel_meta_callback', 'options_page', 'normal', 'high');
 }
@@ -192,21 +227,37 @@ function consultorio_meta_callback($post)
     $telefone = get_post_meta($post->ID, '_telefone', true);
     $latitude = get_post_meta($post->ID, '_latitude', true);
     $longitude = get_post_meta($post->ID, '_longitude', true);
+    $thumbnail = get_post_meta($post->ID, '_thumbnail', true);
 ?>
     <label for="endereco">
-        <h3 style="margin:0">Endereço:</h3>
+        <h3 style="margin:0">Imagem:</h3>
     </label>
-
     <?php
-    $content = esc_textarea($endereco);
-    $editor_id = 'endereco';
-    wp_editor($content, $editor_id, array(
-        'textarea_name' => 'endereco',
-        'media_buttons' => false,
-        'teeny' => true,
-        'textarea_rows' => 5,
-    ));
+    // Função para enfileirar o script da biblioteca de mídia
+    function my_enqueue_media_script()
+    {
+        wp_enqueue_media();
+    }
+    add_action('admin_enqueue_scripts', 'my_enqueue_media_script');
     ?>
+
+    <!-- HTML do campo de upload de mídia -->
+    <div>
+        <input type="hidden" id="media-url" name="thumbnail" value="<?php echo isset($thumbnail) ? esc_attr($thumbnail) : ''; ?>" readonly />
+
+        <img id="consultorio-cover" title="Capa" alt="Capa" src="<?php
+                                                                    if ($thumbnail) {
+                                                                        echo esc_attr($thumbnail);
+                                                                    } else {
+                                                                        echo get_template_directory_uri() . '/assets/images/consultorio.jpg';
+                                                                    }
+                                                                    ?>">
+        <div><button type="button" id="media-upload-button" class="button-primary">Selecionar</button>
+        </div>
+    </div>
+    <hr style="margin-top: 15px">
+
+
 
     <div class="metabox-content">
         <div class="form-field form-required">
@@ -222,18 +273,6 @@ function consultorio_meta_callback($post)
                 value="<?php echo esc_attr($email); ?>"
                 required>
         </div>
-        <style>
-            .metabox-content {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 20px;
-            }
-
-            .form-field {
-                flex: 1;
-                min-width: 200px;
-            }
-        </style>
         <div class="form-field form-required">
             <label for="telefone">
                 <h3>Telefone:</h3>
@@ -247,6 +286,25 @@ function consultorio_meta_callback($post)
                 required>
         </div>
     </div>
+
+    <hr style="margin-top: 15px">
+    <label for="endereco">
+        <h3 style="margin:0">Endereço:</h3>
+    </label>
+
+    <?php
+    $content = esc_textarea($endereco);
+    $editor_id = 'endereco';
+
+    wp_editor($content, $editor_id, array(
+        'textarea_name' => 'endereco',
+        'media_buttons' => false,
+        'teeny' => true,
+        'textarea_rows' => 5,
+    ));
+
+
+    ?>
     <hr style="margin-top: 15px">
     <label for="latitude">
         <h3>Localização:</h3>
@@ -342,63 +400,7 @@ function area_meta_callback($post)
     );
 }
 
-function contato_meta_callback($post)
-{
-    $email = get_post_meta($post->ID, '_contato_email', true);
-    $telefone = get_post_meta($post->ID, '_contato_telefone', true);
-    $redes_sociais = get_post_meta($post->ID, '_redes_sociais', true);
-    ?>
-        <label for="contato_email">Email:</label>
-        <input type="email" id="contato_email" name="contato_email" value="<?php echo esc_attr($email); ?>" required>
 
-        <label for="contato_telefone">Telefone:</label>
-        <input
-            type="text"
-            id="contato_telefone"
-            name="contato_telefone"
-            value="<?php echo esc_attr($telefone); ?>"
-            required>
-
-        <h3>Redes Sociais</h3>
-        <div id="redes_sociais">
-            <?php if (!empty($redes_sociais)) {
-                foreach ($redes_sociais as $rede) { ?>
-                    <div class="rede-social">
-                        <input
-                            type="text"
-                            name="rede_nome[]"
-                            value="<?php echo esc_attr($rede['nome']); ?>"
-                            placeholder="Nome"
-                            required>
-                        <input
-                            type="text"
-                            name="rede_link[]"
-                            value="<?php echo esc_attr($rede['link']); ?>"
-                            placeholder="Link"
-                            required>
-                        <input
-                            type="text"
-                            name="rede_icone[]"
-                            value="<?php echo esc_attr($rede['icone']); ?>"
-                            placeholder="Ícone"
-                            required>
-                    </div>
-            <?php }
-            } ?>
-        </div>
-        <button type="button" onclick="addRedeSocial()">Adicionar Rede Social</button>
-        <script>
-            function addRedeSocial() {
-                var div = document.createElement('div');
-                div.className = 'rede-social';
-                div.innerHTML = '<input type="text" name="rede_nome[]" placeholder="Nome" required>' +
-                    '<input type="text" name="rede_link[]" placeholder="Link" required>' +
-                    '<input type="text" name="rede_icone[]" placeholder="Ícone" required>';
-                document.getElementById('redes_sociais').appendChild(div);
-            }
-        </script>
-    <?php
-}
 
 function youtube_channel_meta_callback($post)
 {
@@ -429,6 +431,9 @@ function save_custom_meta_boxes($post_id)
     }
     if (array_key_exists('longitude', $_POST)) {
         update_post_meta($post_id, '_longitude', sanitize_text_field($_POST['longitude']));
+    }
+    if (array_key_exists('longitude', $_POST)) {
+        update_post_meta($post_id, '_thumbnail', sanitize_text_field($_POST['longitude']));
     }
 
     // Salvar dados da Área de Atuação

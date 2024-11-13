@@ -1,0 +1,819 @@
+{
+  "icons": [
+    {
+      "class": "fa-regular fa-",
+      "name": "address-book",
+      "keywords": "endereco contato agenda lista telefone"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "address-card",
+      "keywords": "identidade cartao nome informacao contato"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "bell",
+      "keywords": "notificacao alerta aviso som sinal"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "bell-slash",
+      "keywords": "silenciar mudo notificacao alerta aviso"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "bookmark",
+      "keywords": "favorito marcador salvar importante lembrete"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "building",
+      "keywords": "edifcio estrutura construcao arquitetura comercio"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "calendar",
+      "keywords": "agenda calendario data evento compromisso"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "calendar-check",
+      "keywords": "agendado confirmado marcado compromisso tarefa"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "calendar-days",
+      "keywords": "datas calendario agenda dias meses"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "calendar-minus",
+      "keywords": "remover excluir cancelar agenda compromisso"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "calendar-plus",
+      "keywords": "adicionar criar agendar compromisso tarefa"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "calendar-xmark",
+      "keywords": "cancelar excluir apagar agenda compromisso"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "chart-bar",
+      "keywords": "grafico dados estatisticas analise visualizacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "chess-bishop",
+      "keywords": "xadrez bispo jogo estrategia tabuleiro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "chess-king",
+      "keywords": "xadrez rei jogo estrategia tabuleiro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "chess-knight",
+      "keywords": "xadrez cavalo jogo estrategia tabuleiro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "chess-pawn",
+      "keywords": "xadrez peao jogo estrategia tabuleiro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "chess-queen",
+      "keywords": "xadrez rainha jogo estrategia tabuleiro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "chess-rook",
+      "keywords": "xadrez torre jogo estrategia tabuleiro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle",
+      "keywords": "circulo forma geometria objeto icone"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-check",
+      "keywords": "verificado confirmado certo aprovado ok"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-dot",
+      "keywords": "ponto circulo marcador indicador sinal"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-down",
+      "keywords": "baixo  circulo marcador indicador sinal",
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-left",
+      "keywords": "esquerda anterior voltar retroceder"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-pause",
+      "keywords": "pausar interromper parar suspender"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-play",
+      "keywords": "tocar reproduzir iniciar executar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-question",
+      "keywords": "pergunta duvida interrogação questionario consulta"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-right",
+      "keywords": "direita proximo avancar seguir"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-stop",
+      "keywords": "parar interromper terminar finalizar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-up",
+      "keywords": "cima subir aumentar elevar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-user",
+      "keywords": "usuario perfil pessoa identidade conta"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "circle-xmark",
+      "keywords": "fechar cancelar excluir remover apagar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "clipboard",
+      "keywords": "prancheta bloco de notas anotacao registro papel"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "clock",
+      "keywords": "relogio tempo hora cronometro temporizador"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "clone",
+      "keywords": "clonar copiar duplicar replicar reproduzir"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "closed-captioning",
+      "keywords": "legenda legenda oculta acessibilidade texto audio"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "comment",
+      "keywords": "comentario opiniao feedback discussao dialogo"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "comment-dots",
+      "keywords": "comentario opiniao feedback discussao dialogo"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "comments",
+      "keywords": "comentarios opinioes discussao dialogo conversa"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "compass",
+      "keywords": "bussola navegacao direcao orientação guia"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "copy",
+      "keywords": "copiar duplicar clonar replicar reproduzir"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "copyright",
+      "keywords": "direitos autorais copyright propriedade intelectual licenca"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "credit-card",
+      "keywords": "cartao de credito pagamento financeiro compra transacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "envelope",
+      "keywords": "envelope carta email mensagem correio"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "envelope-open",
+      "keywords": "envelope aberto email mensagem correio notificacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "eye",
+      "keywords": "olho ver visualizar observar inspecionar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "eye-slash",
+      "keywords": "ocultar esconder invisivel privado secreto"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-angry",
+      "keywords": "raiva zangado irritado furioso bravo"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-dizzy",
+      "keywords": "tonto confuso desorientado atordoado desnorteado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-flushed",
+      "keywords": "vermelho envergonhado corado ruborizado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-frown",
+      "keywords": "triste chateado desapontado magoado infeliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-frown-open",
+      "keywords": "triste chateado desapontado magoado infeliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grimace",
+      "keywords": "careta expressao desgosto nojo repulsa"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin",
+      "keywords": "sorriso alegria felicidade contente feliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-beam",
+      "keywords": "sorriso alegria felicidade contente feliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-beam-sweat",
+      "keywords": "sorriso nervoso ansioso estressado preocupado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-hearts",
+      "keywords": "amor carinho afeto apaixonado encantado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-squint",
+      "keywords": "sorriso alegre feliz contente satisfeito"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-squint-tears",
+      "keywords": "alegria felicidade emocao lagrima choro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-stars",
+      "keywords": "alegria entusiasmo admiracao surpresa maravilhamento"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-tears",
+      "keywords": "alegria felicidade emocao lagrima choro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-tongue",
+      "keywords": "brincadeira diversao travessura zombaria gozacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-tongue-squint",
+      "keywords": "brincadeira diversao travessura zombaria gozacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-tongue-wink",
+      "keywords": "brincadeira diversao travessura zombaria gozacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-wide",
+      "keywords": "alegria felicidade euforia entusiasmo excitação"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-grin-wink",
+      "keywords": "sorriso piscadela malicia seducao flerte"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-kiss",
+      "keywords": "beijo amor carinho afeto romance"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-kiss-beam",
+      "keywords": "beijo amor carinho afeto romance"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-kiss-wink-heart",
+      "keywords": "amor carinho afeto apaixonado encantado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-laugh",
+      "keywords": "risada alegria felicidade contente feliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-laugh-beam",
+      "keywords": "risada alegria felicidade contente feliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-laugh-squint",
+      "keywords": "risada alegria felicidade contente feliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-laugh-wink",
+      "keywords": "risada piscadela brincadeira diversao zombaria"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-meh",
+      "keywords": "indiferente neutro indiferente apatico desinteressado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-meh-blank",
+      "keywords": "indiferente neutro indiferente apatico desinteressado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-rolling-eyes",
+      "keywords": "irritaçao desdenho desinteresse tédio aborrecimento"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-sad-cry",
+      "keywords": "tristeza choro lagrimas sofrimento dor"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-sad-tear",
+      "keywords": "tristeza choro lagrimas sofrimento dor"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-smile",
+      "keywords": "sorriso alegria felicidade contente feliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-smile-beam",
+      "keywords": "sorriso alegria felicidade contente feliz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-smile-wink",
+      "keywords": "sorriso piscadela simpatia amigavel cordial"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-surprise",
+      "keywords": "surpresa espanto pasmo assombro estupefacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "face-tired",
+      "keywords": "cansaco fadiga exaustao sono sonolencia"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file",
+      "keywords": "arquivo documento papel registro informacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-audio",
+      "keywords": "arquivo de audio musica som podcast gravacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-code",
+      "keywords": "arquivo de codigo programacao desenvolvimento software script"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-excel",
+      "keywords": "arquivo excel planilha tabela dados estatisticas"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-image",
+      "keywords": "arquivo de imagem foto imagem fotografia grafico"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-lines",
+      "keywords": "arquivo de texto documento texto conteudo informacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-pdf",
+      "keywords": "arquivo PDF documento formato leitura visualizacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-powerpoint",
+      "keywords": "arquivo PowerPoint apresentacao slides visual expositor"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-video",
+      "keywords": "arquivo de video filme clip reproducao visual"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-word",
+      "keywords": "arquivo Word documento texto editor processador"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "file-zipper",
+      "keywords": "arquivo zip compactado comprimido arquivo compactado arquivo zipado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "flag",
+      "keywords": "bandeira pais nacionalidade simbolo patriotismo"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "floppy-disk",
+      "keywords": "disco flexível disquete armazenamento antigo retro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "folder",
+      "keywords": "pasta diretorio arquivo organizacao armazenamento"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "folder-closed",
+      "keywords": "pasta fechada diretorio arquivo organizacao armazenamento"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "folder-open",
+      "keywords": "pasta aberta diretorio arquivo organizacao armazenamento"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "font-awesome",
+      "keywords": "font-awesome icone simbolo glyph fonte"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "futbol",
+      "keywords": "futebol bola esporte jogo campo"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "gem",
+      "keywords": "gema joia diamante precioso valioso"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand",
+      "keywords": "mao gesticulacao sinal movimento toque"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-back-fist",
+      "keywords": "gesto sinal mao punho força"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-lizard",
+      "keywords": "gesto sinal mao lagarto pedra-papel-tesoura-lagarto-Spock"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-peace",
+      "keywords": "paz amor harmonia gentileza bondade"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-point-down",
+      "keywords": "apontar indicar mostrar direcionar designar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-point-left",
+      "keywords": "apontar indicar mostrar direcionar designar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-point-right",
+      "keywords": "apontar indicar mostrar direcionar designar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-point-up",
+      "keywords": "apontar indicar mostrar direcionar designar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-pointer",
+      "keywords": "apontar indicar mostrar direcionar designar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-scissors",
+      "keywords": "gesto sinal mao tesoura pedra-papel-tesoura"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hand-spock",
+      "keywords": "gesto sinal mao Spock pedra-papel-tesoura-lagarto-Spock"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "handshake",
+      "keywords": "aperto de mao cumprimento acordo contrato parceria"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hard-drive",
+      "keywords": "disco rigido armazenamento dados computador tecnologia"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "heart",
+      "keywords": "coracao amor carinho afeto emocao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hospital",
+      "keywords": "hospital saude medico enfermeiro paciente"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hourglass",
+      "keywords": "ampulheta tempo espera paciencia demora"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "hourglass-half",
+      "keywords": "ampulheta tempo espera paciencia demora"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "id-badge",
+      "keywords": "cracha identificacao nome cargo empresa"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "id-card",
+      "keywords": "carteira de identidade documento identificacao pessoal oficial"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "image",
+      "keywords": "imagem foto fotografia grafico visual"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "images",
+      "keywords": "imagens fotos galeria colecao visual"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "keyboard",
+      "keywords": "teclado computador digitar escrever input"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "lemon",
+      "keywords": "limao fruta acido refrescante vitamina C"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "life-ring",
+      "keywords": "boia salvamento socorro ajuda resgate"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "lightbulb",
+      "keywords": "lampada ideia criatividade inovacao inspiracao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "map",
+      "keywords": "mapa localizacao geografia navegação direcao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "message",
+      "keywords": "mensagem texto chat conversa comunicação"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "money-bill-1",
+      "keywords": "dinheiro nota moeda finanças economia"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "moon",
+      "keywords": "lua noite astro celeste escuro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "newspaper",
+      "keywords": "jornal noticia artigo leitura informacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "note-sticky",
+      "keywords": "nota adesiva lembrete aviso mensagem recado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "object-group",
+      "keywords": "agrupar combinar juntar unir conectar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "object-ungroup",
+      "keywords": "desagrupar separar dividir desunir desconectar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "paper-plane",
+      "keywords": "aviao de papel mensagem envio correio carta"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "paste",
+      "keywords": "colar inserir adicionar copiar transferir"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "pen-to-square",
+      "keywords": "escrever desenhar anotar registrar criar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "rectangle-list",
+      "keywords": "lista itens itens de lista lista de tarefas checklist"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "rectangle-xmark",
+      "keywords": "fechar cancelar excluir remover apagar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "registered",
+      "keywords": "registrado marca registrada propriedade intelectual copyright marca"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "share-from-square",
+      "keywords": "compartilhar compartilhar dividir distribuir disseminar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "snowflake",
+      "keywords": "floco de neve inverno frio natal feriado"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square",
+      "keywords": "quadrado forma geometria objeto icone"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-caret-down",
+      "keywords": "seta para baixo diminuir reduzir descer abaixar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-caret-left",
+      "keywords": "seta para esquerda anterior voltar retroceder diminuir"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-caret-right",
+      "keywords": "seta para direita proximo avancar seguir aumentar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-caret-up",
+      "keywords": "seta para cima aumentar elevar subir crescer"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-check",
+      "keywords": "verificado confirmado certo aprovado ok"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-full",
+      "keywords": "quadrado cheio preenchido completo total inteiro"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-minus",
+      "keywords": "subtrair remover diminuir menos tirar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "square-plus",
+      "keywords": "adicionar somar aumentar mais acrescentar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "star",
+      "keywords": "estrela favorito importante destaque avaliacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "star-half",
+      "keywords": "estrela meia avaliacao opiniao feedback classificacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "star-half-stroke",
+      "keywords": "estrela meia avaliacao opiniao feedback classificacao"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "sun",
+      "keywords": "sol dia calor brilho luz"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "thumbs-down",
+      "keywords": "polegar para baixo desaprovar rejeitar nao gostar negativo"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "thumbs-up",
+      "keywords": "polegar para cima aprovar aceitar gostar positivo"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "trash-can",
+      "keywords": "lixeira lixo apagar excluir remover"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "user",
+      "keywords": "usuario pessoa perfil identidade conta"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "window-maximize",
+      "keywords": "maximizar tela cheia ampliar expandir aumentar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "window-minimize",
+      "keywords": "minimizar tela pequena reduzir diminuir fechar"
+    },
+    {
+      "class": "fa-regular fa-",
+      "name": "window-restore",
+      "keywords": "restaurar voltar normalizar padrao original"
+    }
+  ]
+}

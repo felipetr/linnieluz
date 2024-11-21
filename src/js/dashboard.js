@@ -1,30 +1,31 @@
 jQuery(document).ready(function ($) {
+  
 
-  $("#media-url").change(function(e) {
-    var value = $(this).val(); 
-    $("#consultorio-cover").attr('src', value);
-});
+  $("#media-url").change(function (e) {
+    var value = $(this).val();
+    $("#consultorio-cover").attr("src", value);
+  });
 
-            $('#media-upload-button').click(function(e) {
-                e.preventDefault();
+  $("#media-upload-button").click(function (e) {
+    e.preventDefault();
 
-                // Cria o frame de seleção de mídia
-                var mediaFrame = wp.media({
-                    title: 'Selecionar ou Fazer Upload de Mídia',
-                    button: {
-                        text: 'Usar esta mídia'
-                    },
-                    multiple: false
-                });
+    // Cria o frame de seleção de mídia
+    var mediaFrame = wp.media({
+      title: "Selecionar ou Fazer Upload de Mídia",
+      button: {
+        text: "Usar esta mídia",
+      },
+      multiple: false,
+    });
 
-                mediaFrame.on('select', function() {
-                    var attachment = mediaFrame.state().get('selection').first().toJSON();
-                    $('#media-url').val(attachment.url);
-                    $("#consultorio-cover").attr("src", attachment.url);
-                });
+    mediaFrame.on("select", function () {
+      var attachment = mediaFrame.state().get("selection").first().toJSON();
+      $("#media-url").val(attachment.url);
+      $("#consultorio-cover").attr("src", attachment.url);
+    });
 
-                mediaFrame.open();
-            });
+    mediaFrame.open();
+  });
 
   // Delegação de evento para .socialmedia-title (funciona também para elementos criados dinamicamente)
   $("#redes_sociais").on("click", ".socialmedia-title", function () {
@@ -41,9 +42,8 @@ jQuery(document).ready(function ($) {
     var parentEl = $(this).closest(".socialmediabox");
     parentEl.slideUp(500, function () {
       parentEl.remove();
-      $('#submitbtn').click();
+      $("#submitbtn").click();
     });
-    
   });
 
   // Delegação de evento para .delete-socialmedia (funciona também para elementos criados dinamicamente)

@@ -1,29 +1,62 @@
 <?php get_header(); ?>
+<div class="container">
+  <h1 class="blog-title"><?php printf(__('Resultados da pesquisa por: %s'), '' . get_search_query() . ''); ?></h1>
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <form role="search" method="get" class="search-form d-flex" action="<?php echo esc_url(home_url('/')); ?>">
+        <div class="input-group">
+          <input type="search" required class="form-control input-search" placeholder="Pesquisar..." value="<?php echo get_search_query(); ?>" name="s" />
+          <div class="input-group-append">
+            <button type="submit" class="form-control btn-search">
+              <i class="fa-solid fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr>
+  <?php if (have_posts()) : ?>
 
-<h1><?php printf(__('Search Results for: %s'), '' . get_search_query() . ''); ?></h1>
-<?php if (have_posts()) : ?>
     <?php while (have_posts()) :
-        the_post(); ?>
-    <h2>
-      <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-    </h2>
-        <?php the_excerpt(); ?>
+      the_post(); ?>
+      <?php
+
+      $image = get_post_meta($post->ID, '_destaque_image', true);
+      if (!$image) {
+        $image = get_template_directory_uri() . '/assets/images/news.svg';
+      }
+
+      posttag(get_the_title(), get_the_excerpt(), get_the_permalink(), $image);
+
+      ?>
     <?php endwhile; ?>
-<?php else : ?>
-  <h2>Nothing Found</h2>
-  <p>
-    Sorry, but nothing matched your search criteria. Please try again with some different keywords.
-  </p>
+  <?php else : ?>
+    <div class="container text-center">
+      <h2 class="blog-title">Hmmm... não encontrei nada!</h2>
+
+      <p>Parece que não há resultados para a sua busca.</p>
+      <div class="row justify-content-center">
+        <div class="col-8 col-sm-4 col-md-3 col-lg-2">
+          <img
+            title="<?php bloginfo('name'); ?>"
+            class="my-4 w100"
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/notfound.svg"
+            alt="<?php bloginfo('name'); ?>">
+        </div>
+      </div>
+    </div>
+
+</div>
 <?php endif; ?>
 
 <?php if ($wp_query->max_num_pages > 1) : ?>
   <div class="prev">
-    <?php previous_posts_link(__('Prev')); ?>
+    <?php next_posts_link(__('&larr; Mais antigos')); ?>
   </div>
   <div class="next">
-    <?php next_posts_link(__('Next')); ?>
+    <?php previous_posts_link(__('Mais Novos &rarr;')); ?>
   </div>
 <?php endif; ?>
-
-<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

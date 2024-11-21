@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20201107 at Mon Nov 11 07:11:32 2024
+Created by FontForge 20201107 at Sun Nov 17 02:38:24 2024
  By 
 Copyright (c) 2024, Felipe Travassos
 </metadata>
@@ -16,10 +16,11 @@ Copyright (c) 2024, Felipe Travassos
     panose-1="2 0 5 9 0 0 0 0 0 0"
     ascent="800"
     descent="-200"
-    bbox="29 -200 962.571 800"
+    x-height="617"
+    bbox="-8 -200 1008 800"
     underline-thickness="50"
     underline-position="-100"
-    unicode-range="U+0061-006E"
+    unicode-range="U+0061-006F"
   />
 <missing-glyph 
 d="M33 0v666h265v-666h-265zM66 33h199v600h-199v-600z" />
@@ -156,5 +157,7 @@ q-3 0 -6 2q-5 4 -5 10q0 3 2 6q63 90 69 163q0 10 11 10h1zM370.5 264q4.5 0 8 -3t3.
 q-4 4 -4 9q0 2 1 4q17 41 52 87.5t63.5 76.5t82.5 84q4 3 8.5 3z" />
     <glyph glyph-name="n" unicode="n" 
 d="M340 215h-129v191h129v83q0 159 74 235t231 76q29 0 71.5 -5t63.5 -10v-174q-22 3 -72 3q-77 0 -109.5 -32t-32.5 -108v-68h204l-35 -191h-169v-415h-226v415z" />
+    <glyph glyph-name="o" unicode="o" 
+d="M1008 617l-64 -63l-254 -254v90l164 164h-227v-317l-190 -191l-64 -63v380h-381l64 64v0l190 190v0h254v-63h-228l-127 -127h292v-64v-227l126 127v291v63h64h381z" />
   </font>
 </defs></svg>

@@ -18,8 +18,8 @@
     font-weight:400!important;
     font-variant:normal;
     text-transform:none;
-    margin-bottom: -13em;
-    top: -.13em;
+    margin-bottom: -.05em;
+    top: -.05em;
     position: relative;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
@@ -66,4 +66,10 @@
 }
 .ll-facebook::before{
     content:"n"
+}
+.ll-signature::before{
+    content:"o"
+}
+.ll-doctoralia::before{
+    content:"p"
 }

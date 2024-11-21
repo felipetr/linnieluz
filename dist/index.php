@@ -10,7 +10,7 @@
     <?php endwhile;
     wp_reset_query(); ?>
 <?php else : ?>
-  <h2>No posts found</h2>
+  <h2 class="blog-none">Nenhum Artigo Cadastrado</h2>
 <?php endif; ?>
 
 <?php if ($wp_query->max_num_pages > 1) : ?>
@@ -22,5 +22,4 @@
   </div>
 <?php endif; ?>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

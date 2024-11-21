@@ -10,14 +10,31 @@ body {
 .input-search {
   border-right: none;
 }
-.btn-green {
+.comment-reply-link,
+#cancel-comment-reply-link,
+.logged-in-as a
+{
+  display: inline-block;
+  padding: .3rem 1rem;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.btn-green,
+#cancel-comment-reply-link,
+.comment-reply-link,
+.logged-in-as a
+{
   color: #fff !important;
   background: $primary-color !important;
   border: $primary-color;
+  text-decoration: none;
   border-radius: 60px;
 }
-.btn-green:hover {
-  background: $primary-color !important;
+.btn-green:hover,
+#cancel-comment-reply-link:hover,
+.logged-in-as a:hover,
+.comment-reply-link:hover {
+  background: $primary-color-dark !important;
 }
 .float-end {
   float: right;
@@ -529,12 +546,11 @@ footer::before {
 .accordion-button:focus {
   box-shadow: 0 0 0 0.25rem rgba(20, 101, 105, 0.25);
 }
-.contactbox
-{
+.contactbox {
   display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Alinha os itens na parte inferior */
-    height: calc(100% - 62px);
+  flex-direction: column;
+  justify-content: flex-end; /* Alinha os itens na parte inferior */
+  height: calc(100% - 62px);
 }
 
 .contactbox a {
@@ -555,4 +571,87 @@ footer::before {
   font-size: 20px;
   color: #baced0;
   background: #146569;
+}
+
+
+.comment-list, .comment-list ul  {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+.comment-list ul
+{
+  border-radius: 6px;
+  padding: 12px;
+  background: #d1dddf;
+  border: 1px solid rgb(150, 174, 177);
+  
+}
+
+.comment-list>li,
+.comment-body p {
+  
+  border-radius: 6px;
+  padding: 12px;
+  background: #ecf2f3;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;  
+  border:1px solid #a7bcbe !important;
+}
+.comment-list>li>.comment-body>p
+{
+  background: #fff;
+  border:1px solid #a7bcbe !important;
+}
+.comment-body p
+{
+  margin-bottom: 0;
+  margin-top: 12px;
+  padding-bottom: 66px;
+}
+.comment-author, .comment-author .avatar
+{
+  border-radius: 50px;
+}
+.comment-meta
+{
+  text-decoration: none !important;
+  font-size: 12px;
+  color: #719092;
+}
+#cancel-comment-reply-link
+{
+  font-size: 15px;
+}
+.comment-body .reply
+{
+  text-align: right;
+  position: relative;
+  margin-top: -54px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.custom-comment-form .required
+{
+  color: rgba(var(--bs-danger-rgb), 1) !important;
+}
+
+.logged-in-as a
+{
+  position: relative;
+  margin-left: 15px;
+}
+.logged-in-as a:first-child
+{
+  margin-right: -15px !important;
+  margin-left: 0 !important;
+}
+.form-submit
+{
+  text-align: right;
+}
+.required-field-message
+{
+  display: block;
+  font-size: 12px;
 }

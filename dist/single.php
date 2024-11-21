@@ -15,6 +15,7 @@
                         alt="<?php the_title(); ?>"
                         class="w100">
                 </figure>
+                <hr>
             <?php } ?>
             <?php the_content(); ?>
         <?php endwhile; ?>

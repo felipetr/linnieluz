@@ -27,14 +27,14 @@ function render_autocomplete_input(
     usort($icons_data, function ($a, $b) {
         return strcmp($a['name'], $b['name']);
     });
-?>
+    ?>
 
     <div class="icon-module">
         <div class="icon-box">
             <div class="iconshow">
                 <i class="<?php
                             echo !empty($inputvalue) ? $inputvalue : 'lni lni-question-mark';
-                            ?>"></i>
+                ?>"></i>
             </div>
             <button type="button" class="changeicon">
                 <span><?php echo !empty($inputvalue) ? 'Alterar' : 'Adicionar'; ?> Ícone</span>
@@ -60,13 +60,17 @@ function render_autocomplete_input(
             return strcmp($a['name'], $b['name']);
         });
 
-       
+
 
         ?>
 
         <div class="iconselectbox" style="display: none;">
             <input type="hidden" class="preinput" />
-            <input type="hidden" value="<?php echo $inputvalue; ?>" name="<?php echo $inputname; ?>" id="<?php echo $inputid; ?>" class="icon-input" />
+            <input type="hidden"
+            value="<?php echo $inputvalue; ?>"
+            name="<?php echo $inputname; ?>"
+            id="<?php echo $inputid; ?>"
+            class="icon-input" />
             <input type="text" placeholder="Filtrar..." class="icon-search">
 
             <hr>
@@ -75,17 +79,33 @@ function render_autocomplete_input(
 
 
                 foreach ($icons_list as $key => $icon) {
-                ?>
+                    $keywords = preg_replace(
+                        '/\s+/',
+                        ' ',
+                        strtolower(
+                            iconv(
+                                'UTF-8',
+                                'ASCII//TRANSLIT',
+                                str_replace(
+                                    '-',
+                                    ' ',
+                                    $icon['name']
+                                ) . ' ' . $icon['keywords']
+                            )
+                        )
+                    );
+                    ?>
                     <button style="<?php if ($key > 5) {
                                         echo 'display:none;';
-                                    } ?>" type="button" class="icon-button selectable-icon button-secondary" data-icon="<?php echo $icon['class'] . $icon['name']; ?>" data-keywords="<?php
-                                                                                                                                                                                        $keywords = preg_replace('/\s+/', ' ', strtolower(iconv('UTF-8', 'ASCII//TRANSLIT', str_replace('-', ' ', $icon['name']) . ' ' . $icon['keywords'])));
-                                                                                                                                                                                        echo trim($keywords);
-                                                                                                                                                                                        ?>">
+                                   } ?>"
+                    type="button"
+                    class="icon-button selectable-icon button-secondary"
+                    data-icon="<?php echo $icon['class'] . $icon['name']; ?>"
+                    data-keywords="<?php  echo trim($keywords);?>">
                         <i class="<?php echo $icon['class'] . $icon['name']; ?>"></i>
                         <span style="font-size: 10px; line-height: 10px; display:block;"></span>
                     </button>
-                <?php
+                    <?php
                 }
                 ?>
                 <button type="button" class="icon-button button-secondary" disabled>
@@ -98,6 +118,6 @@ function render_autocomplete_input(
             </div>
         </div>
     </div>
-<?php
+    <?php
 }
 ?>

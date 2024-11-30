@@ -22,7 +22,13 @@ $args = array(
   'label_submit'         => 'Enviar Comentário', // Texto do botão de envio
   'comment_field'        => '<p class="comment-form-comment">
                                  <label for="comment">Comentário <span class="text-danger">*</span></label>
-                                 <textarea id="comment" class="form-control" name="comment" rows="5" required></textarea>
+                                 <textarea
+                                 id="comment"
+                                 class="form-control"
+                                 name="comment"
+                                 rows="5"
+                                 required>
+                                 </textarea>
                              </p>',
   'fields'               => array(
       'author' => '<p class="comment-form-author">
@@ -34,10 +40,12 @@ $args = array(
                       <input id="email" name="email" type="email" value="" class="form-control" required />
                    </p>'
   ),
-  'class_submit'         => 'btn btn-green', // Classe CSS do botão
-  'class_form'           => 'custom-comment-form', // Classe CSS do formulário
-  'comment_notes_before' => '<p class="comment-notes">Seu email não será publicado. Campos obrigatórios estão marcados com <span class="text-danger">*</span></p>',
-  'comment_notes_after'  => '', // Mensagem após o campo de comentário
+  'class_submit'         => 'btn btn-green',
+  'class_form'           => 'custom-comment-form',
+  'comment_notes_before' => '<p class="comment-notes">
+  Seu email não será publicado. Campos obrigatórios estão marcados com <span class="text-danger">*</span>
+  </p>',
+  'comment_notes_after'  => '',
 );
 
 

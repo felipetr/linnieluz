@@ -1,116 +1,119 @@
 jQuery(document).ready(function ($) {
   
 
-  $("#media-url").change(function (e) {
-    var value = $(this).val();
-    $("#consultorio-cover").attr("src", value);
-  });
-
-  $("#media-upload-button").click(function (e) {
-    e.preventDefault();
-
-    // Cria o frame de seleção de mídia
-    var mediaFrame = wp.media({
-      title: "Selecionar ou Fazer Upload de Mídia",
-      button: {
-        text: "Usar esta mídia",
-      },
-      multiple: false,
+    const timeout = 500;
+    $("#media-url").change(function (e) {
+        console.log(e);
+        var value = $(this).val();
+        $("#consultorio-cover").attr("src", value);
     });
 
-    mediaFrame.on("select", function () {
-      var attachment = mediaFrame.state().get("selection").first().toJSON();
-      $("#media-url").val(attachment.url);
-      $("#consultorio-cover").attr("src", attachment.url);
+    $("#media-upload-button").click(function (e) {
+        e.preventDefault();
+
+        // Cria o frame de seleção de mídia
+        var mediaFrame = wp.media({
+            title: "Selecionar ou Fazer Upload de Mídia",
+            button: {
+                text: "Usar esta mídia",
+            },
+            multiple: false,
+        });
+
+        mediaFrame.on("select", function () {
+            var attachment = mediaFrame.state().get("selection").first().toJSON();
+            $("#media-url").val(attachment.url);
+            $("#consultorio-cover").attr("src", attachment.url);
+        });
+
+        mediaFrame.open();
     });
 
-    mediaFrame.open();
-  });
-
-  // Delegação de evento para .socialmedia-title (funciona também para elementos criados dinamicamente)
-  $("#redes_sociais").on("click", ".socialmedia-title", function () {
-    var parentEl = $(this).closest(".socialmediabox");
-    var iconbox = parentEl.find(".socialmedia-container");
-    iconbox.slideToggle(500);
-    parentEl.toggleClass("opened");
-    $(this).find("i").toggleClass("lni-chevron-down");
-    $(this).find("i").toggleClass("lni-xmark");
-  });
-
-  // Delegação de evento para .confirm-delete-socialmedia (funciona também para elementos criados dinamicamente)
-  $("#redes_sociais").on("click", ".confirm-delete-socialmedia", function () {
-    var parentEl = $(this).closest(".socialmediabox");
-    parentEl.slideUp(500, function () {
-      parentEl.remove();
-      $("#submitbtn").click();
+    // Delegação de evento para .socialmedia-title (funciona também para elementos criados dinamicamente)
+    $("#redes_sociais").on("click", ".socialmedia-title", function () {
+        var parentEl = $(this).closest(".socialmediabox");
+        var iconbox = parentEl.find(".socialmedia-container");
+        iconbox.slideToggle(timeout);
+        parentEl.toggleClass("opened");
+        $(this).find("i").toggleClass("lni-chevron-down");
+        $(this).find("i").toggleClass("lni-xmark");
     });
-  });
 
-  // Delegação de evento para .delete-socialmedia (funciona também para elementos criados dinamicamente)
-  $("#redes_sociais").on("click", ".delete-socialmedia", function () {
-    var parentEl = $(this).closest(".socialmedia-container");
-    var socialmediabox = parentEl.find(".delete-socialmediabox");
-    var socialmediaboxconfirm = parentEl.find(".confirm-delete-socialmediabox");
-    socialmediabox.slideToggle(500);
-    socialmediaboxconfirm.slideToggle(500);
-  });
-  $(document).on("blur", ".rede-name", function () {
-    var parentEl = $(this).closest(".socialmediabox");
-    var titlename = parentEl.find(".title-rede");
-    titlename.html($(this).val());
-  });
-  $(document).on("input", ".icon-search", function () {
-    var inputValue = $(this).val();
-    inputValue = inputValue
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .trim()
-      .replace(/\s+/g, " ");
-    var parentEl = $(this).closest(".icon-module");
-    var iconbuttons = parentEl.find(".selectable-icon");
-    var count = 0;
-
-    iconbuttons.each(function () {
-      $(this).hide();
-      var dataKeywords = $(this).data("keywords");
-      if (dataKeywords.includes(inputValue) && count < 8) {
-        $(this).show();
-        count++;
-      }
+    // Delegação de evento para .confirm-delete-socialmedia (funciona também para elementos criados dinamicamente)
+    $("#redes_sociais").on("click", ".confirm-delete-socialmedia", function () {
+        var parentEl = $(this).closest(".socialmediabox");
+        parentEl.slideUp(timeout, function () {
+            parentEl.remove();
+            $("#submitbtn").click();
+        });
     });
-  });
 
-  // Delegando evento de clique para .selectable-icon
-  $(document).on("click", ".selectable-icon", function () {
-    var parentEl = $(this).closest(".icon-module");
-    var preinput = parentEl.find(".preinput");
-    preinput.val($(this).data("icon"));
-    parentEl
-      .find(".selectable-icon")
-      .addClass("button-secondary")
-      .removeClass("button-primary");
-    $(this).removeClass("button-secondary").addClass("button-primary");
-  });
+    // Delegação de evento para .delete-socialmedia (funciona também para elementos criados dinamicamente)
+    $("#redes_sociais").on("click", ".delete-socialmedia", function () {
+        var parentEl = $(this).closest(".socialmedia-container");
+        var socialmediabox = parentEl.find(".delete-socialmediabox");
+        var socialmediaboxconfirm = parentEl.find(".confirm-delete-socialmediabox");
+        socialmediabox.slideToggle(timeout);
+        socialmediaboxconfirm.slideToggle(timeout);
+    });
+    $(document).on("blur", ".rede-name", function () {
+        var parentEl = $(this).closest(".socialmediabox");
+        var titlename = parentEl.find(".title-rede");
+        titlename.html($(this).val());
+    });
+    $(document).on("input", ".icon-search", function () {
+        var inputValue = $(this).val();
+        inputValue = inputValue
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .trim()
+            .replace(/\s+/g, " ");
+        var parentEl = $(this).closest(".icon-module");
+        var iconbuttons = parentEl.find(".selectable-icon");
+        var count = 0;
 
-  // Delegando evento de clique para .changeicon
-  $(document).on("click", ".changeicon", function () {
-    var parentEl = $(this).closest(".icon-module");
-    var iconbox = parentEl.find(".iconselectbox");
-    iconbox.slideToggle(500);
-    parentEl.toggleClass("opened");
-    $(this).find("i").toggleClass("lni-chevron-down");
-    $(this).find("i").toggleClass("lni-xmark");
-  });
+        iconbuttons.each(function () {
+            $(this).hide();
+            var dataKeywords = $(this).data("keywords");
+            var maxcount = 8;
+            if (dataKeywords.includes(inputValue) && count < maxcount) {
+                $(this).show();
+                count++;
+            }
+        });
+    });
 
-  $("#new-socialmedia").on("click", function () {
-    var div = $("<div>", {
-      class: "socialmediabox opened",
-      css: {
-        display: "none",
-      },
-    }).html(
-      '<button type="button" class="socialmedia-title">' +
+    // Delegando evento de clique para .selectable-icon
+    $(document).on("click", ".selectable-icon", function () {
+        var parentEl = $(this).closest(".icon-module");
+        var preinput = parentEl.find(".preinput");
+        preinput.val($(this).data("icon"));
+        parentEl
+            .find(".selectable-icon")
+            .addClass("button-secondary")
+            .removeClass("button-primary");
+        $(this).removeClass("button-secondary").addClass("button-primary");
+    });
+
+    // Delegando evento de clique para .changeicon
+    $(document).on("click", ".changeicon", function () {
+        var parentEl = $(this).closest(".icon-module");
+        var iconbox = parentEl.find(".iconselectbox");
+        iconbox.slideToggle(timeout);
+        parentEl.toggleClass("opened");
+        $(this).find("i").toggleClass("lni-chevron-down");
+        $(this).find("i").toggleClass("lni-xmark");
+    });
+
+    $("#new-socialmedia").on("click", function () {
+        var div = $("<div>", {
+            class: "socialmediabox opened",
+            css: {
+                display: "none",
+            },
+        }).html(
+            '<button type="button" class="socialmedia-title">' +
         '<span class="title-rede">Nova Rede Social</span><i class="lni lni-xmark"></i>' +
         "</button>" +
         '<div class="socialmedia-container">' +
@@ -131,22 +134,22 @@ jQuery(document).ready(function ($) {
         "</button>" +
         "</div>" +
         "</div>"
-    );
+        );
 
-    $("#redes_sociais").append(div);
-    div.slideDown(500);
-  });
+        $("#redes_sociais").append(div);
+        div.slideDown(timeout);
+    });
 
-  $(document).on("click", ".selecticonbutton", function () {
-    var parentEl = $(this).closest(".icon-module");
-    var iconinput = parentEl.find(".icon-input");
-    var preinput = parentEl.find(".preinput");
-    var iconshow = parentEl.find(".iconshow i");
+    $(document).on("click", ".selecticonbutton", function () {
+        var parentEl = $(this).closest(".icon-module");
+        var iconinput = parentEl.find(".icon-input");
+        var preinput = parentEl.find(".preinput");
+        var iconshow = parentEl.find(".iconshow i");
 
-    if (preinput.val()) {
-      iconshow.removeClass().addClass(preinput.val());
-      iconinput.val(preinput.val());
-      parentEl.find(".changeicon").click();
-    }
-  });
+        if (preinput.val()) {
+            iconshow.removeClass().addClass(preinput.val());
+            iconinput.val(preinput.val());
+            parentEl.find(".changeicon").click();
+        }
+    });
 });

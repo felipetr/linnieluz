@@ -5,7 +5,12 @@
     <div class="col-12 col-md-6">
       <form role="search" method="get" class="search-form d-flex" action="<?php echo esc_url(home_url('/')); ?>">
         <div class="input-group">
-          <input type="search" required class="form-control input-search" placeholder="Pesquisar..." value="<?php echo get_search_query(); ?>" name="s" />
+          <input type="search"
+          required
+          class="form-control input-search"
+          placeholder="Pesquisar..."
+          value="<?php echo get_search_query(); ?>"
+          name="s" />
           <div class="input-group-append">
             <button type="submit" class="form-control btn-search">
               <i class="fa-solid fa-search"></i>
@@ -17,20 +22,19 @@
   </div>
   <hr>
   <?php if (have_posts()) : ?>
+        <?php while (have_posts()) :
+            the_post(); ?>
+            <?php
 
-    <?php while (have_posts()) :
-      the_post(); ?>
-      <?php
+            $image = get_post_meta($post->ID, '_destaque_image', true);
+            if (!$image) {
+                $image = get_template_directory_uri() . '/assets/images/news.svg';
+            }
 
-      $image = get_post_meta($post->ID, '_destaque_image', true);
-      if (!$image) {
-        $image = get_template_directory_uri() . '/assets/images/news.svg';
-      }
+            posttag(get_the_title(), get_the_excerpt(), get_the_permalink(), $image);
 
-      posttag(get_the_title(), get_the_excerpt(), get_the_permalink(), $image);
-
-      ?>
-    <?php endwhile; ?>
+            ?>
+        <?php endwhile; ?>
   <?php else : ?>
     <div class="container text-center">
       <h2 class="blog-title">Hmmm... não encontrei nada!</h2>
@@ -48,7 +52,7 @@
     </div>
 
 </div>
-<?php endif; ?>
+  <?php endif; ?>
 
 <?php if ($wp_query->max_num_pages > 1) : ?>
   <div class="prev">

@@ -32,10 +32,14 @@
     </div>
 </footer>
 </div>
-<?php if(get_option('contact_telefone')) { ?>
-    <a href="https://api.whatsapp.com/send?phone=55<?php echo get_option('contact_telefone'); ?>" class="whatsappBtn" title="Whatsapp" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-        <span class="d-none">Whatsapp</span>
+<?php if (get_option('contact_telefone')) { ?>
+    <a
+    href="https://api.whatsapp.com/send?phone=55<?php echo get_option('contact_telefone'); ?>"
+    class="whatsappBtn"
+    title="Whatsapp"
+    target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <span class="d-none">Whatsapp</span>
     </a>
 <?php } ?>
 <div class="modal fade" id="siteModal" tabindex="-1" aria-labelledby="siteModalLabel" aria-hidden="true">

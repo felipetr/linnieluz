@@ -4,6 +4,7 @@
  * Template Name: Vídeos
  * Description: Template de Vídeos
  */
+
 ?>
 <?php get_header(); ?>
 <main>
@@ -45,7 +46,7 @@
                     $id = str_replace("yt:video:", "", $video['id']);
                     $title = $video['title'];
 
-            ?>
+                    ?>
                     <div class="col-12 col-md-4">
                         <div class="videobox mb-4">
                             <div class="ratio ratio-16x9 bg-video">
@@ -69,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-            <?php
+                    <?php
                 }
             } catch (Exception $e) {
                 echo 'Erro: ' . $e->getMessage();
@@ -83,11 +84,11 @@
             <ul class="pagination justify-content-center">
                 <li class="page-item">
                     <?php if ($currentPage == 1) {
-                    ?>
+                        ?>
                         <span class="page-link disabled">
                             <span aria-hidden="true">&laquo;</span>
                         </span>
-                    <?php
+                        <?php
                     } else { ?>
                         <a class="page-link"
                             href="<?php echo  get_permalink() . '1'; ?>"
@@ -100,7 +101,7 @@
                 <?php
 
                 for ($i = 1; $i <= $totalPages; $i++) {
-                ?>
+                    ?>
                     <li class="page-item">
                         <?php if ($i == $currentPage) { ?>
                             <div class="page-link active"><?php echo $i; ?></div>
@@ -111,16 +112,16 @@
                             </a>
                         <?php } ?>
                     </li>
-                <?php
+                    <?php
                 }
                 ?>
                 <li class="page-item">
                     <?php if ($currentPage == $totalPages) {
-                    ?>
+                        ?>
                         <span class="page-link disabled">
                             <span aria-hidden="true">&raquo;</span>
                         </span>
-                    <?php
+                        <?php
                     } else { ?>
                         <a class="page-link"
                             href="<?php echo get_permalink() . 'page/' . $totalPages; ?>"

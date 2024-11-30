@@ -10,7 +10,7 @@
             $video = get_post_meta($post->ID, '_video', true);
             if ($video) {
                 $videoID = explode('v=', $video)[1];
-            ?>
+                ?>
                 <hr>
                 <div class="row justify-content-center">
 
@@ -19,7 +19,7 @@
                             <iframe
                                 src="<?php
                                         echo "https://www.youtube.com/embed/" . $videoID;
-                                        ?>"
+                                ?>"
                                 title="YouTube video player"
                                 class="w100 videoIframe"
                                 frameborder="0"
@@ -81,10 +81,10 @@
                             title="Mapa"
                             src="https://maps.google.com/maps?q=<?php
                                                                 echo $latitude
-                                                                ?>,<?php
+                            ?>,<?php
                                                                     echo
                                                                     $longitude
-                                                                    ?>&hl=es&z=14&amp;output=embed">
+?>&hl=es&z=14&amp;output=embed">
                         </iframe>
                     </div>
                 </div>

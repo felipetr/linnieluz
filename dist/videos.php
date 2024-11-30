@@ -12,13 +12,17 @@
         <div class="row">
             <?php
 
-            // URL do feed RSS do canal do YouTube
             $channelId = get_option('contact_youtube_id');
             $rssUrl = "https://www.youtube.com/feeds/videos.xml?channel_id={$channelId}";
 
+            $ch = curl_init();
+
+            curl_setopt($ch, CURLOPT_URL, $rssUrl);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+
             try {
-                // Obter o conteúdo do feed RSS
-                $rssContent = file_get_contents($rssUrl);
+                $rssContent = curl_exec($ch);
 
                 if ($rssContent === false) {
                     throw new Exception('Não foi possível obter o feed RSS.');

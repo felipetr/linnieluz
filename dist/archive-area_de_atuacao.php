@@ -10,12 +10,15 @@
         <div class="col text-center">
           <i class="atuacaoicon <?php echo get_post_meta($post->ID, '_icone', true); ?>"></i>
 
-          <div class="atuacaotitle mt-2 mb-4 text-center">
+          <div class="atuacaotitle mt-2 text-center">
             <?php the_title(); ?>
           </div>
+          <button class="btn btn-green btn-sm modal-btn mb-4" title="Saiba Mais">
+          Saiba Mais
+            <div class="modal-title"><?php the_title(); ?></div>
+            <div class="modal-content"><?php the_content(); ?></div>
+          </button>
         </div>
-
-        <?php the_excerpt(); ?>
       <?php endwhile;
       wp_reset_query(); ?>
     </div>

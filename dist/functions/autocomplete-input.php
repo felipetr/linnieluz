@@ -41,7 +41,6 @@ function render_autocomplete_input(
                 <i class="lni lni-chevron-down"></i>
             </button>
         </div>
-        <h4>Ícones Repetidos</h4>
         <?php
 
         $json_directory_path = get_template_directory() . '/assets/json/';

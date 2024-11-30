@@ -16,6 +16,7 @@
                 foreach ($redes_sociais as $rede) { ?>
                     <a href="<?php echo esc_attr($rede['link']); ?>" title="<?php echo esc_attr($rede['nome']); ?>">
                         <i  class="<?php echo esc_attr($rede['icone']); ?>"></i>
+                        <span class="d-none"><?php echo esc_attr($rede['nome']); ?></span>
                     </a>
                 <?php } ?>
             </div>
@@ -25,10 +26,33 @@
     </div>
     <div id="signature" class="p-1">
         <a href="http://felipetravassos.com" title="Desenvolvido por Felipe Travassos">
+            <span class="d-none">Desenvolvido por Felipe Travassos</span>
             <i class="ll ll-signature"></i>
         </a>
     </div>
 </footer>
+</div>
+<?php if(get_option('contact_telefone')) { ?>
+    <a href="https://api.whatsapp.com/send?phone=55<?php echo get_option('contact_telefone'); ?>" class="whatsappBtn" title="Whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="d-none">Whatsapp</span>
+    </a>
+<?php } ?>
+<div class="modal fade" id="siteModal" tabindex="-1" aria-labelledby="siteModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="siteModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-green" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 

@@ -139,11 +139,15 @@ function render_contact_settings_page()
                     <th><label for="contact_telefone">Telefone/Whatsapp<br><small>Apenas números e com DDD<br>Formato:81999999999</small></label></th>
                     <td><input type="text" id="contact_telefone" name="contact_telefone" value="<?php echo esc_attr($telefone); ?>" class="regular-text" required></td>
                 </tr>
-                <tr>
-                    <th><label for="contact_form_tag">Id do Formulário<br>Instale o Contact 7</label></th>
+				<?php 
+					$current_user = wp_get_current_user();
+					$user_login = $current_user->user_login; ?>
+                <tr style="<?php if($user_login != 'webmaster') { echo 'display: none;'; }?>">
+                    <th><label for="contact_form_tag">Id do Formulário<br>Instale o Contact 7</label>
+					</th>
                     <td><input type="text" id="contact_form_tag" name="contact_form_tag" value="<?php echo esc_attr($formtag); ?>" class="regular-text" required></td>
                 </tr>
-                <tr>
+                <tr style="<?php if($user_login != 'webmaster') { echo 'display: none;'; }?>">
                     <th><label for="contact_youtube_id">ID do Canal do Youtube</label></th>
                     <td><input type="text" id="contact_youtube_id" name="contact_youtube_id" value="<?php echo esc_attr($youtubeid); ?>" class="regular-text" required></td>
                 </tr>

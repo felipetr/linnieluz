@@ -29,28 +29,30 @@
                 if ($email) { ?>
 
                     <div>
-                        <a title="email" href="mailto:<?php echo $email; ?>"><i class="lni lni-envelope-1"></i> <?php echo $email; ?></a>
+                        <a target="_blank" title="email" href="mailto:<?php echo $email; ?>"><i class="lni lni-envelope-1"></i> <?php echo $email; ?></a>
                     </div>
                 <?php
                 }
 
                 $telefone = preg_replace('/\D/', '', $telefone);
-if (strlen($telefone) == 11) {?>
+                if (strlen($telefone) == 11) { ?>
                     <div>
-                        <a title="telefone" href="https://api.whatsapp.com/send?phone=55:<?php echo $telefone; ?>"><i class="lni lni-whatsapp"></i> <?php
-                        
-                        echo preg_replace('/^(\d{2})(\d{1})(\d{4})(\d{4})$/', '($1) $2 $3.$4', $telefone);
-                        ?></a>
+                        <a target="_blank" title="telefone" href="https://api.whatsapp.com/send?phone=55<?php echo $telefone; ?>"><i class="lni lni-whatsapp"></i><span class="d-none">Whatsapp</span><?php
+
+                                                                                                                                                                                                        echo preg_replace('/^(\d{2})(\d{1})(\d{4})(\d{4})$/', '($1) $2 $3.$4', $telefone);
+                                                                                                                                                                                                        ?></a>
                     </div>
                 <?php
                 }
                 foreach ($redes_sociais as $rede) { ?>
 
                     <div>
-                        <a title="<?php echo esc_attr($rede['nome']); ?>" href="<?php echo esc_attr($rede['link']); ?>"><i class="<?php echo esc_attr($rede['icone']); ?>"></i> <?php
-                        echo "@".$rede['arroba'];
-                       
-                        ?></a>
+                        <a target="_blank" title="<?php echo esc_attr($rede['nome']); ?>" href="<?php echo esc_attr($rede['link']); ?>"><i class="<?php echo esc_attr($rede['icone']); ?>"></i>
+                            <span class="d-none"><?php echo esc_attr($rede['nome']); ?></span>
+                            <?php
+                            echo "@" . $rede['arroba'];
+
+                            ?></a>
                     </div>
 
                 <?php } ?>

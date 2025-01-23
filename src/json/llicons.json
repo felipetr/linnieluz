@@ -2,60 +2,60 @@
   "icons": [
     {
       "class": "ll ll-", "name": "child",
-      "keywords":"crianca infantil infancia idade"
+      "keywords":"linnie crianca infantil infancia idade"
     },
     {
       "class": "ll ll-", "name": "teen",
-      "keywords":"adolescente adolescente idade"
+      "keywords":"linnie adolescente adolescente idade"
     },
     {
       "class": "ll ll-",
       "name": "adult",
-      "keywords":"adulto idade"
+      "keywords":"linnie adulto idade"
     },
     {
       "class": "ll ll-", "name": "elder",
-      "keywords":"idoso velho idade"
+      "keywords":"linnie idoso velho idade"
     },
     {
       "class": "ll ll-", "name": "assessment",
-      "keywords":"pesquisa avaliacao"
+      "keywords":"linnie pesquisa avaliacao"
     },
     {
       "class": "ll ll-", "name": "urgency",
-      "keywords":"emergencia urgencia"
+      "keywords":"linnie emergencia urgencia"
     },
     {
       "class": "ll ll-", "name": "management",
-      "keywords":"gerenciamento de projetos"
+      "keywords":"linnie gerenciamento de projetos"
     },
     {
       "class": "ll ll-", "name": "mindfulness",
-      "keywords":"atencao foco"
+      "keywords":"linnie atencao foco"
     },
     {
       "class": "ll ll-", "name": "resarch",
-      "keywords":"pesquisa"
+      "keywords":"linnie pesquisa"
     },
     {
-      "class": "ll ll-", "name": "public-policy",
-      "keywords":"politica publica governo estado"
+      "class": "ll ll-", "name": "sus",
+      "keywords":"linnie politica publica governo estado"
     },
     {
       "class": "ll ll-", "name": "psico-education",
-      "keywords":"educacao pedagogia"
+      "keywords":"linnie educacao pedagogia"
     },
     {
       "class": "ll ll-", "name": "social",
-      "keywords":"caridade"
+      "keywords":"linnie caridade"
     },
     {
       "class": "ll ll-", "name": "prevent",
-      "keywords":"prevencao provencao suicidio"
+      "keywords":"linnie prevencao provencao suicidio"
     },
     {
       "class": "ll ll-", "name": "doctoralia",
-      "keywords":"logo rede social redes sociais empresa medicina"
+      "keywords":"linnie logo rede social redes sociais empresa medicina"
     }
   ]
 }

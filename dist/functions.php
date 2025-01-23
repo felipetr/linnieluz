@@ -25,12 +25,28 @@ class Destaques_Walker_Nav_Menu extends Walker_Nav_Menu
     }
 }
 
+function remove_posts_col($columns)
+{
+    unset($columns['author']);
+    unset($columns['tags']);
+    unset($columns['categories']);
+    return $columns;
+}
+function remove_pages_col($columns)
+{
+    unset($columns['author']);
+    unset($columns['comments']);
+    return $columns;
+}
+add_filter('manage_posts_columns', 'remove_posts_col');
+add_filter('manage_pages_columns', 'remove_pages_col');
+
 function posttag($title, $resume, $link, $image, $post = true)
 {
-    ?>
+?>
     <div class="postarchive p-relative">
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
                 <figure class="postarchive-figure">
                     <img class="d-none d-md-block"
                         style="background-image: url(<?php echo esc_url($image); ?>);"
@@ -38,27 +54,44 @@ function posttag($title, $resume, $link, $image, $post = true)
                         title="<?php echo esc_attr($title); ?>" alt="<?php echo esc_attr($title); ?>">
                     <img class="d-block d-md-none"
                         style="background-image: url(<?php echo esc_url($image); ?>);"
-                        src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/postcutter.svg"
+                        src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/postarchive.svg"
                         title="<?php echo esc_attr($title); ?>" alt="<?php echo esc_attr($title); ?>">
                 </figure>
             </div>
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-lg-8">
                 <div class="p-4">
-                    <h3 class="postarchivetitle"><?php echo esc_html($title); ?></h3>
-                    <div class="postarticleresume">
-                        <?php echo nl2br($resume); ?>
+                    <h3 class="postarchivetitle text-center text-lg-start"><?php echo esc_html($title); ?></h3>
+                    <div class="postarticleresume d-none d-xl-block">
+                        <small>
+                            <?php
+                           if (strlen($resume) > 300) {
+                            $resume = substr($resume, 0, 300) . "...";
+                        }
+                            
+                            echo nl2br($resume); ?>
+                        </small>
+
                     </div>
-                    <div class="row buttonrow">
-                        <div class="col-12 col-md-8"></div>
-                        <div class="col-12 col-md-4">
-                            <div class="p-4">
-                                <a class="green-rounded-btn" href="<?php echo esc_url($link); ?>">
-                                    <?php if ($post) {
-                                        echo 'Ler Artigo';
-                                    } else {
-                                        echo "Saiba Mais";
-                                    }
-                                    ?></a>
+                    <a class="green-rounded-btn d-block d-lg-none" href="<?php echo esc_url($link); ?>">
+                        <?php if ($post) {
+                            echo 'Ler Artigo';
+                        } else {
+                            echo "Saiba Mais";
+                        }
+                        ?></a>
+                    <div class="d-none d-lg-block">
+                        <div class="row buttonrow">
+                            <div class="col-12 col-md-8"></div>
+                            <div class="col-12 col-md-4">
+                                <div class="p-4">
+                                    <a class="green-rounded-btn" href="<?php echo esc_url($link); ?>">
+                                        <?php if ($post) {
+                                            echo 'Ler Artigo';
+                                        } else {
+                                            echo "Saiba Mais";
+                                        }
+                                        ?></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,7 +100,7 @@ function posttag($title, $resume, $link, $image, $post = true)
         </div>
     </div>
     <hr>
-    <?php
+<?php
 }
 function add_thumbnail_support_to_all_post_types()
 {
@@ -124,7 +157,7 @@ function render_contact_settings_page()
         echo '<div class="updated"><p>Configurações salvas.</p></div>';
     }
 
-    ?>
+?>
     <div class="wrap">
         <h1>Dados de Contato</h1>
         <form method="POST">
@@ -133,61 +166,61 @@ function render_contact_settings_page()
                     <th><label for="contact_email">Email</label></th>
                     <td>
                         <input
-                        type="email"
-                        id="contact_email"
-                        name="contact_email"
-                        value="<?php echo esc_attr($email); ?>"
-                        class="regular-text"
-                        required>
+                            type="email"
+                            id="contact_email"
+                            name="contact_email"
+                            value="<?php echo esc_attr($email); ?>"
+                            class="regular-text"
+                            required>
                     </td>
                 </tr>
                 <tr>
                     <th>
                         <label
-                        for="contact_telefone">Telefone/Whatsapp<br>
+                            for="contact_telefone">Telefone/Whatsapp<br>
                             <small>Apenas números e com DDD<br>Formato:81999999999</small>
                         </label>
                     </th>
                     <td>
                         <input
-                        type="text"
-                        id="contact_telefone"
-                        name="contact_telefone"
-                        value="<?php echo esc_attr($telefone); ?>"
-                        class="regular-text"
-                        required>
+                            type="text"
+                            id="contact_telefone"
+                            name="contact_telefone"
+                            value="<?php echo esc_attr($telefone); ?>"
+                            class="regular-text"
+                            required>
                     </td>
                 </tr>
                 <?php
-                    $current_user = wp_get_current_user();
-                    $user_login = $current_user->user_login; ?>
+                $current_user = wp_get_current_user();
+                $user_login = $current_user->user_login; ?>
                 <tr style="<?php if ($user_login != 'webmaster') {
-                    echo 'display: none;';
-                           }?>">
+                                echo 'display: none;';
+                            } ?>">
                     <th><label for="contact_form_tag">Id do Formulário<br>Instale o Contact 7</label>
                     </th>
                     <td>
                         <input
-                        type="text"
-                        id="contact_form_tag"
-                        name="contact_form_tag"
-                        value="<?php echo esc_attr($formtag); ?>"
-                        class="regular-text"
-                        required>
+                            type="text"
+                            id="contact_form_tag"
+                            name="contact_form_tag"
+                            value="<?php echo esc_attr($formtag); ?>"
+                            class="regular-text"
+                            required>
                     </td>
                 </tr>
                 <tr style="<?php if ($user_login != 'webmaster') {
-                    echo 'display: none;';
-                           }?>">
+                                echo 'display: none;';
+                            } ?>">
                     <th><label for="contact_youtube_id">ID do Canal do Youtube</label></th>
                     <td>
                         <input
-                        type="text"
-                        id="contact_youtube_id"
-                        name="contact_youtube_id"
-                        value="<?php echo esc_attr($youtubeid); ?>"
-                        class="regular-text"
-                        required>
+                            type="text"
+                            id="contact_youtube_id"
+                            name="contact_youtube_id"
+                            value="<?php echo esc_attr($youtubeid); ?>"
+                            class="regular-text"
+                            required>
                     </td>
                 </tr>
                 <tr>
@@ -203,8 +236,7 @@ function render_contact_settings_page()
                                             if ($rede['icone'] == 'lni lni-question-mark') { ?>
                                                 <span class="select-icon">
                                                     <span
-                                                    class="bi bi-exclamation-diamond-fill"
-                                                    >
+                                                        class="bi bi-exclamation-diamond-fill">
                                                     </span> Selecione um ícone</span>
                                             <?php }
                                             ?><i class="lni lni-chevron-down"></i></button>
@@ -219,26 +251,26 @@ function render_contact_settings_page()
                                             ); ?>
                                             <label>Nome:</label>
                                             <input
-                                            type="text"
-                                            class="rede-name"
-                                            name="rede_nome[]"
-                                            value="<?php echo esc_attr($rede['nome']); ?>"
-                                            placeholder="Nome"
-                                            required>
+                                                type="text"
+                                                class="rede-name"
+                                                name="rede_nome[]"
+                                                value="<?php echo esc_attr($rede['nome']); ?>"
+                                                placeholder="Nome"
+                                                required>
                                             <label>URL:</label>
                                             <input
-                                            type="url"
-                                            name="rede_link[]"
-                                            value="<?php echo esc_attr($rede['link']); ?>"
-                                            placeholder="Link"
-                                            required>
+                                                type="url"
+                                                name="rede_link[]"
+                                                value="<?php echo esc_attr($rede['link']); ?>"
+                                                placeholder="Link"
+                                                required>
                                             <label>Arroba:</label>
                                             <input
-                                            type="text"
-                                            name="rede_arroba[]"
-                                            value="<?php echo esc_attr($rede['arroba']); ?>"
-                                            placeholder="Arroba"
-                                            required>
+                                                type="text"
+                                                name="rede_arroba[]"
+                                                value="<?php echo esc_attr($rede['arroba']); ?>"
+                                                placeholder="Arroba"
+                                                required>
 
                                             <hr>
                                             <div class="text-end delete-socialmediabox">
@@ -257,17 +289,17 @@ function render_contact_settings_page()
                                             </div>
                                         </div>
                                     </div>
-                                <?php }
+                            <?php }
                             } ?>
                         </div>
                         <hr>
                         <div>
                             <button
-                            type="button"
-                            class="button-secondary"
-                            id="new-socialmedia">
-                            <i class="lni lni-plus"></i>
-                            Adicionar Rede Social
+                                type="button"
+                                class="button-secondary"
+                                id="new-socialmedia">
+                                <i class="lni lni-plus"></i>
+                                Adicionar Rede Social
                             </button>
                         </div>
                         <hr>
@@ -280,12 +312,12 @@ function render_contact_settings_page()
 
         </form>
     </div>
-    <?php
+<?php
 }
 
 function load_dash_head()
 {
-    ?>
+?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/dashboard.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/lib/linnieluzicons/linnieluzicons.css">
     <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
@@ -295,14 +327,14 @@ function load_dash_head()
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <?php
+<?php
 }
 add_action('admin_head', 'load_dash_head');
 function load_dash_footer()
 {
-    ?>
+?>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dashboard.min.js"></script>
-    <?php
+<?php
 }
 add_action('admin_footer', 'load_dash_footer');
 
@@ -401,7 +433,7 @@ function consultorio_meta_callback($post)
     $longitude = get_post_meta($post->ID, '_longitude', true);
     $thumbnail = get_post_meta($post->ID, '_thumbnail', true);
     $video = get_post_meta($post->ID, '_video', true);
-    ?>
+?>
     <label for="endereco">
         <h3 style="margin:0">Imagem:</h3>
     </label>
@@ -417,18 +449,18 @@ function consultorio_meta_callback($post)
     <!-- HTML do campo de upload de mídia -->
     <div>
         <input
-        type="hidden"
-        id="media-url"
-        name="thumbnail"
-        value="<?php echo isset($thumbnail) ? esc_attr($thumbnail) : ''; ?>"
-        readonly />
+            type="hidden"
+            id="media-url"
+            name="thumbnail"
+            value="<?php echo isset($thumbnail) ? esc_attr($thumbnail) : ''; ?>"
+            readonly />
         <img id="consultorio-cover" title="Capa" alt="Capa" src="<?php
-        if ($thumbnail) {
-            echo esc_attr($thumbnail);
-        } else {
-            echo get_template_directory_uri() . '/assets/images/consultorio.svg';
-        }
-        ?>">
+                                                                    if ($thumbnail) {
+                                                                        echo esc_attr($thumbnail);
+                                                                    } else {
+                                                                        echo get_template_directory_uri() . '/assets/images/consultorio.svg';
+                                                                    }
+                                                                    ?>">
         <div><button type="button" id="media-upload-button" class="button-primary">Selecionar</button>
         </div>
     </div>
@@ -491,14 +523,14 @@ function consultorio_meta_callback($post)
     ?>
     <div class="videobox" <?php if (!$hasVideo) {
                                 echo 'style="display: none;"';
-                          } ?>>
+                            } ?>>
         <hr>
         <div class="preratio">
             <div class="ratio-16x9">
                 <iframe
                     src="<?php if ($hasVideo) {
                                 echo "https://www.youtube.com/embed/" . $videoID;
-                         } ?>"
+                            } ?>"
                     title="YouTube video player"
                     class="w100 videoIframe"
                     frameborder="0"
@@ -536,9 +568,9 @@ function consultorio_meta_callback($post)
         name="latitude"
         value="<?php if ($latitude) {
                     echo esc_attr($latitude);
-               } else {
-                   echo '-8.28307606871477';
-               } ?>"
+                } else {
+                    echo '-8.28307606871477';
+                } ?>"
         required>
 
 
@@ -548,9 +580,9 @@ function consultorio_meta_callback($post)
         name="longitude"
         value="<?php if ($longitude) {
                     echo esc_attr($longitude);
-               } else {
-                   echo '-35.96947431564331';
-               } ?>" required>
+                } else {
+                    echo '-35.96947431564331';
+                } ?>" required>
     <link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css">
 
     <div id="MapLocation" style="height: 350px">
@@ -723,29 +755,29 @@ function display_custom_destaque_meta_box($post)
     ?>
         <label for="destaque_post">
             <input
-            type="checkbox"
-            name="destaque_post"
-            id="destaque_post"
-            value="1"
-            <?php checked($destaque, '1'); ?> />
+                type="checkbox"
+                name="destaque_post"
+                id="destaque_post"
+                value="1"
+                <?php checked($destaque, '1'); ?> />
             Marcar como destaque
         </label>
         <br><br>
 
         <label for="destaque_image">Imagem de Destaque:</label>
         <img id="capa" title="Capa" alt="Capa" src="<?php
-        if ($destaque_image) {
-            echo esc_attr($destaque_image);
-        } else {
-            echo get_template_directory_uri() . '/assets/images/news.svg';
-        }
-        ?>">
+                                                    if ($destaque_image) {
+                                                        echo esc_attr($destaque_image);
+                                                    } else {
+                                                        echo get_template_directory_uri() . '/assets/images/news.svg';
+                                                    }
+                                                    ?>">
         <input
-        type="hidden"
-        name="destaque_image"
-        id="destaque_image"
-        value="<?php echo esc_url($destaque_image); ?>"
-        style="width: 100%;" />
+            type="hidden"
+            name="destaque_image"
+            id="destaque_image"
+            value="<?php echo esc_url($destaque_image); ?>"
+            style="width: 100%;" />
         <button type="button" class="button upload_image_button">Selecionar Imagem</button>
 
         <script>

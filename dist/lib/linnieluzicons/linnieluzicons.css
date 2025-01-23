@@ -58,8 +58,11 @@
 .ll-psico-education::before{
     content:"k"
 }
-.ll-social2::before{
+.ll-public-policy::before{
     content:"l"
+}
+.ll-public-policy::before{
+    content:"n"
 }
 .ll-prevent::before{
     content:"m"
